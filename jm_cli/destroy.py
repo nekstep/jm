@@ -75,8 +75,7 @@ def run(in_args):
     jail = jmJail(args.name, cfg.params)
     jail.load(cfg.params)
 
-    # TODO use status()
-    if jail.jid_exists():
+    if jail.status() == 1:
         print(f"Jail {jail.name} is running as {jail.getid_jid()}!")
         exit -1
 

@@ -79,7 +79,7 @@ def run(in_args):
     jail.load(cfg.params)
 
     """Check if jail is running"""
-    if not jail.jid_exists(): # TODO - use jail.status()
+    if not jail.status() == 1:
         print (f"Jail {jail.name} is not running!")
         return -1
 

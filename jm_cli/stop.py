@@ -58,8 +58,7 @@ def stop_jail(name):
     jail = jmJail(name, cfg.params)
     jail.load(cfg.params)
 
-    # TODO use status()
-    if not jail.jid_exists():
+    if jail.status() == 1:
         print (f"Jail {jail.name} is not running!")
         return -1
 

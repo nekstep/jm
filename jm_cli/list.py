@@ -107,8 +107,7 @@ def run(in_args):
         jail.load(cfg.params)
 
         """Skip if we are only listing running jails and it is not"""
-        # TODO use status()
-        if args.running and not jail.jid_exists():
+        if args.running and not jail.status() == 1:
             continue
 
         """Print out jail information"""
