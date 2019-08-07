@@ -269,7 +269,7 @@ class jmJail:
         """Provide console for jail"""
 
         """Execute shell"""
-        self.exec("/bin/csh -l") 
+        self.exec({"/bin/csh -l"}) 
 
     def exec(self, cmd):
         """Execute command in jail
