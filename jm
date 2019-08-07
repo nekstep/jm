@@ -1,0 +1,11 @@
+#!/usr/local/bin/python3.6
+
+import sys
+
+from jm_cli import jm_run
+
+if __name__ == '__main__':
+    sys.exit(jm_run())
+
+
+

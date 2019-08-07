@@ -1,0 +1,47 @@
+#!/bin/sh
+#
+# $FreeBSD$
+#
+
+# PROVIDE: jm
+# REQUIRE: LOGIN cleanvar sshd zfs
+# BEFORE:  securelevel
+# KEYWORD: shutdown
+
+# Add the following lines to /etc/rc.conf to enable jm:
+#
+# jm_enable="YES"
+#
+#
+
+. /etc/rc.subr
+
+name="jm"
+rcvar=jm_enable
+
+# read configuration and set defaults
+load_rc_config "$name"
+: ${jm_enable="NO"}
+: ${jm_lang="en_US.UTF-8"}
+
+start_cmd="jm_start"
+stop_cmd="jm_stop"
+export LANG=$jm_lang
+
+jm_start()
+{
+    if checkyesno ${rcvar}; then
+        echo "* [JM] starting jails... "
+        /usr/local/bin/jm start ALL
+    fi
+}
+
+jm_stop()
+{
+    if checkyesno ${rcvar}; then
+        echo "* [JM] stopping jails... "
+        /usr/local/bin/jm stop ALL
+    fi
+}
+
+run_rc_command "$1"
