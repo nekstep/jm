@@ -1,3 +1,15 @@
+"""
+
+JM CLI module - STOP
+
+    Stop jail(s)
+
+Every CLI module should export two functions:
+    parser(p) - to add appropriate parsers to argparse subparser
+    run(in_args) - to run the module with relevant parsed arguments
+
+"""
+
 import argparse
 import os
 
@@ -9,9 +21,25 @@ args = None
 cfg = None
 
 def parser(p):
+    """Add options to parser
+
+    Parameters
+    ----------
+    p : argparse
+        Subparser to add paratemers to
+    """
+
     p.add_argument('name')
 
 def validate():
+    """Perform basic validation
+
+    Returns
+    -------
+    boolean
+        True if we should proceed
+    """
+
     if not args.name in cfg.params.sections():
         print(f"Jail {args.name} does not exist!")
         return False
@@ -19,9 +47,18 @@ def validate():
     return True
 
 def stop_jail(name):
+    """Stop running jail
+
+    Parameters
+    ----------
+    name : string
+        Name of jail to stop
+    """
+
     jail = jmJail(name, cfg.params)
     jail.load(cfg.params)
 
+    # TODO use status()
     if not jail.jid_exists():
         print (f"Jail {jail.name} is not running!")
         return -1
@@ -30,6 +67,14 @@ def stop_jail(name):
 
 
 def run(in_args):
+    """Main job
+
+    Parameters
+    ----------
+    in_args
+        Result of parsing commandline parameters with argparse
+    """
+
     global args
     global cfg
 
@@ -43,12 +88,14 @@ def run(in_args):
     cfg.load()
 
     if args.name == "ALL":
+        """If ALL is used - stop all in shutdown order"""
         order = cfg.shutorder()
 
         for name in order:
             stop_jail(name)
 
     else:
+        """If it is specified by name - stop this one"""
         if not validate():
             return -1
         

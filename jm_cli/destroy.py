@@ -1,3 +1,15 @@
+"""
+
+JM CLI module - DESTROY
+
+    Destroy an existing jail
+
+Every CLI module should export two functions:
+    parser(p) - to add appropriate parsers to argparse subparser
+    run(in_args) - to run the module with relevant parsed arguments
+
+"""
+
 import argparse
 import os
 
@@ -9,9 +21,25 @@ args = None
 cfg = None
 
 def parser(p):
+    """Add options to parser
+
+    Parameters
+    ----------
+    p : argparse
+        Subparser to add paratemers to
+    """
+
     p.add_argument('name')
 
 def validate():
+    """Perform basic validation
+
+    Returns
+    -------
+    boolean
+        True if we should proceed
+    """
+
     if not args.name in cfg.params.sections():
         print(f"Jail {args.name} does not exist!")
         return False
@@ -20,6 +48,14 @@ def validate():
 
 
 def run(in_args):
+    """Main job
+
+    Parameters
+    ----------
+    in_args
+        Result of parsing commandline parameters with argparse
+    """
+
     global args
     global cfg
 
@@ -35,18 +71,23 @@ def run(in_args):
     if not validate():
         return -1
 
+    """Load jail configuration"""
     jail = jmJail(args.name, cfg.params)
     jail.load(cfg.params)
 
+    # TODO use status()
     if jail.jid_exists():
-        print(f"Jail {jail.name} is running as {jail.jid()}!")
+        print(f"Jail {jail.name} is running as {jail.getid_jid()}!")
         exit -1
 
+    # TODO add -f flag to commandline to avoid this prompt
     if not input(f"Destroy jail {jail.name} [y/N]?") == "y":
         return -1
 
+    """Destroy the jail"""
     jail.destroy()
 
+    """Remove it from config and save"""
     cfg.params.remove_section(jail.name)
     cfg.save()
 
