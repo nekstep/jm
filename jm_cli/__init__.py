@@ -44,6 +44,7 @@ def jm_run():
     """Initialize main parser"""
     mainp = argparse.ArgumentParser(description = 'jm - jail manager')
     subp = mainp.add_subparsers(dest = 'command')
+    subp.required = True
 
     """Add subparserver for commands"""
     for command in list_commands():
