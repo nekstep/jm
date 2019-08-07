@@ -1,0 +1,2697 @@
+total 87
+-rw-r--r--   1 root  wheel   949 Apr 16 01:57 .cshrc
+-rw-r--r--   1 root  wheel   468 Apr 16 01:57 .profile
+drwxr-xr-x   2 root  wheel     2 Apr 16 01:56 bin
+drwxr-xr-x   2 root  wheel     3 Apr 16 01:57 boot
+-r--r--r--   1 root  wheel  6179 Apr 16 01:57 COPYRIGHT
+drwxr-xr-x   2 root  wheel     2 Apr 16 01:59 dev
+drwxr-xr-x  21 root  wheel    99 Apr 17 10:42 etc
+drwxr-xr-x   2 root  wheel     2 Apr 16 01:56 lib
+drwxr-xr-x   2 root  wheel     2 Apr 16 01:56 libexec
+drwxr-xr-x   2 root  wheel     2 Apr 16 01:56 rescue
+drwxr-xr-x   2 root  wheel     7 Apr 16 02:54 root
+drwxr-xr-x   2 root  wheel     2 Apr 16 01:56 sbin
+drwxrwxrwt   6 root  wheel     6 Apr 16 02:53 tmp
+drwxr-xr-x  11 root  wheel    11 Jul 29 14:49 usr
+drwxr-xr-x  24 root  wheel    24 Apr 16 02:53 var
+
+/jm/defaults/bin:
+total 0
+
+/jm/defaults/boot:
+total 9
+-r--r--r--  1 root  wheel  827 Apr 16 01:57 device.hints
+
+/jm/defaults/dev:
+total 0
+
+/jm/defaults/etc:
+total 1049
+lrwxr-xr-x  1 root  wheel        12 Apr 16 01:57 aliases -> mail/aliases
+-rw-r--r--  1 root  wheel       223 Apr 16 01:58 amd.map
+-rw-r--r--  1 root  wheel       371 Apr 16 01:58 auto_master
+drwxr-xr-x  2 root  wheel         9 Apr 16 01:58 autofs
+-rw-r--r--  1 root  wheel       471 Apr 16 01:58 blacklistd.conf
+drwxr-xr-x  2 root  wheel         5 Apr 16 01:58 bluetooth
+drwxr-xr-x  2 root  wheel         3 Apr 16 01:58 cron.d
+-rw-r--r--  1 root  wheel       729 Apr 16 01:58 crontab
+-rw-r--r--  1 root  wheel       114 Apr 16 01:57 csh.cshrc
+-rw-r--r--  1 root  wheel       484 Apr 16 01:57 csh.login
+-rw-r--r--  1 root  wheel       116 Apr 16 01:57 csh.logout
+-rw-r--r--  1 root  wheel       567 Apr 16 01:57 ddb.conf
+drwxr-xr-x  2 root  wheel         6 Apr 16 01:58 defaults
+drwxr-xr-x  2 root  wheel         8 Apr 16 01:57 devd
+-rw-r--r--  1 root  wheel     10502 Apr 16 01:57 devd.conf
+-rw-r--r--  1 root  wheel      1996 Apr 16 01:57 devfs.conf
+-rw-r--r--  1 root  wheel       277 Apr 16 01:57 dhclient.conf
+-rw-r--r--  1 root  wheel      5907 Apr 16 01:57 disktab
+drwxr-xr-x  2 root  wheel         3 Apr 16 01:57 dma
+-rw-rw-r--  1 root  operator      0 Apr 16 01:57 dumpdates
+-rw-r--r--  1 root  wheel       154 Apr 16 01:57 fbtab
+-rw-r--r--  1 root  wheel      2908 Apr 16 01:58 freebsd-update.conf
+-rw-r--r--  1 root  wheel       290 Apr 16 01:57 ftpusers
+-rw-r--r--  1 root  wheel      6199 Apr 16 01:57 gettytab
+-rw-r--r--  1 root  wheel       483 Apr 16 01:57 group
+drwxr-xr-x  2 root  wheel         4 Apr 16 01:57 gss
+-rw-r--r--  1 root  wheel        46 Apr 16 01:59 host.conf
+-rw-r--r--  1 root  wheel      1094 Apr 16 01:57 hosts
+-rw-r--r--  1 root  wheel      3465 Apr 16 01:57 hosts.allow
+-rw-r--r--  1 root  wheel       122 Apr 16 01:57 hosts.equiv
+-rw-r--r--  1 root  wheel       114 Apr 16 01:58 hosts.lpd
+-rw-r--r--  1 root  wheel      5288 Apr 16 01:58 inetd.conf
+-rw-r--r--  1 root  wheel       250 Apr 16 01:57 libalias.conf
+-rw-r--r--  1 root  wheel       120 Apr 16 01:57 libmap.conf
+-rw-r--r--  1 root  wheel       967 Apr 16 01:58 locate.rc
+-rw-r--r--  1 root  wheel      1851 Apr 16 01:57 login.access
+-rw-r--r--  1 root  wheel      6798 Apr 16 01:57 login.conf
+-rw-r--r--  1 root  wheel     16384 Apr 16 01:57 login.conf.db
+-rw-r--r--  1 root  wheel       577 Apr 16 01:57 mac.conf
+drwxr-xr-x  3 root  wheel        17 Apr 16 02:00 mail
+-rw-r--r--  1 root  wheel       106 Apr 16 01:58 mail.rc
+-rw-------  1 root  wheel      1779 Apr 16 01:57 master.passwd
+-rw-r--r--  1 root  wheel       937 Apr 16 02:50 motd
+drwxr-xr-x  2 root  wheel        10 Apr 16 01:57 mtree
+-rw-r--r--  1 root  wheel       796 Apr 16 01:57 netconfig
+-rwxr-xr-x  1 root  wheel      2209 Apr 16 01:57 netstart
+-rw-r--r--  1 root  wheel     37394 Apr 16 01:57 network.subr
+-rw-r--r--  1 root  wheel       376 Apr 16 01:57 networks
+-rw-r--r--  1 root  wheel      1724 Apr 16 01:58 newsyslog.conf
+drwxr-xr-x  2 root  wheel         9 Apr 16 01:58 newsyslog.conf.d
+-rw-r--r--  1 root  wheel       299 Apr 16 01:58 nscd.conf
+-rw-------  1 root  wheel      1700 Apr 16 01:57 nsmb.conf
+-rw-r--r--  1 root  wheel       343 Apr 16 01:57 nsswitch.conf
+-rw-r--r--  1 root  wheel      3995 Apr 16 01:58 ntp.conf
+-rw-------  1 root  wheel       444 Apr 16 01:57 opieaccess
+drwxr-xr-x  2 root  wheel        17 Apr 16 01:57 pam.d
+-rw-r--r--  1 root  wheel      1650 Apr 16 01:57 passwd
+-rwxr-xr-x  1 root  wheel      2814 Apr 16 01:57 pccard_ether
+drwxr-xr-x  6 root  wheel         6 Apr 16 01:58 periodic
+-rw-r--r--  1 root  wheel     29346 Apr 16 01:57 pf.os
+-rw-r--r--  1 root  wheel       250 Apr 16 01:57 phones
+drwxr-xr-x  2 root  wheel         3 Apr 16 01:58 pkg
+-rw-r--r--  1 root  wheel      1538 Apr 16 01:58 portsnap.conf
+drwxr-xr-x  2 root  wheel         3 Apr 16 01:58 ppp
+-rw-r--r--  1 root  wheel      2070 Apr 16 01:58 printcap
+-rw-r--r--  1 root  wheel       621 Apr 16 01:57 profile
+-rw-r--r--  1 root  wheel      6461 Apr 16 01:57 protocols
+-rw-r--r--  1 root  wheel     40960 Apr 16 01:57 pwd.db
+-rw-r--r--  1 root  wheel      5041 Apr 16 01:57 rc
+-rw-r--r--  1 root  wheel      4610 Apr 16 01:57 rc.bsdextended
+-rw-r--r--  1 root  wheel       167 Apr 17 10:42 rc.conf
+drwxr-xr-x  2 root  wheel       168 Apr 16 01:57 rc.d
+-rw-r--r--  1 root  wheel     18801 Apr 16 01:57 rc.firewall
+-rw-r--r--  1 root  wheel     13658 Apr 16 01:57 rc.initdiskless
+-rwxr-xr-x  1 root  wheel      2520 Apr 16 01:57 rc.resume
+-rw-r--r--  1 root  wheel      5789 Apr 16 01:57 rc.sendmail
+-rw-r--r--  1 root  wheel      3438 Apr 16 01:57 rc.shutdown
+-rw-r--r--  1 root  wheel     50814 Apr 16 01:57 rc.subr
+-rwxr-xr-x  1 root  wheel      2332 Apr 16 01:57 rc.suspend
+-rw-r--r--  1 root  wheel     53726 Apr 16 01:57 regdomain.xml
+-rw-r--r--  1 root  wheel      2706 Apr 16 01:57 remote
+lrwxr-xr-x  1 root  wheel        15 Apr 16 01:57 rmt -> ../usr/sbin/rmt
+-rw-r--r--  1 root  wheel      1681 Apr 16 01:57 rpc
+drwxr-xr-x  2 root  wheel         7 Apr 16 01:58 security
+-rw-r--r--  1 root  wheel     86635 Apr 16 01:58 services
+-rw-r--r--  1 root  wheel       229 Apr 16 01:57 shells
+-rw-------  1 root  wheel      9381 Apr 16 01:58 snmpd.config
+-rw-------  1 root  wheel     40960 Apr 16 01:57 spwd.db
+drwxr-xr-x  2 root  wheel         5 Apr 16 01:57 ssh
+drwxr-xr-x  2 root  wheel         3 Apr 16 01:57 ssl
+-rw-r--r--  1 root  wheel       379 Apr 16 01:57 sysctl.conf
+-rw-r--r--  1 root  wheel      1470 Apr 16 01:58 syslog.conf
+drwxr-xr-x  2 root  wheel         5 Apr 16 01:58 syslog.d
+lrwxr-xr-x  1 root  wheel        23 Apr 16 01:57 termcap -> /usr/share/misc/termcap
+-rw-r--r--  1 root  wheel     12295 Apr 16 01:57 termcap.small
+-rw-r--r--  1 root  wheel      2151 Apr 16 01:57 ttys
+lrwxr-xr-x  1 root  wheel        14 Apr 16 01:57 unbound -> ../var/unbound
+
+/jm/defaults/etc/autofs:
+total 63
+-rwxr-xr-x  1 root  wheel  1250 Apr 16 01:58 include_ldap
+-rwxr-xr-x  1 root  wheel   201 Apr 16 01:58 include_nis
+-rwxr-xr-x  1 root  wheel  5251 Apr 16 01:58 include_nis_nullfs
+-rwxr-xr-x  1 root  wheel   385 Apr 16 01:58 special_hosts
+-rwxr-xr-x  1 root  wheel  3705 Apr 16 01:58 special_media
+-rwxr-xr-x  1 root  wheel   489 Apr 16 01:58 special_noauto
+-rwxr-xr-x  1 root  wheel   114 Apr 16 01:58 special_null
+
+/jm/defaults/etc/bluetooth:
+total 27
+-rw-------  1 root  wheel  1359 Apr 16 01:58 hcsecd.conf
+-rw-r--r--  1 root  wheel   312 Apr 16 01:57 hosts
+-r--r--r--  1 root  wheel  1117 Apr 16 01:57 protocols
+
+/jm/defaults/etc/cron.d:
+total 9
+-rw-r--r--  1 root  wheel  201 Apr 16 01:58 at
+
+/jm/defaults/etc/defaults:
+total 76
+-rw-r--r--  1 root  wheel   4018 Apr 16 01:58 bluetooth.device.conf
+-rw-------  1 root  wheel   2464 Apr 16 01:57 devfs.rules
+-rw-r--r--  1 root  wheel  12567 Apr 16 01:58 periodic.conf
+-rw-r--r--  1 root  wheel  39316 Apr 16 01:57 rc.conf
+
+/jm/defaults/etc/devd:
+total 54
+-rw-r--r--  1 root  wheel  2024 Apr 16 01:57 asus.conf
+-rw-r--r--  1 root  wheel   524 Apr 16 01:57 devmatch.conf
+-rw-r--r--  1 root  wheel  3774 Apr 16 01:57 hyperv.conf
+-rw-r--r--  1 root  wheel  3147 Apr 16 01:57 uath.conf
+-rw-r--r--  1 root  wheel   453 Apr 16 01:57 ulpt.conf
+-rw-r--r--  1 root  wheel  2218 Apr 16 01:57 zfs.conf
+
+/jm/defaults/etc/dma:
+total 9
+-rw-r--r--  1 root  wheel  2237 Apr 16 01:57 dma.conf
+
+/jm/defaults/etc/gss:
+total 18
+-r--r--r--  1 root  wheel  308 Apr 16 01:57 mech
+-r--r--r--  1 root  wheel  157 Apr 16 01:57 qop
+
+/jm/defaults/etc/mail:
+total 303
+-rw-r--r--  1 root  wheel    630 Apr 16 01:57 access.sample
+-rw-r--r--  1 root  wheel   1689 Apr 16 01:57 aliases
+drwxr-xr-x  2 root  wheel      6 Apr 16 02:00 certs
+-rw-r--r--  1 root  wheel  58819 Apr 16 01:57 freebsd.cf
+-rw-r--r--  1 root  wheel   4533 Apr 16 01:57 freebsd.mc
+-r--r--r--  1 root  wheel  41160 Apr 16 01:57 freebsd.submit.cf
+-r--r--r--  1 root  wheel    894 Apr 16 01:57 freebsd.submit.mc
+-r--r--r--  1 root  wheel   5659 Apr 16 01:57 helpfile
+-rw-r--r--  1 root  wheel    362 Apr 16 01:57 mailer.conf
+-rw-r--r--  1 root  wheel    246 Apr 16 01:57 mailertable.sample
+-rw-r--r--  1 root  wheel   6814 Apr 16 01:57 Makefile
+-rw-r--r--  1 root  wheel   2898 Apr 16 01:57 README
+-rw-r--r--  1 root  wheel  58819 Apr 16 01:57 sendmail.cf
+-r--r--r--  1 root  wheel  41160 Apr 16 01:57 submit.cf
+-rw-r--r--  1 root  wheel    572 Apr 16 01:57 virtusertable.sample
+
+/jm/defaults/etc/mail/certs:
+total 28
+lrwxr-xr-x  1 root  wheel    10 Apr 16 02:00 43b8f36c.0 -> cacert.pem
+-rw-r--r--  1 root  wheel  1363 Apr 16 02:00 cacert.pem
+-rw-r--r--  1 root  wheel  1395 Apr 16 02:00 host.cert
+-rw-------  1 root  wheel  1708 Apr 16 02:00 host.key
+
+/jm/defaults/etc/mtree:
+total 88
+-r--r--r--  1 root  wheel   1187 Apr 16 01:57 BSD.debug.dist
+-r--r--r--  1 root  wheel   5553 Apr 16 01:57 BSD.include.dist
+-r--r--r--  1 root  wheel    311 Apr 16 01:57 BSD.lib32.dist
+-r--r--r--  1 root  wheel   1613 Apr 16 01:57 BSD.root.dist
+-r--r--r--  1 root  wheel    399 Apr 16 01:57 BSD.sendmail.dist
+-r--r--r--  1 root  wheel  21026 Apr 16 01:57 BSD.tests.dist
+-r--r--r--  1 root  wheel  24129 Apr 16 01:57 BSD.usr.dist
+-r--r--r--  1 root  wheel   2292 Apr 16 01:57 BSD.var.dist
+
+/jm/defaults/etc/newsyslog.conf.d:
+total 63
+-rw-r--r--  1 root  wheel  144 Apr 16 01:58 amd.conf
+-rw-r--r--  1 root  wheel  145 Apr 16 01:58 ftp.conf
+-rw-r--r--  1 root  wheel  146 Apr 16 01:58 lpr.conf
+-rw-r--r--  1 root  wheel  171 Apr 16 01:58 opensm.conf
+-rw-r--r--  1 root  wheel  166 Apr 16 01:58 pf.conf
+-rw-r--r--  1 root  wheel  156 Apr 16 01:58 ppp.conf
+-rw-r--r--  1 root  wheel  152 Apr 16 01:58 sendmail.conf
+
+/jm/defaults/etc/pam.d:
+total 135
+-rw-r--r--  1 root  wheel   324 Apr 16 01:57 atrun
+-rw-r--r--  1 root  wheel   201 Apr 16 01:57 cron
+-rw-r--r--  1 root  wheel   533 Apr 16 01:57 ftp
+-rw-r--r--  1 root  wheel   533 Apr 16 01:57 ftpd
+-rw-r--r--  1 root  wheel   367 Apr 16 01:57 imap
+-rw-r--r--  1 root  wheel   375 Apr 16 01:57 login
+-rw-r--r--  1 root  wheel   673 Apr 16 01:57 other
+-rw-r--r--  1 root  wheel   320 Apr 16 01:57 passwd
+-rw-r--r--  1 root  wheel   367 Apr 16 01:57 pop3
+-r--r--r--  1 root  wheel  2910 Apr 16 01:57 README
+-rw-r--r--  1 root  wheel   750 Apr 16 01:57 sshd
+-rw-r--r--  1 root  wheel   386 Apr 16 01:57 su
+-rw-r--r--  1 root  wheel   716 Apr 16 01:57 system
+-rw-r--r--  1 root  wheel   766 Apr 16 01:57 telnetd
+-rw-r--r--  1 root  wheel   531 Apr 16 01:57 xdm
+
+/jm/defaults/etc/periodic:
+total 52
+drwxr-xr-x  2 root  wheel  32 Apr 16 01:58 daily
+drwxr-xr-x  2 root  wheel   5 Apr 16 01:58 monthly
+drwxr-xr-x  2 root  wheel  17 Apr 16 01:58 security
+drwxr-xr-x  2 root  wheel   7 Apr 16 01:58 weekly
+
+/jm/defaults/etc/periodic/daily:
+total 270
+-rwxr-xr-x  1 root  wheel  1292 Apr 16 01:58 100.clean-disks
+-rwxr-xr-x  1 root  wheel  1584 Apr 16 01:58 110.clean-tmps
+-rwxr-xr-x  1 root  wheel  1104 Apr 16 01:58 120.clean-preserve
+-rwxr-xr-x  1 root  wheel   707 Apr 16 01:58 130.clean-msgs
+-rwxr-xr-x  1 root  wheel  1068 Apr 16 01:58 140.clean-rwho
+-rwxr-xr-x  1 root  wheel   601 Apr 16 01:58 150.clean-hoststat
+-rwxr-xr-x  1 root  wheel  1763 Apr 16 01:58 200.backup-passwd
+-rwxr-xr-x  1 root  wheel  1008 Apr 16 01:58 210.backup-aliases
+-rwxr-xr-x  1 root  wheel   691 Apr 16 01:58 300.calendar
+-r-xr-xr-x  1 root  wheel  1476 Apr 16 01:58 310.accounting
+-rwxr-xr-x  1 root  wheel   722 Apr 16 01:58 330.news
+-rwxr-xr-x  1 root  wheel   771 Apr 16 01:58 400.status-disks
+-rwxr-xr-x  1 root  wheel   581 Apr 16 01:58 401.status-graid
+-rwxr-xr-x  1 root  wheel   805 Apr 16 01:58 404.status-zfs
+-rwxr-xr-x  1 root  wheel   594 Apr 16 01:58 406.status-gmirror
+-rwxr-xr-x  1 root  wheel   589 Apr 16 01:58 407.status-graid3
+-rwxr-xr-x  1 root  wheel   588 Apr 16 01:58 408.status-gstripe
+-rwxr-xr-x  1 root  wheel   588 Apr 16 01:58 409.status-gconcat
+-rwxr-xr-x  1 root  wheel   682 Apr 16 01:58 410.status-mfi
+-rwxr-xr-x  1 root  wheel   609 Apr 16 01:58 420.status-network
+-rwxr-xr-x  1 root  wheel   703 Apr 16 01:58 430.status-uptime
+-rwxr-xr-x  1 root  wheel  1450 Apr 16 01:58 440.status-mailq
+-rwxr-xr-x  1 root  wheel  1008 Apr 16 01:58 450.status-security
+-rwxr-xr-x  1 root  wheel  1999 Apr 16 01:58 460.status-mail-rejects
+-rwxr-xr-x  1 root  wheel   449 Apr 16 01:58 480.leapfile-ntpd
+-rwxr-xr-x  1 root  wheel   496 Apr 16 01:58 480.status-ntpd
+-rwxr-xr-x  1 root  wheel   735 Apr 16 01:58 500.queuerun
+-rwxr-xr-x  1 root  wheel   843 Apr 16 01:58 510.status-world-kernel
+-rwxr-xr-x  1 root  wheel  2822 Apr 16 01:58 800.scrub-zfs
+-rwxr-xr-x  1 root  wheel   809 Apr 16 01:58 999.local
+
+/jm/defaults/etc/periodic/monthly:
+total 27
+-r-xr-xr-x  1 root  wheel   946 Apr 16 01:58 200.accounting
+-rwxr-xr-x  1 root  wheel  1020 Apr 16 01:58 450.status-security
+-rwxr-xr-x  1 root  wheel   703 Apr 16 01:58 999.local
+
+/jm/defaults/etc/periodic/security:
+total 135
+-rwxr-xr-x  1 root  wheel  2277 Apr 16 01:58 100.chksetuid
+-rwxr-xr-x  1 root  wheel  2298 Apr 16 01:58 110.neggrpperm
+-rwxr-xr-x  1 root  wheel  2321 Apr 16 01:58 200.chkmounts
+-rwxr-xr-x  1 root  wheel  1965 Apr 16 01:58 300.chkuid0
+-rwxr-xr-x  1 root  wheel  1961 Apr 16 01:58 400.passwdless
+-rwxr-xr-x  1 root  wheel  1965 Apr 16 01:58 410.logincheck
+-rwxr-xr-x  1 root  wheel  1999 Apr 16 01:58 500.ipfwdenied
+-rwxr-xr-x  1 root  wheel  1979 Apr 16 01:58 510.ipfdenied
+-rwxr-xr-x  1 root  wheel  2147 Apr 16 01:58 520.pfdenied
+-rwxr-xr-x  1 root  wheel  2244 Apr 16 01:58 550.ipfwlimit
+-rwxr-xr-x  1 root  wheel  2008 Apr 16 01:58 610.ipf6denied
+-rwxr-xr-x  1 root  wheel  1928 Apr 16 01:58 700.kernelmsg
+-rwxr-xr-x  1 root  wheel  2349 Apr 16 01:58 800.loginfail
+-rwxr-xr-x  1 root  wheel  2313 Apr 16 01:58 900.tcpwrap
+-r--r--r--  1 root  wheel  2819 Apr 16 01:58 security.functions
+
+/jm/defaults/etc/periodic/weekly:
+total 45
+-rwxr-xr-x  1 root  wheel   634 Apr 16 01:58 310.locate
+-rwxr-xr-x  1 root  wheel  1019 Apr 16 01:58 320.whatis
+-rwxr-xr-x  1 root  wheel  1242 Apr 16 01:58 340.noid
+-rwxr-xr-x  1 root  wheel  1014 Apr 16 01:58 450.status-security
+-rwxr-xr-x  1 root  wheel   701 Apr 16 01:58 999.local
+
+/jm/defaults/etc/pkg:
+total 9
+-rw-r--r--  1 root  wheel  506 Apr 16 01:58 FreeBSD.conf
+
+/jm/defaults/etc/ppp:
+total 9
+-rw-------  1 root  wheel  1323 Apr 16 01:58 ppp.conf
+
+/jm/defaults/etc/rc.d:
+total 1510
+-r-xr-xr-x  1 root  wheel   1153 Apr 16 01:57 abi
+-r-xr-xr-x  1 root  wheel   1314 Apr 16 01:57 accounting
+-r-xr-xr-x  1 root  wheel    387 Apr 16 01:57 addswap
+-r-xr-xr-x  1 root  wheel    289 Apr 16 01:57 adjkerntz
+-r-xr-xr-x  1 root  wheel    876 Apr 16 01:57 amd
+-r-xr-xr-x  1 root  wheel    659 Apr 16 01:57 apm
+-r-xr-xr-x  1 root  wheel    676 Apr 16 01:57 archdep
+-r-xr-xr-x  1 root  wheel    608 Apr 16 01:57 auditd
+-r-xr-xr-x  1 root  wheel    455 Apr 16 01:57 auditdistd
+-r-xr-xr-x  1 root  wheel    486 Apr 16 01:57 automount
+-r-xr-xr-x  1 root  wheel    442 Apr 16 01:57 automountd
+-r-xr-xr-x  1 root  wheel    393 Apr 16 01:57 autounmountd
+-r-xr-xr-x  1 root  wheel   1035 Apr 16 01:57 bgfsck
+-r-xr-xr-x  1 root  wheel   1770 Apr 16 01:57 blacklistd
+-r-xr-xr-x  1 root  wheel   9429 Apr 16 01:57 bluetooth
+-r-xr-xr-x  1 root  wheel    374 Apr 16 01:57 bootparams
+-r-xr-xr-x  1 root  wheel   2342 Apr 16 01:57 bridge
+-r-xr-xr-x  1 root  wheel    413 Apr 16 01:57 bsnmpd
+-r-xr-xr-x  1 root  wheel    996 Apr 16 01:57 bthidd
+-r-xr-xr-x  1 root  wheel    363 Apr 16 01:57 ccd
+-r-xr-xr-x  1 root  wheel   3075 Apr 16 01:57 cfumass
+-r-xr-xr-x  1 root  wheel    978 Apr 16 01:57 cleanvar
+-r-xr-xr-x  1 root  wheel   1917 Apr 16 01:57 cleartmp
+-r-xr-xr-x  1 root  wheel    433 Apr 16 01:57 cron
+-r-xr-xr-x  1 root  wheel    441 Apr 16 01:57 ctld
+-r-xr-xr-x  1 root  wheel    247 Apr 16 01:57 DAEMON
+-r-xr-xr-x  1 root  wheel    605 Apr 16 01:57 ddb
+-r-xr-xr-x  1 root  wheel   1534 Apr 16 01:57 defaultroute
+-r-xr-xr-x  1 root  wheel    749 Apr 16 01:57 devd
+-r-xr-xr-x  1 root  wheel   1459 Apr 16 01:57 devfs
+-r-xr-xr-x  1 root  wheel   2382 Apr 16 01:57 devmatch
+-r-xr-xr-x  1 root  wheel   1342 Apr 16 01:57 dhclient
+-r-xr-xr-x  1 root  wheel    478 Apr 16 01:57 dmesg
+-r-xr-xr-x  1 root  wheel   1399 Apr 16 01:57 dumpon
+-r-xr-xr-x  1 root  wheel    420 Apr 16 01:57 FILESYSTEMS
+-r-xr-xr-x  1 root  wheel   1603 Apr 16 01:57 fsck
+-r-xr-xr-x  1 root  wheel   2426 Apr 16 01:57 ftp-proxy
+-r-xr-xr-x  1 root  wheel    441 Apr 16 01:57 ftpd
+-r-xr-xr-x  1 root  wheel   2217 Apr 16 01:57 gbde
+-r-xr-xr-x  1 root  wheel   3655 Apr 16 01:57 geli
+-r-xr-xr-x  1 root  wheel   1990 Apr 16 01:57 geli2
+-r-xr-xr-x  1 root  wheel   2587 Apr 16 01:57 gptboot
+-r-xr-xr-x  1 root  wheel   3242 Apr 16 01:57 growfs
+-r-xr-xr-x  1 root  wheel    278 Apr 16 01:57 gssd
+-r-xr-xr-x  1 root  wheel    571 Apr 16 01:57 hastd
+-r-xr-xr-x  1 root  wheel    530 Apr 16 01:57 hcsecd
+-r-xr-xr-x  1 root  wheel    690 Apr 16 01:57 hostapd
+-r-xr-xr-x  1 root  wheel   3810 Apr 16 01:57 hostid
+-r-xr-xr-x  1 root  wheel    659 Apr 16 01:57 hostid_save
+-r-xr-xr-x  1 root  wheel   2689 Apr 16 01:57 hostname
+-r-xr-xr-x  1 root  wheel    410 Apr 16 01:57 inetd
+-r-xr-xr-x  1 root  wheel    516 Apr 16 01:57 iovctl
+-r-xr-xr-x  1 root  wheel   2655 Apr 16 01:57 ip6addrctl
+-r-xr-xr-x  1 root  wheel   2097 Apr 16 01:57 ipfilter
+-r-xr-xr-x  1 root  wheel   1121 Apr 16 01:57 ipfs
+-r-xr-xr-x  1 root  wheel   3035 Apr 16 01:57 ipfw
+-r-xr-xr-x  1 root  wheel   2038 Apr 16 01:57 ipfw_netflow
+-r-xr-xr-x  1 root  wheel    793 Apr 16 01:57 ipmon
+-r-xr-xr-x  1 root  wheel    588 Apr 16 01:57 ipnat
+-r-xr-xr-x  1 root  wheel    641 Apr 16 01:57 ippool
+-r-xr-xr-x  1 root  wheel    777 Apr 16 01:57 ipropd_master
+-r-xr-xr-x  1 root  wheel    582 Apr 16 01:57 ipropd_slave
+-r-xr-xr-x  1 root  wheel   1176 Apr 16 01:57 ipsec
+-r-xr-xr-x  1 root  wheel    404 Apr 16 01:57 iscsictl
+-r-xr-xr-x  1 root  wheel    376 Apr 16 01:57 iscsid
+-r-xr-xr-x  1 root  wheel  14270 Apr 16 01:57 jail
+-r-xr-xr-x  1 root  wheel    586 Apr 16 01:57 kadmind
+-r-xr-xr-x  1 root  wheel    534 Apr 16 01:57 kdc
+-r-xr-xr-x  1 root  wheel    479 Apr 16 01:57 keyserv
+-r-xr-xr-x  1 root  wheel    361 Apr 16 01:57 kfd
+-r-xr-xr-x  1 root  wheel   1763 Apr 16 01:57 kld
+-r-xr-xr-x  1 root  wheel    779 Apr 16 01:57 kldxref
+-r-xr-xr-x  1 root  wheel    567 Apr 16 01:57 kpasswdd
+-r-xr-xr-x  1 root  wheel   2447 Apr 16 01:57 ldconfig
+-r-xr-xr-x  1 root  wheel    592 Apr 16 01:57 local
+-r-xr-xr-x  1 root  wheel   2824 Apr 16 01:57 local_unbound
+-r-xr-xr-x  1 root  wheel   1441 Apr 16 01:57 localpkg
+-r-xr-xr-x  1 root  wheel    691 Apr 16 01:57 lockd
+-r-xr-xr-x  1 root  wheel    409 Apr 16 01:57 LOGIN
+-r-xr-xr-x  1 root  wheel    480 Apr 16 01:57 lpd
+-r-xr-xr-x  1 root  wheel   5167 Apr 16 01:57 mdconfig
+-r-xr-xr-x  1 root  wheel   6075 Apr 16 01:57 mdconfig2
+-r-xr-xr-x  1 root  wheel   2523 Apr 16 01:57 mixer
+-r-xr-xr-x  1 root  wheel   1042 Apr 16 01:57 motd
+-r-xr-xr-x  1 root  wheel   1304 Apr 16 01:57 mountcritlocal
+-r-xr-xr-x  1 root  wheel   1933 Apr 16 01:57 mountcritremote
+-r-xr-xr-x  1 root  wheel   1009 Apr 16 01:57 mountd
+-r-xr-xr-x  1 root  wheel    794 Apr 16 01:57 mountlate
+-r-xr-xr-x  1 root  wheel   1708 Apr 16 01:57 moused
+-r-xr-xr-x  1 root  wheel    461 Apr 16 01:57 msgs
+-r-xr-xr-x  1 root  wheel    826 Apr 16 01:57 natd
+-r-xr-xr-x  1 root  wheel   5940 Apr 16 01:57 netif
+-r-xr-xr-x  1 root  wheel   2841 Apr 16 01:57 netoptions
+-r-xr-xr-x  1 root  wheel   3144 Apr 16 01:57 netwait
+-r-xr-xr-x  1 root  wheel    371 Apr 16 01:57 NETWORKING
+-r-xr-xr-x  1 root  wheel    529 Apr 16 01:57 newsyslog
+-r-xr-xr-x  1 root  wheel    351 Apr 16 01:57 nfscbd
+-r-xr-xr-x  1 root  wheel   1127 Apr 16 01:57 nfsclient
+-r-xr-xr-x  1 root  wheel   1070 Apr 16 01:57 nfsd
+-r-xr-xr-x  1 root  wheel    583 Apr 16 01:57 nfsuserd
+-r-xr-xr-x  1 root  wheel   1872 Apr 16 01:57 nisdomain
+-r-xr-xr-x  1 root  wheel   1126 Apr 16 01:57 nscd
+-r-xr-xr-x  1 root  wheel   2636 Apr 16 01:57 nsswitch
+-r-xr-xr-x  1 root  wheel   6849 Apr 16 01:57 ntpd
+-r-xr-xr-x  1 root  wheel    764 Apr 16 01:57 ntpdate
+-r-xr-xr-x  1 root  wheel    513 Apr 16 01:57 opensm
+-r-xr-xr-x  1 root  wheel    355 Apr 16 01:57 othermta
+-r-xr-xr-x  1 root  wheel   1272 Apr 16 01:57 pf
+-r-xr-xr-x  1 root  wheel   2363 Apr 16 01:57 pflog
+-r-xr-xr-x  1 root  wheel    853 Apr 16 01:57 pfsync
+-r-xr-xr-x  1 root  wheel   2179 Apr 16 01:57 power_profile
+-r-xr-xr-x  1 root  wheel    496 Apr 16 01:57 powerd
+-r-xr-xr-x  1 root  wheel   2395 Apr 16 01:57 ppp
+-r-xr-xr-x  1 root  wheel    652 Apr 16 01:57 pppoed
+-r-xr-xr-x  1 root  wheel    496 Apr 16 01:57 pwcheck
+-r-xr-xr-x  1 root  wheel    642 Apr 16 01:57 quota
+-r-xr-xr-x  1 root  wheel   3123 Apr 16 01:57 random
+-r-xr-xr-x  1 root  wheel    404 Apr 16 01:57 rarpd
+-r-xr-xr-x  1 root  wheel    534 Apr 16 01:57 rctl
+-r-xr-xr-x  1 root  wheel   2134 Apr 16 01:57 resolv
+-r-xr-xr-x  1 root  wheel   2445 Apr 16 01:57 rfcomm_pppd_server
+-r-xr-xr-x  1 root  wheel    789 Apr 16 01:57 root
+-r-xr-xr-x  1 root  wheel    436 Apr 16 01:57 route6d
+-r-xr-xr-x  1 root  wheel    460 Apr 16 01:57 routed
+-r-xr-xr-x  1 root  wheel   7493 Apr 16 01:57 routing
+-r-xr-xr-x  1 root  wheel    399 Apr 16 01:57 rpcbind
+-r-xr-xr-x  1 root  wheel   1723 Apr 16 01:57 rtadvd
+-r-xr-xr-x  1 root  wheel    496 Apr 16 01:57 rtsold
+-r-xr-xr-x  1 root  wheel    312 Apr 16 01:57 rwho
+-r-xr-xr-x  1 root  wheel   1378 Apr 16 01:57 savecore
+-r-xr-xr-x  1 root  wheel    530 Apr 16 01:57 sdpd
+-r-xr-xr-x  1 root  wheel    600 Apr 16 01:57 securelevel
+-r-xr-xr-x  1 root  wheel   6641 Apr 16 01:57 sendmail
+-r-xr-xr-x  1 root  wheel   5174 Apr 16 01:57 serial
+-r-xr-xr-x  1 root  wheel    268 Apr 16 01:57 SERVERS
+-r-xr-xr-x  1 root  wheel    900 Apr 16 01:57 sppp
+-r-xr-xr-x  1 root  wheel   1505 Apr 16 01:57 sshd
+-r-xr-xr-x  1 root  wheel    653 Apr 16 01:57 statd
+-r-xr-xr-x  1 root  wheel   2249 Apr 16 01:57 static_arp
+-r-xr-xr-x  1 root  wheel   2217 Apr 16 01:57 static_ndp
+-r-xr-xr-x  1 root  wheel   1937 Apr 16 01:57 stf
+-r-xr-xr-x  1 root  wheel    289 Apr 16 01:57 swap
+-r-xr-xr-x  1 root  wheel    330 Apr 16 01:57 swaplate
+-r-xr-xr-x  1 root  wheel   8004 Apr 16 01:57 syscons
+-r-xr-xr-x  1 root  wheel    659 Apr 16 01:57 sysctl
+-r-xr-xr-x  1 root  wheel   1587 Apr 16 01:57 syslogd
+-r-xr-xr-x  1 root  wheel    319 Apr 16 01:57 timed
+-r-xr-xr-x  1 root  wheel   2207 Apr 16 01:57 tmp
+-r-xr-xr-x  1 root  wheel    834 Apr 16 01:57 ubthidhci
+-r-xr-xr-x  1 root  wheel   1059 Apr 16 01:57 ugidfw
+-r-xr-xr-x  1 root  wheel    330 Apr 16 01:57 utx
+-r-xr-xr-x  1 root  wheel   3296 Apr 16 01:57 var
+-r-xr-xr-x  1 root  wheel   1654 Apr 16 01:57 virecover
+-r-xr-xr-x  1 root  wheel   1750 Apr 16 01:57 watchdogd
+-r-xr-xr-x  1 root  wheel    892 Apr 16 01:57 wpa_supplicant
+-r-xr-xr-x  1 root  wheel    571 Apr 16 01:57 ypbind
+-r-xr-xr-x  1 root  wheel    428 Apr 16 01:57 ypldap
+-r-xr-xr-x  1 root  wheel    654 Apr 16 01:57 yppasswdd
+-r-xr-xr-x  1 root  wheel    651 Apr 16 01:57 ypserv
+-r-xr-xr-x  1 root  wheel    610 Apr 16 01:57 ypset
+-r-xr-xr-x  1 root  wheel    568 Apr 16 01:57 ypupdated
+-r-xr-xr-x  1 root  wheel    607 Apr 16 01:57 ypxfrd
+-r-xr-xr-x  1 root  wheel    936 Apr 16 01:57 zfs
+-r-xr-xr-x  1 root  wheel   1475 Apr 16 01:57 zfsbe
+-r-xr-xr-x  1 root  wheel    278 Apr 16 01:57 zfsd
+-r-xr-xr-x  1 root  wheel    820 Apr 16 01:57 zvol
+
+/jm/defaults/etc/security:
+total 69
+-r--r--r--  1 root  wheel    641 Apr 16 01:58 audit_class
+-rw-------  1 root  wheel    202 Apr 16 01:58 audit_control
+-r--r--r--  1 root  wheel  27597 Apr 16 01:58 audit_event
+-rw-------  1 root  wheel    107 Apr 16 01:58 audit_user
+-r-x------  1 root  wheel    154 Apr 16 01:58 audit_warn
+
+/jm/defaults/etc/ssh:
+total 107
+-rw-r--r--  1 root  wheel  563386 Apr 16 01:57 moduli
+-rw-r--r--  1 root  wheel    1638 Apr 16 01:57 ssh_config
+-rw-r--r--  1 root  wheel    3328 Apr 16 01:57 sshd_config
+
+/jm/defaults/etc/ssl:
+total 17
+-rw-r--r--  1 root  wheel  10998 Apr 16 01:57 openssl.cnf
+
+/jm/defaults/etc/syslog.d:
+total 27
+-rw-r--r--  1 root  wheel  112 Apr 16 01:58 ftp.conf
+-rw-r--r--  1 root  wheel  113 Apr 16 01:58 lpr.conf
+-rw-r--r--  1 root  wheel  113 Apr 16 01:58 ppp.conf
+
+/jm/defaults/lib:
+total 0
+
+/jm/defaults/libexec:
+total 0
+
+/jm/defaults/rescue:
+total 0
+
+/jm/defaults/root:
+total 45
+-rw-r--r--  1 root  wheel  949 Apr 16 01:57 .cshrc
+-rw-------  1 root  wheel  394 Apr 16 02:54 .history
+-rw-r--r--  1 root  wheel  147 Apr 16 01:57 .k5login
+-rw-r--r--  1 root  wheel  390 Apr 16 01:57 .login
+-rw-r--r--  1 root  wheel  468 Apr 16 01:57 .profile
+
+/jm/defaults/sbin:
+total 0
+
+/jm/defaults/tmp:
+total 4
+drwxrwxrwt  2 root  wheel  2 Apr 16 02:53 .font-unix
+drwxrwxrwt  2 root  wheel  2 Apr 16 02:53 .ICE-unix
+drwxrwxrwt  2 root  wheel  2 Apr 16 02:53 .X11-unix
+drwxrwxrwt  2 root  wheel  2 Apr 16 02:53 .XIM-unix
+
+/jm/defaults/tmp/.font-unix:
+total 0
+
+/jm/defaults/tmp/.ICE-unix:
+total 0
+
+/jm/defaults/tmp/.X11-unix:
+total 0
+
+/jm/defaults/tmp/.XIM-unix:
+total 0
+
+/jm/defaults/usr:
+total 25
+drwxr-xr-x   2 root  wheel   2 Apr 16 01:56 bin
+drwxr-xr-x   2 root  wheel   2 Apr 16 01:56 include
+drwxr-xr-x   2 root  wheel   2 Apr 16 01:56 lib
+drwxr-xr-x   2 root  wheel   2 Apr 16 01:56 libdata
+drwxr-xr-x   2 root  wheel   2 Apr 16 01:56 libexec
+drwxr-xr-x  10 root  wheel  10 Apr 16 02:01 local
+drwxr-xr-x   2 root  wheel   2 Apr 16 01:56 sbin
+drwxr-xr-x   2 root  wheel   2 Apr 16 01:56 share
+drwxr-xr-x   2 root  wheel   2 Jul 29 14:49 src
+
+/jm/defaults/usr/bin:
+total 0
+
+/jm/defaults/usr/include:
+total 0
+
+/jm/defaults/usr/lib:
+total 0
+
+/jm/defaults/usr/libdata:
+total 0
+
+/jm/defaults/usr/libexec:
+total 0
+
+/jm/defaults/usr/local:
+total 40
+drwxr-xr-x  2 root  wheel  9 Apr 16 02:01 bin
+drwxr-xr-x  5 root  wheel  7 Apr 16 02:01 etc
+drwxr-xr-x  2 root  wheel  3 Apr 16 02:00 include
+drwxr-xr-x  2 root  wheel  6 Apr 16 02:00 lib
+drwxr-xr-x  3 root  wheel  3 Apr 16 02:00 libdata
+drwxr-xr-x  6 root  wheel  6 Apr 16 02:01 man
+drwxr-xr-x  2 root  wheel  5 Apr 16 02:00 sbin
+drwxr-xr-x  6 root  wheel  6 Apr 16 02:01 share
+
+/jm/defaults/usr/local/bin:
+total 3759
+lrwxr-xr-x  1 root  wheel        3 Apr  4 06:19 evim -> vim
+lrwxr-xr-x  1 root  wheel        3 Apr  4 06:19 rview -> vim
+lrwxr-xr-x  1 root  wheel        3 Apr  4 06:19 rvim -> vim
+-rwxr-xr-x  1 root  wheel  2722776 Apr  4 06:19 vim
+lrwxr-xr-x  1 root  wheel        3 Apr  4 06:19 vimdiff -> vim
+-rwxr-xr-x  1 root  wheel     2121 Apr  4 06:19 vimtutor
+-rwxr-xr-x  1 root  wheel    27576 Apr  4 06:19 xxd
+
+/jm/defaults/usr/local/etc:
+total 21
+drwxr-xr-x  2 root  wheel     3 Apr 16 02:00 bash_completion.d
+drwxr-xr-x  5 root  wheel     5 Apr 16 02:00 periodic
+-rw-r--r--  1 root  wheel  2143 Feb  7 04:06 pkg.conf
+-rw-r--r--  1 root  wheel  2143 Feb  7 04:06 pkg.conf.sample
+drwxr-xr-x  2 root  wheel     6 Apr 16 02:01 vim
+
+/jm/defaults/usr/local/etc/bash_completion.d:
+total 17
+-rw-r--r--  1 root  wheel  19809 Feb  7 04:06 _pkg.bash
+
+/jm/defaults/usr/local/etc/periodic:
+total 3
+drwxr-xr-x  2 root  wheel  4 Apr 16 02:00 daily
+drwxr-xr-x  2 root  wheel  4 Apr 16 02:00 security
+drwxr-xr-x  2 root  wheel  3 Apr 16 02:00 weekly
+
+/jm/defaults/usr/local/etc/periodic/daily:
+total 18
+-r-xr-xr-x  1 root  wheel  2746 Feb  7 04:06 411.pkg-backup
+-r-xr-xr-x  1 root  wheel  2506 Feb  7 04:06 490.status-pkg-changes
+
+/jm/defaults/usr/local/etc/periodic/security:
+total 18
+-r-xr-xr-x  1 root  wheel  5208 Feb  7 04:06 410.pkg-audit
+-r-xr-xr-x  1 root  wheel  1819 Feb  7 04:06 460.pkg-checksum
+
+/jm/defaults/usr/local/etc/periodic/weekly:
+total 9
+-r-xr-xr-x  1 root  wheel  2266 Feb  7 04:06 400.status-pkg
+
+/jm/defaults/usr/local/etc/vim:
+total 36
+-rw-r--r--  1 root  wheel  464 Apr  4 06:19 gvimrc
+-rw-r--r--  1 root  wheel  464 Apr  4 06:19 gvimrc.sample
+-rw-r--r--  1 root  wheel  481 Apr  4 06:19 vimrc
+-rw-r--r--  1 root  wheel  481 Apr  4 06:19 vimrc.sample
+
+/jm/defaults/usr/local/include:
+total 41
+-rw-r--r--  1 root  wheel  47718 Feb  7 04:06 pkg.h
+
+/jm/defaults/usr/local/lib:
+total 6644
+-rw-r--r--  1 root  wheel  3731250 Feb  7 04:06 libpkg.a
+lrwxr-xr-x  1 root  wheel       15 Feb  7 04:06 libpkg.so -> libpkg.so.4.0.0
+lrwxr-xr-x  1 root  wheel       15 Feb  7 04:06 libpkg.so.4 -> libpkg.so.4.0.0
+-rwxr-xr-x  1 root  wheel  2305016 Feb  7 04:06 libpkg.so.4.0.0
+
+/jm/defaults/usr/local/libdata:
+total 1
+drwxr-xr-x  2 root  wheel  3 Apr 16 02:00 pkgconfig
+
+/jm/defaults/usr/local/libdata/pkgconfig:
+total 9
+-rw-r--r--  1 root  wheel  188 Feb  7 04:06 pkg.pc
+
+/jm/defaults/usr/local/man:
+total 36
+drwxr-xr-x  2 root  wheel   9 Apr 16 02:01 man1
+drwxr-xr-x  2 root  wheel   4 Apr 16 02:00 man3
+drwxr-xr-x  2 root  wheel   4 Apr 16 02:00 man5
+drwxr-xr-x  2 root  wheel  37 Apr 16 02:00 man8
+
+/jm/defaults/usr/local/man/man1:
+total 63
+-rw-r--r--  1 root  wheel   793 Apr  4 06:19 evim.1.gz
+lrwxr-xr-x  1 root  wheel     8 Apr  4 06:19 rview.1.gz -> vim.1.gz
+lrwxr-xr-x  1 root  wheel     8 Apr  4 06:19 rvim.1.gz -> vim.1.gz
+-rw-r--r--  1 root  wheel  5424 Apr  4 06:19 vim.1.gz
+-rw-r--r--  1 root  wheel   701 Apr  4 06:19 vimdiff.1.gz
+-rw-r--r--  1 root  wheel   737 Apr  4 06:19 vimtutor.1.gz
+-rw-r--r--  1 root  wheel  4346 Apr  4 06:19 xxd.1.gz
+
+/jm/defaults/usr/local/man/man3:
+total 26
+-rw-r--r--  1 root  wheel  7927 Feb  7 04:06 pkg_printf.3.gz
+-rw-r--r--  1 root  wheel  1115 Feb  7 04:06 pkg_repos.3.gz
+
+/jm/defaults/usr/local/man/man5:
+total 26
+-rw-r--r--  1 root  wheel  3425 Feb  7 04:06 pkg-repository.5.gz
+-rw-r--r--  1 root  wheel  5849 Feb  7 04:06 pkg.conf.5.gz
+
+/jm/defaults/usr/local/man/man8:
+total 315
+-rw-r--r--  1 root  wheel  1658 Feb  7 04:06 pkg-add.8.gz
+-rw-r--r--  1 root  wheel   858 Feb  7 04:06 pkg-alias.8.gz
+-rw-r--r--  1 root  wheel  1878 Feb  7 04:06 pkg-annotate.8.gz
+-rw-r--r--  1 root  wheel  1344 Feb  7 04:06 pkg-audit.8.gz
+-rw-r--r--  1 root  wheel   991 Feb  7 04:06 pkg-autoremove.8.gz
+-rw-r--r--  1 root  wheel   951 Feb  7 04:06 pkg-backup.8.gz
+-rw-r--r--  1 root  wheel  1657 Feb  7 04:06 pkg-check.8.gz
+-rw-r--r--  1 root  wheel  1207 Feb  7 04:06 pkg-clean.8.gz
+-rw-r--r--  1 root  wheel   755 Feb  7 04:06 pkg-config.8.gz
+-rw-r--r--  1 root  wheel   854 Feb  7 04:06 pkg-convert.8.gz
+-rw-r--r--  1 root  wheel  4668 Feb  7 04:06 pkg-create.8.gz
+-rw-r--r--  1 root  wheel  1772 Feb  7 04:06 pkg-delete.8.gz
+-rw-r--r--  1 root  wheel  1672 Feb  7 04:06 pkg-fetch.8.gz
+-rw-r--r--  1 root  wheel  1901 Feb  7 04:06 pkg-info.8.gz
+-rw-r--r--  1 root  wheel  2600 Feb  7 04:06 pkg-install.8.gz
+-rw-r--r--  1 root  wheel  1715 Feb  7 04:06 pkg-lock.8.gz
+-rw-r--r--  1 root  wheel  3005 Feb  7 04:06 pkg-query.8.gz
+-rw-r--r--  1 root  wheel  2253 Feb  7 04:06 pkg-register.8.gz
+lrwxr-xr-x  1 root  wheel    15 Feb  7 04:06 pkg-remove.8.gz -> pkg-delete.8.gz
+-rw-r--r--  1 root  wheel  2945 Feb  7 04:06 pkg-repo.8.gz
+-rw-r--r--  1 root  wheel  2713 Feb  7 04:06 pkg-rquery.8.gz
+-rw-r--r--  1 root  wheel  4376 Feb  7 04:06 pkg-search.8.gz
+-rw-r--r--  1 root  wheel  1703 Feb  7 04:06 pkg-set.8.gz
+-rw-r--r--  1 root  wheel   921 Feb  7 04:06 pkg-shell.8.gz
+-rw-r--r--  1 root  wheel  1018 Feb  7 04:06 pkg-shlib.8.gz
+-rw-r--r--  1 root  wheel   878 Feb  7 04:06 pkg-ssh.8.gz
+lrwxr-xr-x  1 root  wheel     8 Feb  7 04:06 pkg-static.8.gz -> pkg.8.gz
+-rw-r--r--  1 root  wheel   890 Feb  7 04:06 pkg-stats.8.gz
+lrwxr-xr-x  1 root  wheel    13 Feb  7 04:06 pkg-unlock.8.gz -> pkg-lock.8.gz
+-rw-r--r--  1 root  wheel  1379 Feb  7 04:06 pkg-update.8.gz
+-rw-r--r--  1 root  wheel  1118 Feb  7 04:06 pkg-updating.8.gz
+-rw-r--r--  1 root  wheel  2596 Feb  7 04:06 pkg-upgrade.8.gz
+-rw-r--r--  1 root  wheel  3018 Feb  7 04:06 pkg-version.8.gz
+-rw-r--r--  1 root  wheel   966 Feb  7 04:06 pkg-which.8.gz
+-rw-r--r--  1 root  wheel  4115 Feb  7 04:06 pkg.8.gz
+
+/jm/defaults/usr/local/sbin:
+total 9067
+-rwxr-xr-x  1 root  wheel   191608 Feb  7 04:06 pkg
+-rwxr-xr-x  1 root  wheel  6999136 Feb  7 04:06 pkg-static
+-r-xr-xr-x  1 root  wheel     3913 Feb  7 04:06 pkg2ng
+
+/jm/defaults/usr/local/share:
+total 4
+drwxr-xr-x  3 root  wheel  3 Apr 16 02:00 doc
+drwxr-xr-x  4 root  wheel  4 Apr 16 02:01 licenses
+drwxr-xr-x  3 root  wheel  3 Apr 16 02:01 vim
+drwxr-xr-x  3 root  wheel  3 Apr 16 02:00 zsh
+
+/jm/defaults/usr/local/share/doc:
+total 1
+drwxr-xr-x  2 root  wheel  3 Apr 16 02:00 pkg
+
+/jm/defaults/usr/local/share/doc/pkg:
+total 9
+-rw-r--r--  1 root  wheel  3563 Feb  7 04:06 NEWS
+
+/jm/defaults/usr/local/share/licenses:
+total 2
+drwxr-xr-x  2 root  wheel  5 Apr 16 02:00 pkg-1.10.5_5
+drwxr-xr-x  2 root  wheel  5 Apr 16 02:01 vim-console-8.1.1099
+
+/jm/defaults/usr/local/share/licenses/pkg-1.10.5_5:
+total 11
+-rw-r--r--  1 root  wheel   97 Feb  7 04:06 BSD2CLAUSE
+-rw-r--r--  1 root  wheel  205 Feb  7 04:06 catalog.mk
+-rw-r--r--  1 root  wheel   81 Feb  7 04:06 LICENSE
+
+/jm/defaults/usr/local/share/licenses/vim-console-8.1.1099:
+total 35
+-rw-r--r--  1 root  wheel    173 Apr  4 06:19 catalog.mk
+-rw-r--r--  1 root  wheel     54 Apr  4 06:19 LICENSE
+-rw-r--r--  1 root  wheel  14029 Apr  4 06:19 VIM
+
+/jm/defaults/usr/local/share/vim:
+total 17
+drwxr-xr-x  18 root  wheel  36 Apr 16 02:01 vim81
+
+/jm/defaults/usr/local/share/vim/vim81:
+total 586
+drwxr-xr-x  4 root  wheel     40 Apr 16 02:01 autoload
+-rw-r--r--  1 root  wheel   1927 Apr  4 06:19 bugreport.vim
+drwxr-xr-x  3 root  wheel     22 Apr 16 02:01 colors
+drwxr-xr-x  2 root  wheel     68 Apr 16 02:01 compiler
+-rw-r--r--  1 root  wheel   4274 Apr  4 06:19 defaults.vim
+-rw-r--r--  1 root  wheel    656 Apr  4 06:19 delmenu.vim
+drwxr-xr-x  2 root  wheel    140 Apr 16 02:01 doc
+-rw-r--r--  1 root  wheel   2126 Apr  4 06:19 evim.vim
+-rw-r--r--  1 root  wheel  57570 Apr  4 06:19 filetype.vim
+-rw-r--r--  1 root  wheel    280 Apr  4 06:19 ftoff.vim
+drwxr-xr-x  2 root  wheel    221 Apr 16 02:01 ftplugin
+-rw-r--r--  1 root  wheel    971 Apr  4 06:19 ftplugin.vim
+-rw-r--r--  1 root  wheel    337 Apr  4 06:19 ftplugof.vim
+-rw-r--r--  1 root  wheel   1599 Apr  4 06:19 gvimrc_example.vim
+drwxr-xr-x  2 root  wheel    128 Apr 16 02:01 indent
+-rw-r--r--  1 root  wheel    767 Apr  4 06:19 indent.vim
+-rw-r--r--  1 root  wheel    282 Apr  4 06:19 indoff.vim
+drwxr-xr-x  2 root  wheel     78 Apr 16 02:01 keymap
+drwxr-xr-x  2 root  wheel      2 Apr 16 02:01 lang
+drwxr-xr-x  6 root  wheel     15 Apr 16 02:01 macros
+-rw-r--r--  1 root  wheel  40333 Apr  4 06:19 menu.vim
+-rw-r--r--  1 root  wheel   3430 Apr  4 06:19 mswin.vim
+-rw-r--r--  1 root  wheel  59784 Apr  4 06:19 optwin.vim
+drwxr-xr-x  3 root  wheel      3 Apr 16 02:01 pack
+drwxr-xr-x  2 root  wheel     15 Apr 16 02:01 plugin
+drwxr-xr-x  2 root  wheel     35 Apr 16 02:01 print
+-rw-r--r--  1 root  wheel  17780 Apr  4 06:19 rgb.txt
+-rw-r--r--  1 root  wheel  11174 Apr  4 06:19 scripts.vim
+drwxr-xr-x  2 root  wheel     14 Apr 16 02:01 spell
+-rw-r--r--  1 root  wheel  38969 Apr  4 06:19 synmenu.vim
+drwxr-xr-x  2 root  wheel    604 Apr 16 02:01 syntax
+drwxr-xr-x  2 root  wheel     24 Apr 16 02:01 tools
+drwxr-xr-x  2 root  wheel     73 Apr 16 02:01 tutor
+-rw-r--r--  1 root  wheel   1333 Apr  4 06:19 vimrc_example.vim
+
+/jm/defaults/usr/local/share/vim/vim81/autoload:
+total 1326
+-rw-r--r--  1 root  wheel   22567 Apr  4 06:19 ada.vim
+-rw-r--r--  1 root  wheel    3669 Apr  4 06:19 adacomplete.vim
+-rw-r--r--  1 root  wheel   17857 Apr  4 06:19 ccomplete.vim
+-rw-r--r--  1 root  wheel    8029 Apr  4 06:19 clojurecomplete.vim
+-rw-r--r--  1 root  wheel    5462 Apr  4 06:19 context.vim
+-rw-r--r--  1 root  wheel     656 Apr  4 06:19 contextcomplete.vim
+-rw-r--r--  1 root  wheel   43248 Apr  4 06:19 csscomplete.vim
+-rw-r--r--  1 root  wheel    2998 Apr  4 06:19 decada.vim
+drwxr-xr-x  2 root  wheel       3 Apr 16 02:01 dist
+-rw-r--r--  1 root  wheel   24865 Apr  4 06:19 getscript.vim
+-rw-r--r--  1 root  wheel    5331 Apr  4 06:19 gnat.vim
+-rw-r--r--  1 root  wheel    6413 Apr  4 06:19 gzip.vim
+-rw-r--r--  1 root  wheel  105661 Apr  4 06:19 haskellcomplete.vim
+-rw-r--r--  1 root  wheel   25450 Apr  4 06:19 htmlcomplete.vim
+-rw-r--r--  1 root  wheel   27028 Apr  4 06:19 javascriptcomplete.vim
+-rw-r--r--  1 root  wheel    3119 Apr  4 06:19 netrw_gitignore.vim
+-rw-r--r--  1 root  wheel  532199 Apr  4 06:19 netrw.vim
+-rw-r--r--  1 root  wheel   10143 Apr  4 06:19 netrwFileHandlers.vim
+-rw-r--r--  1 root  wheel   10203 Apr  4 06:19 netrwSettings.vim
+-rw-r--r--  1 root  wheel     672 Apr  4 06:19 paste.vim
+-rw-r--r--  1 root  wheel  354119 Apr  4 06:19 phpcomplete.vim
+-rw-r--r--  1 root  wheel   21571 Apr  4 06:19 python3complete.vim
+-rw-r--r--  1 root  wheel   22047 Apr  4 06:19 pythoncomplete.vim
+-rw-r--r--  1 root  wheel     773 Apr  4 06:19 README.txt
+-rw-r--r--  1 root  wheel    1900 Apr  4 06:19 RstFold.vim
+-rw-r--r--  1 root  wheel   25011 Apr  4 06:19 rubycomplete.vim
+-rw-r--r--  1 root  wheel   10463 Apr  4 06:19 rust.vim
+-rw-r--r--  1 root  wheel    2990 Apr  4 06:19 rustfmt.vim
+-rw-r--r--  1 root  wheel    6236 Apr  4 06:19 spellfile.vim
+-rw-r--r--  1 root  wheel   39188 Apr  4 06:19 sqlcomplete.vim
+-rw-r--r--  1 root  wheel   31270 Apr  4 06:19 syntaxcomplete.vim
+-rw-r--r--  1 root  wheel   23073 Apr  4 06:19 tar.vim
+-rw-r--r--  1 root  wheel   32451 Apr  4 06:19 tohtml.vim
+-rw-r--r--  1 root  wheel   24331 Apr  4 06:19 vimball.vim
+drwxr-xr-x  2 root  wheel      15 Apr 16 02:01 xml
+-rw-r--r--  1 root  wheel   14939 Apr  4 06:19 xmlcomplete.vim
+-rw-r--r--  1 root  wheel    3324 Apr  4 06:19 xmlformat.vim
+-rw-r--r--  1 root  wheel   14639 Apr  4 06:19 zip.vim
+
+/jm/defaults/usr/local/share/vim/vim81/autoload/dist:
+total 25
+-rw-r--r--  1 root  wheel  19195 Apr  4 06:19 ft.vim
+
+/jm/defaults/usr/local/share/vim/vim81/autoload/xml:
+total 197
+-rw-r--r--  1 root  wheel  18330 Apr  4 06:19 html32.vim
+-rw-r--r--  1 root  wheel  54122 Apr  4 06:19 html401f.vim
+-rw-r--r--  1 root  wheel  41538 Apr  4 06:19 html401s.vim
+-rw-r--r--  1 root  wheel  53691 Apr  4 06:19 html401t.vim
+-rw-r--r--  1 root  wheel  54029 Apr  4 06:19 html40f.vim
+-rw-r--r--  1 root  wheel  41445 Apr  4 06:19 html40s.vim
+-rw-r--r--  1 root  wheel  53597 Apr  4 06:19 html40t.vim
+-rw-r--r--  1 root  wheel  56052 Apr  4 06:19 xhtml10f.vim
+-rw-r--r--  1 root  wheel  43963 Apr  4 06:19 xhtml10s.vim
+-rw-r--r--  1 root  wheel  56328 Apr  4 06:19 xhtml10t.vim
+-rw-r--r--  1 root  wheel  48149 Apr  4 06:19 xhtml11.vim
+-rw-r--r--  1 root  wheel   5111 Apr  4 06:19 xsd.vim
+-rw-r--r--  1 root  wheel   4679 Apr  4 06:19 xsl.vim
+
+/jm/defaults/usr/local/share/vim/vim81/colors:
+total 172
+-rw-r--r--  1 root  wheel  2476 Apr  4 06:19 blue.vim
+-rw-r--r--  1 root  wheel  2990 Apr  4 06:19 darkblue.vim
+-rw-r--r--  1 root  wheel   548 Apr  4 06:19 default.vim
+-rw-r--r--  1 root  wheel  2522 Apr  4 06:19 delek.vim
+-rw-r--r--  1 root  wheel  2812 Apr  4 06:19 desert.vim
+-rw-r--r--  1 root  wheel  1666 Apr  4 06:19 elflord.vim
+-rw-r--r--  1 root  wheel  2452 Apr  4 06:19 evening.vim
+-rw-r--r--  1 root  wheel  1958 Apr  4 06:19 industry.vim
+-rw-r--r--  1 root  wheel  3555 Apr  4 06:19 koehler.vim
+-rw-r--r--  1 root  wheel  2460 Apr  4 06:19 morning.vim
+-rw-r--r--  1 root  wheel  2006 Apr  4 06:19 murphy.vim
+-rw-r--r--  1 root  wheel  1037 Apr  4 06:19 pablo.vim
+-rw-r--r--  1 root  wheel  2673 Apr  4 06:19 peachpuff.vim
+-rw-r--r--  1 root  wheel  3274 Apr  4 06:19 README.txt
+-rw-r--r--  1 root  wheel  1393 Apr  4 06:19 ron.vim
+-rw-r--r--  1 root  wheel  2720 Apr  4 06:19 shine.vim
+-rw-r--r--  1 root  wheel  2445 Apr  4 06:19 slate.vim
+drwxr-xr-x  2 root  wheel     3 Apr 16 02:01 tools
+-rw-r--r--  1 root  wheel  1629 Apr  4 06:19 torte.vim
+-rw-r--r--  1 root  wheel  1840 Apr  4 06:19 zellner.vim
+
+/jm/defaults/usr/local/share/vim/vim81/colors/tools:
+total 9
+-rw-r--r--  1 root  wheel  4353 Apr  4 06:19 check_colors.vim
+
+/jm/defaults/usr/local/share/vim/vim81/compiler:
+total 594
+-rw-r--r--  1 root  wheel   941 Apr  4 06:19 ant.vim
+-rw-r--r--  1 root  wheel   449 Apr  4 06:19 bcc.vim
+-rw-r--r--  1 root  wheel   473 Apr  4 06:19 bdf.vim
+-rw-r--r--  1 root  wheel   885 Apr  4 06:19 cargo.vim
+-rw-r--r--  1 root  wheel   588 Apr  4 06:19 checkstyle.vim
+-rw-r--r--  1 root  wheel  1917 Apr  4 06:19 context.vim
+-rw-r--r--  1 root  wheel   626 Apr  4 06:19 cs.vim
+-rw-r--r--  1 root  wheel   542 Apr  4 06:19 csslint.vim
+-rw-r--r--  1 root  wheel   561 Apr  4 06:19 cucumber.vim
+-rw-r--r--  1 root  wheel  1946 Apr  4 06:19 decada.vim
+-rw-r--r--  1 root  wheel   372 Apr  4 06:19 dot.vim
+-rw-r--r--  1 root  wheel   273 Apr  4 06:19 erlang.vim
+-rw-r--r--  1 root  wheel   913 Apr  4 06:19 eruby.vim
+-rw-r--r--  1 root  wheel   747 Apr  4 06:19 fortran_cv.vim
+-rw-r--r--  1 root  wheel   802 Apr  4 06:19 fortran_elf90.vim
+-rw-r--r--  1 root  wheel   702 Apr  4 06:19 fortran_F.vim
+-rw-r--r--  1 root  wheel  1149 Apr  4 06:19 fortran_g77.vim
+-rw-r--r--  1 root  wheel   683 Apr  4 06:19 fortran_lf95.vim
+-rw-r--r--  1 root  wheel   453 Apr  4 06:19 fpc.vim
+-rw-r--r--  1 root  wheel   677 Apr  4 06:19 g95.vim
+-rw-r--r--  1 root  wheel  1225 Apr  4 06:19 gcc.vim
+-rw-r--r--  1 root  wheel   671 Apr  4 06:19 gfortran.vim
+-rw-r--r--  1 root  wheel   541 Apr  4 06:19 ghc.vim
+-rw-r--r--  1 root  wheel  2418 Apr  4 06:19 gnat.vim
+-rw-r--r--  1 root  wheel   526 Apr  4 06:19 go.vim
+-rw-r--r--  1 root  wheel   551 Apr  4 06:19 haml.vim
+-rw-r--r--  1 root  wheel  1052 Apr  4 06:19 hp_acc.vim
+-rw-r--r--  1 root  wheel   585 Apr  4 06:19 icc.vim
+-rw-r--r--  1 root  wheel   690 Apr  4 06:19 ifort.vim
+-rw-r--r--  1 root  wheel   595 Apr  4 06:19 intel.vim
+-rw-r--r--  1 root  wheel   662 Apr  4 06:19 irix5_c.vim
+-rw-r--r--  1 root  wheel   671 Apr  4 06:19 irix5_cpp.vim
+-rw-r--r--  1 root  wheel   399 Apr  4 06:19 javac.vim
+-rw-r--r--  1 root  wheel   520 Apr  4 06:19 jikes.vim
+-rw-r--r--  1 root  wheel   864 Apr  4 06:19 mcs.vim
+-rw-r--r--  1 root  wheel   691 Apr  4 06:19 mips_c.vim
+-rw-r--r--  1 root  wheel   721 Apr  4 06:19 mipspro_c89.vim
+-rw-r--r--  1 root  wheel   701 Apr  4 06:19 mipspro_cpp.vim
+-rw-r--r--  1 root  wheel   799 Apr  4 06:19 modelsim_vcom.vim
+-rw-r--r--  1 root  wheel   529 Apr  4 06:19 msbuild.vim
+-rw-r--r--  1 root  wheel   293 Apr  4 06:19 msvc.vim
+-rw-r--r--  1 root  wheel   378 Apr  4 06:19 neato.vim
+-rw-r--r--  1 root  wheel  1328 Apr  4 06:19 ocaml.vim
+-rw-r--r--  1 root  wheel   503 Apr  4 06:19 onsgmls.vim
+-rw-r--r--  1 root  wheel   469 Apr  4 06:19 pbx.vim
+-rw-r--r--  1 root  wheel  1209 Apr  4 06:19 perl.vim
+-rw-r--r--  1 root  wheel   707 Apr  4 06:19 php.vim
+-rw-r--r--  1 root  wheel   546 Apr  4 06:19 pylint.vim
+-rw-r--r--  1 root  wheel   407 Apr  4 06:19 pyunit.vim
+-rw-r--r--  1 root  wheel  1065 Apr  4 06:19 rake.vim
+-rw-r--r--  1 root  wheel   437 Apr  4 06:19 README.txt
+-rw-r--r--  1 root  wheel   825 Apr  4 06:19 rspec.vim
+-rw-r--r--  1 root  wheel   846 Apr  4 06:19 rst.vim
+-rw-r--r--  1 root  wheel  1017 Apr  4 06:19 ruby.vim
+-rw-r--r--  1 root  wheel   826 Apr  4 06:19 rubyunit.vim
+-rw-r--r--  1 root  wheel  1070 Apr  4 06:19 rustc.vim
+-rw-r--r--  1 root  wheel   590 Apr  4 06:19 sass.vim
+-rw-r--r--  1 root  wheel   742 Apr  4 06:19 se.vim
+-rw-r--r--  1 root  wheel  2269 Apr  4 06:19 splint.vim
+-rw-r--r--  1 root  wheel   870 Apr  4 06:19 stack.vim
+-rw-r--r--  1 root  wheel   414 Apr  4 06:19 tcl.vim
+-rw-r--r--  1 root  wheel  1756 Apr  4 06:19 tex.vim
+-rw-r--r--  1 root  wheel   568 Apr  4 06:19 tidy.vim
+-rw-r--r--  1 root  wheel   509 Apr  4 06:19 xbuild.vim
+-rw-r--r--  1 root  wheel   561 Apr  4 06:19 xmllint.vim
+-rw-r--r--  1 root  wheel   454 Apr  4 06:19 xmlwf.vim
+
+/jm/defaults/usr/local/share/vim/vim81/doc:
+total 8362
+-rw-r--r--  1 root  wheel   11941 Apr  4 06:19 arabic.txt
+-rw-r--r--  1 root  wheel   67025 Apr  4 06:19 autocmd.txt
+-rw-r--r--  1 root  wheel   77986 Apr  4 06:19 change.txt
+-rw-r--r--  1 root  wheel   33647 Apr  4 06:19 channel.txt
+-rw-r--r--  1 root  wheel   48591 Apr  4 06:19 cmdline.txt
+-rw-r--r--  1 root  wheel    7187 Apr  4 06:19 debug.txt
+-rw-r--r--  1 root  wheel    5749 Apr  4 06:19 debugger.txt
+-rw-r--r--  1 root  wheel   22753 Apr  4 06:19 develop.txt
+-rw-r--r--  1 root  wheel   16819 Apr  4 06:19 diff.txt
+-rw-r--r--  1 root  wheel   61920 Apr  4 06:19 digraph.txt
+-rw-r--r--  1 root  wheel   73183 Apr  4 06:19 editing.txt
+-rw-r--r--  1 root  wheel  489586 Apr  4 06:19 eval.txt
+-rw-r--r--  1 root  wheel     564 Apr  4 06:19 farsi.txt
+-rw-r--r--  1 root  wheel   26780 Apr  4 06:19 filetype.txt
+-rw-r--r--  1 root  wheel   23699 Apr  4 06:19 fold.txt
+-rw-r--r--  1 root  wheel   18246 Apr  4 06:19 ft_ada.txt
+-rw-r--r--  1 root  wheel    9596 Apr  4 06:19 ft_rust.txt
+-rw-r--r--  1 root  wheel   30699 Apr  4 06:19 ft_sql.txt
+-rw-r--r--  1 root  wheel   18921 Apr  4 06:19 gui_w32.txt
+-rw-r--r--  1 root  wheel   29815 Apr  4 06:19 gui_x11.txt
+-rw-r--r--  1 root  wheel   46384 Apr  4 06:19 gui.txt
+-rw-r--r--  1 root  wheel    3296 Apr  4 06:19 hangulin.txt
+-rw-r--r--  1 root  wheel    5719 Apr  4 06:19 hebrew.txt
+-rw-r--r--  1 root  wheel    8819 Apr  4 06:19 help.txt
+-rw-r--r--  1 root  wheel   14343 Apr  4 06:19 helphelp.txt
+-rw-r--r--  1 root  wheel    2916 Apr  4 06:19 howto.txt
+-rw-r--r--  1 root  wheel   19366 Apr  4 06:19 if_cscop.txt
+-rw-r--r--  1 root  wheel   15712 Apr  4 06:19 if_lua.txt
+-rw-r--r--  1 root  wheel   11828 Apr  4 06:19 if_mzsch.txt
+-rw-r--r--  1 root  wheel    7410 Apr  4 06:19 if_ole.txt
+-rw-r--r--  1 root  wheel   11309 Apr  4 06:19 if_perl.txt
+-rw-r--r--  1 root  wheel   38382 Apr  4 06:19 if_pyth.txt
+-rw-r--r--  1 root  wheel    8569 Apr  4 06:19 if_ruby.txt
+-rw-r--r--  1 root  wheel     271 Apr  4 06:19 if_sniff.txt
+-rw-r--r--  1 root  wheel   23031 Apr  4 06:19 if_tcl.txt
+-rw-r--r--  1 root  wheel   40836 Apr  4 06:19 indent.txt
+-rw-r--r--  1 root  wheel   78692 Apr  4 06:19 index.txt
+-rw-r--r--  1 root  wheel   83437 Apr  4 06:19 insert.txt
+-rw-r--r--  1 root  wheel   39206 Apr  4 06:19 intro.txt
+-rw-r--r--  1 root  wheel   64986 Apr  4 06:19 map.txt
+-rw-r--r--  1 root  wheel   58899 Apr  4 06:19 mbyte.txt
+-rw-r--r--  1 root  wheel   30914 Apr  4 06:19 message.txt
+-rw-r--r--  1 root  wheel    7908 Apr  4 06:19 mlang.txt
+-rw-r--r--  1 root  wheel   51681 Apr  4 06:19 motion.txt
+-rw-r--r--  1 root  wheel   37614 Apr  4 06:19 netbeans.txt
+-rw-r--r--  1 root  wheel  392790 Apr  4 06:19 options.txt
+-rw-r--r--  1 root  wheel    4750 Apr  4 06:19 os_390.txt
+-rw-r--r--  1 root  wheel    5466 Apr  4 06:19 os_amiga.txt
+-rw-r--r--  1 root  wheel   10988 Apr  4 06:19 os_beos.txt
+-rw-r--r--  1 root  wheel   12026 Apr  4 06:19 os_dos.txt
+-rw-r--r--  1 root  wheel    6856 Apr  4 06:19 os_mac.txt
+-rw-r--r--  1 root  wheel    1407 Apr  4 06:19 os_mint.txt
+-rw-r--r--  1 root  wheel     523 Apr  4 06:19 os_msdos.txt
+-rw-r--r--  1 root  wheel     299 Apr  4 06:19 os_os2.txt
+-rw-r--r--  1 root  wheel    4071 Apr  4 06:19 os_qnx.txt
+-rw-r--r--  1 root  wheel     328 Apr  4 06:19 os_risc.txt
+-rw-r--r--  1 root  wheel    2600 Apr  4 06:19 os_unix.txt
+-rw-r--r--  1 root  wheel   32551 Apr  4 06:19 os_vms.txt
+-rw-r--r--  1 root  wheel   13352 Apr  4 06:19 os_win32.txt
+-rw-r--r--  1 root  wheel   59869 Apr  4 06:19 pattern.txt
+-rw-r--r--  1 root  wheel   21083 Apr  4 06:19 pi_getscript.txt
+-rw-r--r--  1 root  wheel    1326 Apr  4 06:19 pi_gzip.txt
+-rw-r--r--  1 root  wheel    4191 Apr  4 06:19 pi_logipat.txt
+-rw-r--r--  1 root  wheel  175555 Apr  4 06:19 pi_netrw.txt
+-rw-r--r--  1 root  wheel    2274 Apr  4 06:19 pi_paren.txt
+-rw-r--r--  1 root  wheel    4127 Apr  4 06:19 pi_spec.txt
+-rw-r--r--  1 root  wheel    6662 Apr  4 06:19 pi_tar.txt
+-rw-r--r--  1 root  wheel   11858 Apr  4 06:19 pi_vimball.txt
+-rw-r--r--  1 root  wheel    7040 Apr  4 06:19 pi_zip.txt
+-rw-r--r--  1 root  wheel   31226 Apr  4 06:19 print.txt
+-rw-r--r--  1 root  wheel   75740 Apr  4 06:19 quickfix.txt
+-rw-r--r--  1 root  wheel   71364 Apr  4 06:19 quickref.txt
+-rw-r--r--  1 root  wheel   12748 Apr  4 06:19 quotes.txt
+-rw-r--r--  1 root  wheel   10808 Apr  4 06:19 recover.txt
+-rw-r--r--  1 root  wheel    8459 Apr  4 06:19 remote.txt
+-rw-r--r--  1 root  wheel   40469 Apr  4 06:19 repeat.txt
+-rw-r--r--  1 root  wheel    4981 Apr  4 06:19 rileft.txt
+-rw-r--r--  1 root  wheel    3024 Apr  4 06:19 russian.txt
+-rw-r--r--  1 root  wheel   14160 Apr  4 06:19 scroll.txt
+-rw-r--r--  1 root  wheel   12167 Apr  4 06:19 sign.txt
+-rw-r--r--  1 root  wheel   63246 Apr  4 06:19 spell.txt
+-rw-r--r--  1 root  wheel    7203 Apr  4 06:19 sponsor.txt
+-rw-r--r--  1 root  wheel   73757 Apr  4 06:19 starting.txt
+-rw-r--r--  1 root  wheel  219974 Apr  4 06:19 syntax.txt
+-rw-r--r--  1 root  wheel   16952 Apr  4 06:19 tabpage.txt
+-rw-r--r--  1 root  wheel  335883 Apr  4 06:19 tags
+-rw-r--r--  1 root  wheel   37189 Apr  4 06:19 tagsrch.txt
+-rw-r--r--  1 root  wheel   46148 Apr  4 06:19 term.txt
+-rw-r--r--  1 root  wheel   37523 Apr  4 06:19 terminal.txt
+-rw-r--r--  1 root  wheel    5113 Apr  4 06:19 textprop.txt
+-rw-r--r--  1 root  wheel   20278 Apr  4 06:19 tips.txt
+-rw-r--r--  1 root  wheel  307992 Apr  4 06:19 todo.txt
+-rw-r--r--  1 root  wheel   14029 Apr  4 06:19 uganda.txt
+-rw-r--r--  1 root  wheel   16856 Apr  4 06:19 undo.txt
+-rw-r--r--  1 root  wheel    7095 Apr  4 06:19 usr_01.txt
+-rw-r--r--  1 root  wheel   24344 Apr  4 06:19 usr_02.txt
+-rw-r--r--  1 root  wheel   23610 Apr  4 06:19 usr_03.txt
+-rw-r--r--  1 root  wheel   19087 Apr  4 06:19 usr_04.txt
+-rw-r--r--  1 root  wheel   27058 Apr  4 06:19 usr_05.txt
+-rw-r--r--  1 root  wheel    9592 Apr  4 06:19 usr_06.txt
+-rw-r--r--  1 root  wheel   15989 Apr  4 06:19 usr_07.txt
+-rw-r--r--  1 root  wheel   19379 Apr  4 06:19 usr_08.txt
+-rw-r--r--  1 root  wheel   11502 Apr  4 06:19 usr_09.txt
+-rw-r--r--  1 root  wheel   29185 Apr  4 06:19 usr_10.txt
+-rw-r--r--  1 root  wheel   12674 Apr  4 06:19 usr_11.txt
+-rw-r--r--  1 root  wheel   13429 Apr  4 06:19 usr_12.txt
+-rw-r--r--  1 root  wheel   13708 Apr  4 06:19 usr_20.txt
+-rw-r--r--  1 root  wheel   18378 Apr  4 06:19 usr_21.txt
+-rw-r--r--  1 root  wheel   14302 Apr  4 06:19 usr_22.txt
+-rw-r--r--  1 root  wheel   12705 Apr  4 06:19 usr_23.txt
+-rw-r--r--  1 root  wheel   20874 Apr  4 06:19 usr_24.txt
+-rw-r--r--  1 root  wheel   19119 Apr  4 06:19 usr_25.txt
+-rw-r--r--  1 root  wheel    8259 Apr  4 06:19 usr_26.txt
+-rw-r--r--  1 root  wheel   17728 Apr  4 06:19 usr_27.txt
+-rw-r--r--  1 root  wheel   16020 Apr  4 06:19 usr_28.txt
+-rw-r--r--  1 root  wheel   20121 Apr  4 06:19 usr_29.txt
+-rw-r--r--  1 root  wheel   22661 Apr  4 06:19 usr_30.txt
+-rw-r--r--  1 root  wheel   10399 Apr  4 06:19 usr_31.txt
+-rw-r--r--  1 root  wheel    5378 Apr  4 06:19 usr_32.txt
+-rw-r--r--  1 root  wheel   23189 Apr  4 06:19 usr_40.txt
+-rw-r--r--  1 root  wheel   91283 Apr  4 06:19 usr_41.txt
+-rw-r--r--  1 root  wheel   13854 Apr  4 06:19 usr_42.txt
+-rw-r--r--  1 root  wheel    7409 Apr  4 06:19 usr_43.txt
+-rw-r--r--  1 root  wheel   29216 Apr  4 06:19 usr_44.txt
+-rw-r--r--  1 root  wheel   17650 Apr  4 06:19 usr_45.txt
+-rw-r--r--  1 root  wheel   17666 Apr  4 06:19 usr_90.txt
+-rw-r--r--  1 root  wheel    9223 Apr  4 06:19 usr_toc.txt
+-rw-r--r--  1 root  wheel   29807 Apr  4 06:19 various.txt
+-rw-r--r--  1 root  wheel   13911 Apr  4 06:19 version4.txt
+-rw-r--r--  1 root  wheel  308541 Apr  4 06:19 version5.txt
+-rw-r--r--  1 root  wheel  577055 Apr  4 06:19 version6.txt
+-rw-r--r--  1 root  wheel  674772 Apr  4 06:19 version7.txt
+-rw-r--r--  1 root  wheel  985833 Apr  4 06:19 version8.txt
+-rw-r--r--  1 root  wheel   42817 Apr  4 06:19 vi_diff.txt
+-rwxr-xr-x  1 root  wheel    4517 Apr  4 06:19 vim2html.pl
+-rw-r--r--  1 root  wheel   21874 Apr  4 06:19 visual.txt
+-rw-r--r--  1 root  wheel   53559 Apr  4 06:19 windows.txt
+-rw-r--r--  1 root  wheel     371 Apr  4 06:19 workshop.txt
+
+/jm/defaults/usr/local/share/vim/vim81/ftplugin:
+total 2027
+-rw-r--r--  1 root  wheel    733 Apr  4 06:19 8th.vim
+-rw-r--r--  1 root  wheel    470 Apr  4 06:19 a2ps.vim
+-rw-r--r--  1 root  wheel    716 Apr  4 06:19 aap.vim
+-rw-r--r--  1 root  wheel    800 Apr  4 06:19 abap.vim
+-rw-r--r--  1 root  wheel   3391 Apr  4 06:19 abaqus.vim
+-rw-r--r--  1 root  wheel   6408 Apr  4 06:19 ada.vim
+-rw-r--r--  1 root  wheel    438 Apr  4 06:19 alsaconf.vim
+-rw-r--r--  1 root  wheel   1341 Apr  4 06:19 ant.vim
+-rw-r--r--  1 root  wheel    431 Apr  4 06:19 arch.vim
+-rw-r--r--  1 root  wheel    410 Apr  4 06:19 art.vim
+-rw-r--r--  1 root  wheel   1916 Apr  4 06:19 aspvbs.vim
+-rw-r--r--  1 root  wheel    337 Apr  4 06:19 automake.vim
+-rw-r--r--  1 root  wheel    411 Apr  4 06:19 awk.vim
+-rw-r--r--  1 root  wheel    731 Apr  4 06:19 bash.vim
+-rw-r--r--  1 root  wheel    449 Apr  4 06:19 bdf.vim
+-rw-r--r--  1 root  wheel    333 Apr  4 06:19 bst.vim
+-rw-r--r--  1 root  wheel    316 Apr  4 06:19 btm.vim
+-rw-r--r--  1 root  wheel   3063 Apr  4 06:19 bzl.vim
+-rw-r--r--  1 root  wheel   1967 Apr  4 06:19 c.vim
+-rw-r--r--  1 root  wheel    462 Apr  4 06:19 calendar.vim
+-rw-r--r--  1 root  wheel    383 Apr  4 06:19 cdrdaoconf.vim
+-rw-r--r--  1 root  wheel    388 Apr  4 06:19 cfg.vim
+-rw-r--r--  1 root  wheel    472 Apr  4 06:19 ch.vim
+-rw-r--r--  1 root  wheel   8891 Apr  4 06:19 changelog.vim
+-rw-r--r--  1 root  wheel   1663 Apr  4 06:19 chicken.vim
+-rw-r--r--  1 root  wheel   3833 Apr  4 06:19 clojure.vim
+-rw-r--r--  1 root  wheel    867 Apr  4 06:19 cmake.vim
+-rw-r--r--  1 root  wheel   9535 Apr  4 06:19 cobol.vim
+-rw-r--r--  1 root  wheel    434 Apr  4 06:19 conf.vim
+-rw-r--r--  1 root  wheel   1274 Apr  4 06:19 config.vim
+-rw-r--r--  1 root  wheel   4364 Apr  4 06:19 context.vim
+-rw-r--r--  1 root  wheel    288 Apr  4 06:19 cpp.vim
+-rw-r--r--  1 root  wheel    414 Apr  4 06:19 crm.vim
+-rw-r--r--  1 root  wheel    802 Apr  4 06:19 cs.vim
+-rw-r--r--  1 root  wheel    734 Apr  4 06:19 csc.vim
+-rw-r--r--  1 root  wheel   1633 Apr  4 06:19 csh.vim
+-rw-r--r--  1 root  wheel    528 Apr  4 06:19 css.vim
+-rw-r--r--  1 root  wheel   5115 Apr  4 06:19 cucumber.vim
+-rw-r--r--  1 root  wheel    399 Apr  4 06:19 cvsrc.vim
+-rw-r--r--  1 root  wheel  11445 Apr  4 06:19 debchangelog.vim
+-rw-r--r--  1 root  wheel   1845 Apr  4 06:19 debcontrol.vim
+-rw-r--r--  1 root  wheel    383 Apr  4 06:19 denyhosts.vim
+-rw-r--r--  1 root  wheel    434 Apr  4 06:19 dictconf.vim
+-rw-r--r--  1 root  wheel    435 Apr  4 06:19 dictdconf.vim
+-rw-r--r--  1 root  wheel    355 Apr  4 06:19 diff.vim
+-rw-r--r--  1 root  wheel    431 Apr  4 06:19 dircolors.vim
+-rw-r--r--  1 root  wheel    530 Apr  4 06:19 docbk.vim
+-rw-r--r--  1 root  wheel    356 Apr  4 06:19 dockerfile.vim
+-rw-r--r--  1 root  wheel    777 Apr  4 06:19 dosbatch.vim
+-rw-r--r--  1 root  wheel    458 Apr  4 06:19 dosini.vim
+-rw-r--r--  1 root  wheel   1123 Apr  4 06:19 dtd.vim
+-rw-r--r--  1 root  wheel   1151 Apr  4 06:19 dtrace.vim
+-rw-r--r--  1 root  wheel   4088 Apr  4 06:19 eiffel.vim
+-rw-r--r--  1 root  wheel    436 Apr  4 06:19 elinks.vim
+-rw-r--r--  1 root  wheel   1811 Apr  4 06:19 erlang.vim
+-rw-r--r--  1 root  wheel   4711 Apr  4 06:19 eruby.vim
+-rw-r--r--  1 root  wheel    470 Apr  4 06:19 eterm.vim
+-rw-r--r--  1 root  wheel   1344 Apr  4 06:19 falcon.vim
+-rw-r--r--  1 root  wheel    428 Apr  4 06:19 fetchmail.vim
+-rw-r--r--  1 root  wheel   1876 Apr  4 06:19 flexwiki.vim
+-rw-r--r--  1 root  wheel   4692 Apr  4 06:19 fortran.vim
+-rw-r--r--  1 root  wheel    780 Apr  4 06:19 framescript.vim
+-rw-r--r--  1 root  wheel    390 Apr  4 06:19 fvwm.vim
+-rw-r--r--  1 root  wheel    293 Apr  4 06:19 gdb.vim
+-rw-r--r--  1 root  wheel   1350 Apr  4 06:19 git.vim
+-rw-r--r--  1 root  wheel   2236 Apr  4 06:19 gitcommit.vim
+-rw-r--r--  1 root  wheel    376 Apr  4 06:19 gitconfig.vim
+-rw-r--r--  1 root  wheel   1458 Apr  4 06:19 gitrebase.vim
+-rw-r--r--  1 root  wheel    157 Apr  4 06:19 gitsendemail.vim
+-rw-r--r--  1 root  wheel    365 Apr  4 06:19 go.vim
+-rw-r--r--  1 root  wheel    433 Apr  4 06:19 gpg.vim
+-rw-r--r--  1 root  wheel    939 Apr  4 06:19 gprof.vim
+-rw-r--r--  1 root  wheel    343 Apr  4 06:19 groovy.vim
+-rw-r--r--  1 root  wheel    425 Apr  4 06:19 group.vim
+-rw-r--r--  1 root  wheel    434 Apr  4 06:19 grub.vim
+-rw-r--r--  1 root  wheel   1887 Apr  4 06:19 haml.vim
+-rw-r--r--  1 root  wheel   1920 Apr  4 06:19 hamster.vim
+-rw-r--r--  1 root  wheel    551 Apr  4 06:19 haskell.vim
+-rw-r--r--  1 root  wheel    471 Apr  4 06:19 help.vim
+-rw-r--r--  1 root  wheel    363 Apr  4 06:19 hgcommit.vim
+-rw-r--r--  1 root  wheel   1394 Apr  4 06:19 hog.vim
+-rw-r--r--  1 root  wheel    383 Apr  4 06:19 hostconf.vim
+-rw-r--r--  1 root  wheel    436 Apr  4 06:19 hostsaccess.vim
+-rw-r--r--  1 root  wheel   1625 Apr  4 06:19 html.vim
+-rw-r--r--  1 root  wheel    331 Apr  4 06:19 htmldjango.vim
+-rw-r--r--  1 root  wheel    454 Apr  4 06:19 indent.vim
+-rw-r--r--  1 root  wheel   1005 Apr  4 06:19 initex.vim
+-rw-r--r--  1 root  wheel   1264 Apr  4 06:19 ishd.vim
+-rw-r--r--  1 root  wheel   3394 Apr  4 06:19 j.vim
+-rw-r--r--  1 root  wheel   1686 Apr  4 06:19 java.vim
+-rw-r--r--  1 root  wheel   1047 Apr  4 06:19 javascript.vim
+-rw-r--r--  1 root  wheel    321 Apr  4 06:19 jproperties.vim
+-rw-r--r--  1 root  wheel    360 Apr  4 06:19 json.vim
+-rw-r--r--  1 root  wheel   2011 Apr  4 06:19 jsp.vim
+-rw-r--r--  1 root  wheel    703 Apr  4 06:19 kconfig.vim
+-rw-r--r--  1 root  wheel    851 Apr  4 06:19 kwt.vim
+-rw-r--r--  1 root  wheel    470 Apr  4 06:19 ld.vim
+-rw-r--r--  1 root  wheel    502 Apr  4 06:19 less.vim
+-rw-r--r--  1 root  wheel    434 Apr  4 06:19 lftp.vim
+-rw-r--r--  1 root  wheel    440 Apr  4 06:19 libao.vim
+-rw-r--r--  1 root  wheel    436 Apr  4 06:19 limits.vim
+-rw-r--r--  1 root  wheel   1897 Apr  4 06:19 liquid.vim
+-rw-r--r--  1 root  wheel    769 Apr  4 06:19 lisp.vim
+-rw-r--r--  1 root  wheel    453 Apr  4 06:19 logcheck.vim
+-rw-r--r--  1 root  wheel    442 Apr  4 06:19 loginaccess.vim
+-rw-r--r--  1 root  wheel    440 Apr  4 06:19 logindefs.vim
+-rw-r--r--  1 root  wheel   3096 Apr  4 06:19 logtalk.dict
+-rw-r--r--  1 root  wheel    416 Apr  4 06:19 logtalk.vim
+-rw-r--r--  1 root  wheel   1279 Apr  4 06:19 lprolog.vim
+-rw-r--r--  1 root  wheel    973 Apr  4 06:19 lua.vim
+-rw-r--r--  1 root  wheel    426 Apr  4 06:19 m4.vim
+-rw-r--r--  1 root  wheel   1107 Apr  4 06:19 mail.vim
+-rw-r--r--  1 root  wheel    383 Apr  4 06:19 mailaliases.vim
+-rw-r--r--  1 root  wheel    434 Apr  4 06:19 mailcap.vim
+-rw-r--r--  1 root  wheel    935 Apr  4 06:19 make.vim
+-rw-r--r--  1 root  wheel   6275 Apr  4 06:19 man.vim
+-rw-r--r--  1 root  wheel    444 Apr  4 06:19 manconf.vim
+-rw-r--r--  1 root  wheel   1177 Apr  4 06:19 markdown.vim
+-rw-r--r--  1 root  wheel    754 Apr  4 06:19 matlab.vim
+-rw-r--r--  1 root  wheel   3249 Apr  4 06:19 mf.vim
+-rw-r--r--  1 root  wheel    366 Apr  4 06:19 mma.vim
+-rw-r--r--  1 root  wheel    477 Apr  4 06:19 modconf.vim
+-rw-r--r--  1 root  wheel   3712 Apr  4 06:19 mp.vim
+-rw-r--r--  1 root  wheel    472 Apr  4 06:19 mplayerconf.vim
+-rw-r--r--  1 root  wheel    798 Apr  4 06:19 mrxvtrc.vim
+-rw-r--r--  1 root  wheel   1141 Apr  4 06:19 msmessages.vim
+-rw-r--r--  1 root  wheel    467 Apr  4 06:19 muttrc.vim
+-rw-r--r--  1 root  wheel    447 Apr  4 06:19 nanorc.vim
+-rw-r--r--  1 root  wheel    532 Apr  4 06:19 neomuttrc.vim
+-rw-r--r--  1 root  wheel    428 Apr  4 06:19 netrc.vim
+-rw-r--r--  1 root  wheel   1323 Apr  4 06:19 nsis.vim
+-rw-r--r--  1 root  wheel    296 Apr  4 06:19 objc.vim
+-rw-r--r--  1 root  wheel  23041 Apr  4 06:19 ocaml.vim
+-rw-r--r--  1 root  wheel   1297 Apr  4 06:19 occam.vim
+-rw-r--r--  1 root  wheel    433 Apr  4 06:19 pamconf.vim
+-rw-r--r--  1 root  wheel    667 Apr  4 06:19 pascal.vim
+-rw-r--r--  1 root  wheel    424 Apr  4 06:19 passwd.vim
+-rw-r--r--  1 root  wheel   2613 Apr  4 06:19 pdf.vim
+-rw-r--r--  1 root  wheel   2850 Apr  4 06:19 perl.vim
+-rw-r--r--  1 root  wheel   2529 Apr  4 06:19 perl6.vim
+-rw-r--r--  1 root  wheel   2813 Apr  4 06:19 php.vim
+-rw-r--r--  1 root  wheel    435 Apr  4 06:19 pinfo.vim
+-rw-r--r--  1 root  wheel   1150 Apr  4 06:19 plaintex.vim
+-rw-r--r--  1 root  wheel   1006 Apr  4 06:19 postscr.vim
+-rw-r--r--  1 root  wheel    479 Apr  4 06:19 procmail.vim
+-rw-r--r--  1 root  wheel    440 Apr  4 06:19 prolog.vim
+-rw-r--r--  1 root  wheel    457 Apr  4 06:19 protocols.vim
+-rw-r--r--  1 root  wheel    766 Apr  4 06:19 pyrex.vim
+-rw-r--r--  1 root  wheel   8115 Apr  4 06:19 python.vim
+-rw-r--r--  1 root  wheel    459 Apr  4 06:19 qf.vim
+-rw-r--r--  1 root  wheel    439 Apr  4 06:19 quake.vim
+-rw-r--r--  1 root  wheel    858 Apr  4 06:19 r.vim
+-rw-r--r--  1 root  wheel    449 Apr  4 06:19 racc.vim
+-rw-r--r--  1 root  wheel    438 Apr  4 06:19 readline.vim
+-rw-r--r--  1 root  wheel    869 Apr  4 06:19 README.txt
+-rw-r--r--  1 root  wheel    740 Apr  4 06:19 registry.vim
+-rw-r--r--  1 root  wheel    709 Apr  4 06:19 reva.vim
+-rw-r--r--  1 root  wheel    738 Apr  4 06:19 rhelp.vim
+-rw-r--r--  1 root  wheel   1810 Apr  4 06:19 rmd.vim
+-rw-r--r--  1 root  wheel    431 Apr  4 06:19 rnc.vim
+-rw-r--r--  1 root  wheel   1037 Apr  4 06:19 rnoweb.vim
+-rw-r--r--  1 root  wheel    620 Apr  4 06:19 rpl.vim
+-rw-r--r--  1 root  wheel   1574 Apr  4 06:19 rrst.vim
+-rw-r--r--  1 root  wheel   1373 Apr  4 06:19 rst.vim
+-rw-r--r--  1 root  wheel  17091 Apr  4 06:19 ruby.vim
+-rw-r--r--  1 root  wheel   6574 Apr  4 06:19 rust.vim
+-rw-r--r--  1 root  wheel    607 Apr  4 06:19 sass.vim
+-rw-r--r--  1 root  wheel    347 Apr  4 06:19 sbt.vim
+-rw-r--r--  1 root  wheel   1151 Apr  4 06:19 scala.vim
+-rw-r--r--  1 root  wheel   1394 Apr  4 06:19 scheme.vim
+-rw-r--r--  1 root  wheel    436 Apr  4 06:19 screen.vim
+-rw-r--r--  1 root  wheel    239 Apr  4 06:19 scss.vim
+-rw-r--r--  1 root  wheel    455 Apr  4 06:19 sensors.vim
+-rw-r--r--  1 root  wheel    452 Apr  4 06:19 services.vim
+-rw-r--r--  1 root  wheel    439 Apr  4 06:19 setserial.vim
+-rw-r--r--  1 root  wheel   1210 Apr  4 06:19 sgml.vim
+-rw-r--r--  1 root  wheel   1202 Apr  4 06:19 sh.vim
+-rw-r--r--  1 root  wheel    469 Apr  4 06:19 sieve.vim
+-rw-r--r--  1 root  wheel    477 Apr  4 06:19 slpconf.vim
+-rw-r--r--  1 root  wheel    476 Apr  4 06:19 slpreg.vim
+-rw-r--r--  1 root  wheel    467 Apr  4 06:19 slpspi.vim
+-rw-r--r--  1 root  wheel   5850 Apr  4 06:19 spec.vim
+-rw-r--r--  1 root  wheel  21615 Apr  4 06:19 sql.vim
+-rw-r--r--  1 root  wheel    441 Apr  4 06:19 sshconfig.vim
+-rw-r--r--  1 root  wheel    438 Apr  4 06:19 sudoers.vim
+-rw-r--r--  1 root  wheel   1200 Apr  4 06:19 svg.vim
+-rw-r--r--  1 root  wheel    453 Apr  4 06:19 sysctl.vim
+-rw-r--r--  1 root  wheel    158 Apr  4 06:19 systemd.vim
+-rw-r--r--  1 root  wheel    239 Apr  4 06:19 systemverilog.vim
+-rw-r--r--  1 root  wheel   1002 Apr  4 06:19 tcl.vim
+-rw-r--r--  1 root  wheel   1207 Apr  4 06:19 tcsh.vim
+-rw-r--r--  1 root  wheel    430 Apr  4 06:19 terminfo.vim
+-rw-r--r--  1 root  wheel   1641 Apr  4 06:19 tex.vim
+-rw-r--r--  1 root  wheel    498 Apr  4 06:19 text.vim
+-rw-r--r--  1 root  wheel    292 Apr  4 06:19 tmux.vim
+-rw-r--r--  1 root  wheel    416 Apr  4 06:19 treetop.vim
+-rw-r--r--  1 root  wheel    434 Apr  4 06:19 tt2html.vim
+-rw-r--r--  1 root  wheel    434 Apr  4 06:19 udevconf.vim
+-rw-r--r--  1 root  wheel    432 Apr  4 06:19 udevperm.vim
+-rw-r--r--  1 root  wheel    426 Apr  4 06:19 udevrules.vim
+-rw-r--r--  1 root  wheel    443 Apr  4 06:19 updatedb.vim
+-rw-r--r--  1 root  wheel   1907 Apr  4 06:19 vb.vim
+-rw-r--r--  1 root  wheel   1977 Apr  4 06:19 verilog.vim
+-rw-r--r--  1 root  wheel   3497 Apr  4 06:19 vhdl.vim
+-rw-r--r--  1 root  wheel   3771 Apr  4 06:19 vim.vim
+-rw-r--r--  1 root  wheel    924 Apr  4 06:19 vroom.vim
+-rw-r--r--  1 root  wheel    470 Apr  4 06:19 wast.vim
+-rw-r--r--  1 root  wheel    481 Apr  4 06:19 xdefaults.vim
+-rw-r--r--  1 root  wheel    434 Apr  4 06:19 xf86conf.vim
+-rw-r--r--  1 root  wheel   2036 Apr  4 06:19 xhtml.vim
+-rw-r--r--  1 root  wheel    476 Apr  4 06:19 xinetd.vim
+-rw-r--r--  1 root  wheel   2249 Apr  4 06:19 xml.vim
+-rw-r--r--  1 root  wheel    434 Apr  4 06:19 xmodmap.vim
+-rw-r--r--  1 root  wheel    465 Apr  4 06:19 xs.vim
+-rw-r--r--  1 root  wheel   1171 Apr  4 06:19 xsd.vim
+-rw-r--r--  1 root  wheel    539 Apr  4 06:19 xslt.vim
+-rw-r--r--  1 root  wheel    464 Apr  4 06:19 yaml.vim
+-rw-r--r--  1 root  wheel   5389 Apr  4 06:19 zimbu.vim
+-rw-r--r--  1 root  wheel    818 Apr  4 06:19 zsh.vim
+
+/jm/defaults/usr/local/share/vim/vim81/indent:
+total 1334
+-rw-r--r--  1 root  wheel    265 Apr  4 06:19 aap.vim
+-rw-r--r--  1 root  wheel  11235 Apr  4 06:19 ada.vim
+-rw-r--r--  1 root  wheel    290 Apr  4 06:19 ant.vim
+-rw-r--r--  1 root  wheel    243 Apr  4 06:19 automake.vim
+-rw-r--r--  1 root  wheel   7775 Apr  4 06:19 awk.vim
+-rw-r--r--  1 root  wheel    346 Apr  4 06:19 bib.vim
+-rw-r--r--  1 root  wheel   1937 Apr  4 06:19 bst.vim
+-rw-r--r--  1 root  wheel   2484 Apr  4 06:19 bzl.vim
+-rw-r--r--  1 root  wheel    325 Apr  4 06:19 c.vim
+-rw-r--r--  1 root  wheel   4253 Apr  4 06:19 cdl.vim
+-rw-r--r--  1 root  wheel    470 Apr  4 06:19 ch.vim
+-rw-r--r--  1 root  wheel   1138 Apr  4 06:19 chaiscript.vim
+-rw-r--r--  1 root  wheel    264 Apr  4 06:19 changelog.vim
+-rw-r--r--  1 root  wheel  10440 Apr  4 06:19 clojure.vim
+-rw-r--r--  1 root  wheel   2683 Apr  4 06:19 cmake.vim
+-rw-r--r--  1 root  wheel   8695 Apr  4 06:19 cobol.vim
+-rw-r--r--  1 root  wheel   2182 Apr  4 06:19 config.vim
+-rw-r--r--  1 root  wheel    752 Apr  4 06:19 context.vim
+-rw-r--r--  1 root  wheel    329 Apr  4 06:19 cpp.vim
+-rw-r--r--  1 root  wheel   1756 Apr  4 06:19 cs.vim
+-rw-r--r--  1 root  wheel   1790 Apr  4 06:19 css.vim
+-rw-r--r--  1 root  wheel   2678 Apr  4 06:19 cucumber.vim
+-rw-r--r--  1 root  wheel    305 Apr  4 06:19 cuda.vim
+-rw-r--r--  1 root  wheel    510 Apr  4 06:19 d.vim
+-rw-r--r--  1 root  wheel    337 Apr  4 06:19 dictconf.vim
+-rw-r--r--  1 root  wheel    338 Apr  4 06:19 dictdconf.vim
+-rw-r--r--  1 root  wheel    336 Apr  4 06:19 docbk.vim
+-rw-r--r--  1 root  wheel   1335 Apr  4 06:19 dosbatch.vim
+-rw-r--r--  1 root  wheel  11869 Apr  4 06:19 dtd.vim
+-rw-r--r--  1 root  wheel    451 Apr  4 06:19 dtrace.vim
+-rw-r--r--  1 root  wheel   2707 Apr  4 06:19 dylan.vim
+-rw-r--r--  1 root  wheel   3317 Apr  4 06:19 eiffel.vim
+-rw-r--r--  1 root  wheel  46379 Apr  4 06:19 erlang.vim
+-rw-r--r--  1 root  wheel   3016 Apr  4 06:19 eruby.vim
+-rw-r--r--  1 root  wheel    668 Apr  4 06:19 eterm.vim
+-rw-r--r--  1 root  wheel  14077 Apr  4 06:19 falcon.vim
+-rw-r--r--  1 root  wheel   7445 Apr  4 06:19 fortran.vim
+-rw-r--r--  1 root  wheel    816 Apr  4 06:19 framescript.vim
+-rw-r--r--  1 root  wheel    841 Apr  4 06:19 gitconfig.vim
+-rw-r--r--  1 root  wheel   1277 Apr  4 06:19 gitolite.vim
+-rw-r--r--  1 root  wheel   1673 Apr  4 06:19 go.vim
+-rw-r--r--  1 root  wheel   2211 Apr  4 06:19 haml.vim
+-rw-r--r--  1 root  wheel   1425 Apr  4 06:19 hamster.vim
+-rw-r--r--  1 root  wheel   1892 Apr  4 06:19 hog.vim
+-rw-r--r--  1 root  wheel  33488 Apr  4 06:19 html.vim
+-rw-r--r--  1 root  wheel    273 Apr  4 06:19 htmldjango.vim
+-rw-r--r--  1 root  wheel   1620 Apr  4 06:19 idlang.vim
+-rw-r--r--  1 root  wheel   1877 Apr  4 06:19 ishd.vim
+-rw-r--r--  1 root  wheel   1813 Apr  4 06:19 j.vim
+-rw-r--r--  1 root  wheel   4287 Apr  4 06:19 java.vim
+-rw-r--r--  1 root  wheel  15362 Apr  4 06:19 javascript.vim
+-rw-r--r--  1 root  wheel   4421 Apr  4 06:19 json.vim
+-rw-r--r--  1 root  wheel    462 Apr  4 06:19 jsp.vim
+-rw-r--r--  1 root  wheel   1792 Apr  4 06:19 ld.vim
+-rw-r--r--  1 root  wheel    243 Apr  4 06:19 less.vim
+-rw-r--r--  1 root  wheel    637 Apr  4 06:19 lifelines.vim
+-rw-r--r--  1 root  wheel   1899 Apr  4 06:19 liquid.vim
+-rw-r--r--  1 root  wheel    353 Apr  4 06:19 lisp.vim
+-rw-r--r--  1 root  wheel   1859 Apr  4 06:19 logtalk.vim
+-rw-r--r--  1 root  wheel   1927 Apr  4 06:19 lua.vim
+-rw-r--r--  1 root  wheel    308 Apr  4 06:19 mail.vim
+-rw-r--r--  1 root  wheel   3488 Apr  4 06:19 make.vim
+-rw-r--r--  1 root  wheel   4802 Apr  4 06:19 matlab.vim
+-rw-r--r--  1 root  wheel    156 Apr  4 06:19 mf.vim
+-rw-r--r--  1 root  wheel   2236 Apr  4 06:19 mma.vim
+-rw-r--r--  1 root  wheel  11321 Apr  4 06:19 mp.vim
+-rw-r--r--  1 root  wheel   3257 Apr  4 06:19 nsis.vim
+-rw-r--r--  1 root  wheel   1645 Apr  4 06:19 objc.vim
+-rw-r--r--  1 root  wheel   9153 Apr  4 06:19 ocaml.vim
+-rw-r--r--  1 root  wheel   4637 Apr  4 06:19 occam.vim
+-rw-r--r--  1 root  wheel   5656 Apr  4 06:19 pascal.vim
+-rw-r--r--  1 root  wheel   5902 Apr  4 06:19 perl.vim
+-rw-r--r--  1 root  wheel   3540 Apr  4 06:19 perl6.vim
+-rw-r--r--  1 root  wheel  23914 Apr  4 06:19 php.vim
+-rw-r--r--  1 root  wheel   1649 Apr  4 06:19 postscr.vim
+-rw-r--r--  1 root  wheel   2662 Apr  4 06:19 pov.vim
+-rw-r--r--  1 root  wheel   1804 Apr  4 06:19 prolog.vim
+-rw-r--r--  1 root  wheel    326 Apr  4 06:19 pyrex.vim
+-rw-r--r--  1 root  wheel   6654 Apr  4 06:19 python.vim
+-rw-r--r--  1 root  wheel  14037 Apr  4 06:19 r.vim
+-rw-r--r--  1 root  wheel    285 Apr  4 06:19 raml.vim
+-rw-r--r--  1 root  wheel    711 Apr  4 06:19 readline.vim
+-rw-r--r--  1 root  wheel   1689 Apr  4 06:19 README.txt
+-rw-r--r--  1 root  wheel   2840 Apr  4 06:19 rhelp.vim
+-rw-r--r--  1 root  wheel   1671 Apr  4 06:19 rmd.vim
+-rw-r--r--  1 root  wheel   1087 Apr  4 06:19 rnoweb.vim
+-rw-r--r--  1 root  wheel   1862 Apr  4 06:19 rpl.vim
+-rw-r--r--  1 root  wheel   1195 Apr  4 06:19 rrst.vim
+-rw-r--r--  1 root  wheel   1399 Apr  4 06:19 rst.vim
+-rw-r--r--  1 root  wheel  29597 Apr  4 06:19 ruby.vim
+-rw-r--r--  1 root  wheel   6498 Apr  4 06:19 rust.vim
+-rw-r--r--  1 root  wheel   5270 Apr  4 06:19 sas.vim
+-rw-r--r--  1 root  wheel    950 Apr  4 06:19 sass.vim
+-rw-r--r--  1 root  wheel  19430 Apr  4 06:19 scala.vim
+-rw-r--r--  1 root  wheel    372 Apr  4 06:19 scheme.vim
+-rw-r--r--  1 root  wheel    191 Apr  4 06:19 scss.vim
+-rw-r--r--  1 root  wheel   2794 Apr  4 06:19 sdl.vim
+-rw-r--r--  1 root  wheel   8060 Apr  4 06:19 sh.vim
+-rw-r--r--  1 root  wheel   6478 Apr  4 06:19 sml.vim
+-rw-r--r--  1 root  wheel   1204 Apr  4 06:19 sql.vim
+-rw-r--r--  1 root  wheel  13166 Apr  4 06:19 sqlanywhere.vim
+-rw-r--r--  1 root  wheel    205 Apr  4 06:19 systemd.vim
+-rw-r--r--  1 root  wheel   8577 Apr  4 06:19 systemverilog.vim
+-rw-r--r--  1 root  wheel   2510 Apr  4 06:19 tcl.vim
+-rw-r--r--  1 root  wheel   1270 Apr  4 06:19 tcsh.vim
+-rw-r--r--  1 root  wheel   1365 Apr  4 06:19 teraterm.vim
+-rw-r--r--  1 root  wheel  13498 Apr  4 06:19 tex.vim
+-rw-r--r--  1 root  wheel   1549 Apr  4 06:19 tf.vim
+-rw-r--r--  1 root  wheel   1012 Apr  4 06:19 tilde.vim
+-rw-r--r--  1 root  wheel    707 Apr  4 06:19 treetop.vim
+-rw-r--r--  1 root  wheel   2089 Apr  4 06:19 vb.vim
+-rw-r--r--  1 root  wheel   8165 Apr  4 06:19 verilog.vim
+-rw-r--r--  1 root  wheel  14666 Apr  4 06:19 vhdl.vim
+-rw-r--r--  1 root  wheel   3085 Apr  4 06:19 vim.vim
+-rw-r--r--  1 root  wheel    379 Apr  4 06:19 vroom.vim
+-rw-r--r--  1 root  wheel    458 Apr  4 06:19 wast.vim
+-rw-r--r--  1 root  wheel    709 Apr  4 06:19 xf86conf.vim
+-rw-r--r--  1 root  wheel    269 Apr  4 06:19 xhtml.vim
+-rw-r--r--  1 root  wheel   1231 Apr  4 06:19 xinetd.vim
+-rw-r--r--  1 root  wheel   5845 Apr  4 06:19 xml.vim
+-rw-r--r--  1 root  wheel    253 Apr  4 06:19 xsd.vim
+-rw-r--r--  1 root  wheel    297 Apr  4 06:19 xslt.vim
+-rw-r--r--  1 root  wheel    781 Apr  4 06:19 yacc.vim
+-rw-r--r--  1 root  wheel   5472 Apr  4 06:19 yaml.vim
+-rw-r--r--  1 root  wheel   3936 Apr  4 06:19 zimbu.vim
+-rw-r--r--  1 root  wheel    411 Apr  4 06:19 zsh.vim
+
+/jm/defaults/usr/local/share/vim/vim81/keymap:
+total 668
+-rw-r--r--  1 root  wheel    649 Apr  4 06:19 accents.vim
+-rw-r--r--  1 root  wheel   3387 Apr  4 06:19 arabic_utf-8.vim
+-rw-r--r--  1 root  wheel    109 Apr  4 06:19 arabic.vim
+-rw-r--r--  1 root  wheel    893 Apr  4 06:19 armenian-eastern_utf-8.vim
+-rw-r--r--  1 root  wheel    893 Apr  4 06:19 armenian-western_utf-8.vim
+-rw-r--r--  1 root  wheel   2518 Apr  4 06:19 belarusian-jcuken.vim
+-rw-r--r--  1 root  wheel   6501 Apr  4 06:19 bulgarian-bds.vim
+-rw-r--r--  1 root  wheel   5806 Apr  4 06:19 bulgarian-phonetic.vim
+-rw-r--r--  1 root  wheel   1166 Apr  4 06:19 canfr-win.vim
+-rw-r--r--  1 root  wheel    552 Apr  4 06:19 croatian_cp1250.vim
+-rw-r--r--  1 root  wheel    705 Apr  4 06:19 croatian_iso-8859-2.vim
+-rw-r--r--  1 root  wheel    610 Apr  4 06:19 croatian_utf-8.vim
+-rw-r--r--  1 root  wheel    340 Apr  4 06:19 croatian.vim
+-rw-r--r--  1 root  wheel    564 Apr  4 06:19 czech_utf-8.vim
+-rw-r--r--  1 root  wheel     35 Apr  4 06:19 czech.vim
+-rw-r--r--  1 root  wheel    507 Apr  4 06:19 dvorak.vim
+-rw-r--r--  1 root  wheel   2399 Apr  4 06:19 esperanto_utf-8.vim
+-rw-r--r--  1 root  wheel     39 Apr  4 06:19 esperanto.vim
+-rw-r--r--  1 root  wheel   2204 Apr  4 06:19 greek_cp1253.vim
+-rw-r--r--  1 root  wheel   1955 Apr  4 06:19 greek_cp737.vim
+-rw-r--r--  1 root  wheel   2132 Apr  4 06:19 greek_iso-8859-7.vim
+-rw-r--r--  1 root  wheel  26297 Apr  4 06:19 greek_utf-8.vim
+-rw-r--r--  1 root  wheel    234 Apr  4 06:19 greek.vim
+-rw-r--r--  1 root  wheel   1741 Apr  4 06:19 hebrew_cp1255.vim
+-rw-r--r--  1 root  wheel   1006 Apr  4 06:19 hebrew_iso-8859-8.vim
+-rw-r--r--  1 root  wheel   3816 Apr  4 06:19 hebrew_utf-8.vim
+-rw-r--r--  1 root  wheel    322 Apr  4 06:19 hebrew.vim
+-rw-r--r--  1 root  wheel   1571 Apr  4 06:19 hebrewp_cp1255.vim
+-rw-r--r--  1 root  wheel    797 Apr  4 06:19 hebrewp_iso-8859-8.vim
+-rw-r--r--  1 root  wheel   3635 Apr  4 06:19 hebrewp_utf-8.vim
+-rw-r--r--  1 root  wheel    325 Apr  4 06:19 hebrewp.vim
+-rw-r--r--  1 root  wheel   9015 Apr  4 06:19 kana.vim
+-rw-r--r--  1 root  wheel   3265 Apr  4 06:19 kazakh-jcuken.vim
+-rw-r--r--  1 root  wheel    963 Apr  4 06:19 lithuanian-baltic.vim
+-rw-r--r--  1 root  wheel    326 Apr  4 06:19 magyar_utf-8.vim
+-rw-r--r--  1 root  wheel   2562 Apr  4 06:19 mongolian_utf-8.vim
+-rw-r--r--  1 root  wheel   5802 Apr  4 06:19 oldturkic-orkhon_utf-8.vim
+-rw-r--r--  1 root  wheel   4743 Apr  4 06:19 oldturkic-yenisei_utf-8.vim
+-rw-r--r--  1 root  wheel    752 Apr  4 06:19 persian-iranian_utf-8.vim
+-rw-r--r--  1 root  wheel    144 Apr  4 06:19 persian.vim
+-rw-r--r--  1 root  wheel    539 Apr  4 06:19 pinyin.vim
+-rw-r--r--  1 root  wheel   1372 Apr  4 06:19 polish-slash_cp1250.vim
+-rw-r--r--  1 root  wheel   1371 Apr  4 06:19 polish-slash_cp852.vim
+-rw-r--r--  1 root  wheel   1372 Apr  4 06:19 polish-slash_iso-8859-2.vim
+-rw-r--r--  1 root  wheel   1425 Apr  4 06:19 polish-slash_utf-8.vim
+-rw-r--r--  1 root  wheel    709 Apr  4 06:19 polish-slash.vim
+-rw-r--r--  1 root  wheel    955 Apr  4 06:19 README.txt
+-rw-r--r--  1 root  wheel   2594 Apr  4 06:19 russian-dvorak.vim
+-rw-r--r--  1 root  wheel   2535 Apr  4 06:19 russian-jcuken.vim
+-rw-r--r--  1 root  wheel   2813 Apr  4 06:19 russian-jcukenmac.vim
+-rw-r--r--  1 root  wheel   2588 Apr  4 06:19 russian-jcukenwin.vim
+-rw-r--r--  1 root  wheel   2773 Apr  4 06:19 russian-jcukenwintype.vim
+-rw-r--r--  1 root  wheel   2463 Apr  4 06:19 russian-yawerty.vim
+-rw-r--r--  1 root  wheel    451 Apr  4 06:19 serbian_cp1250.vim
+-rw-r--r--  1 root  wheel    654 Apr  4 06:19 serbian_cp1251.vim
+-rw-r--r--  1 root  wheel    473 Apr  4 06:19 serbian_iso-8859-2.vim
+-rw-r--r--  1 root  wheel    660 Apr  4 06:19 serbian_iso-8859-5.vim
+-rw-r--r--  1 root  wheel    793 Apr  4 06:19 serbian_utf-8.vim
+-rw-r--r--  1 root  wheel    556 Apr  4 06:19 serbian-latin_utf-8.vim
+-rw-r--r--  1 root  wheel     43 Apr  4 06:19 serbian-latin.vim
+-rw-r--r--  1 root  wheel    467 Apr  4 06:19 serbian.vim
+-rw-r--r--  1 root  wheel   4673 Apr  4 06:19 sinhala-phonetic_utf-8.vim
+-rw-r--r--  1 root  wheel     90 Apr  4 06:19 sinhala.vim
+-rw-r--r--  1 root  wheel    760 Apr  4 06:19 slovak_cp1250.vim
+-rw-r--r--  1 root  wheel    760 Apr  4 06:19 slovak_iso-8859-2.vim
+-rw-r--r--  1 root  wheel    812 Apr  4 06:19 slovak_utf-8.vim
+-rw-r--r--  1 root  wheel    322 Apr  4 06:19 slovak.vim
+-rw-r--r--  1 root  wheel  14811 Apr  4 06:19 tamil_tscii.vim
+-rw-r--r--  1 root  wheel   2822 Apr  4 06:19 thaana-phonetic_utf-8.vim
+-rw-r--r--  1 root  wheel     71 Apr  4 06:19 thaana.vim
+-rw-r--r--  1 root  wheel   2740 Apr  4 06:19 ukrainian-dvorak.vim
+-rw-r--r--  1 root  wheel   2738 Apr  4 06:19 ukrainian-jcuken.vim
+-rw-r--r--  1 root  wheel   4005 Apr  4 06:19 vietnamese_viscii.vim
+-rw-r--r--  1 root  wheel   1357 Apr  4 06:19 vietnamese-telex_utf-8.vim
+-rw-r--r--  1 root  wheel   1247 Apr  4 06:19 vietnamese-viqr_utf-8.vim
+-rw-r--r--  1 root  wheel   1355 Apr  4 06:19 vietnamese-vni_utf-8.vim
+
+/jm/defaults/usr/local/share/vim/vim81/lang:
+total 0
+
+/jm/defaults/usr/local/share/vim/vim81/macros:
+total 85
+-rw-r--r--  1 root  wheel   124 Apr  4 06:19 editexisting.vim
+drwxr-xr-x  2 root  wheel     5 Apr 16 02:01 hanoi
+-rw-r--r--  1 root  wheel   109 Apr  4 06:19 justify.vim
+-rw-r--r--  1 root  wheel   288 Apr  4 06:19 less.bat
+-rwxr-xr-x  1 root  wheel   588 Apr  4 06:19 less.sh
+-rw-r--r--  1 root  wheel  5567 Apr  4 06:19 less.vim
+drwxr-xr-x  2 root  wheel     4 Apr 16 02:01 life
+-rw-r--r--  1 root  wheel   124 Apr  4 06:19 matchit.vim
+drwxr-xr-x  2 root  wheel    10 Apr 16 02:01 maze
+-rw-r--r--  1 root  wheel  1120 Apr  4 06:19 README.txt
+-rw-r--r--  1 root  wheel   115 Apr  4 06:19 shellmenu.vim
+-rw-r--r--  1 root  wheel   114 Apr  4 06:19 swapmous.vim
+drwxr-xr-x  2 root  wheel     6 Apr 16 02:01 urm
+
+/jm/defaults/usr/local/share/vim/vim81/macros/hanoi:
+total 27
+-rw-r--r--  1 root  wheel   255 Apr  4 06:19 click.me
+-rw-r--r--  1 root  wheel  1097 Apr  4 06:19 hanoi.vim
+-rw-r--r--  1 root  wheel  1259 Apr  4 06:19 poster
+
+/jm/defaults/usr/local/share/vim/vim81/macros/life:
+total 26
+-rw-r--r--  1 root  wheel   230 Apr  4 06:19 click.me
+-rw-r--r--  1 root  wheel  7548 Apr  4 06:19 life.vim
+
+/jm/defaults/usr/local/share/vim/vim81/macros/maze:
+total 72
+-rw-r--r--  1 root  wheel    111 Apr  4 06:19 Makefile
+-rw-r--r--  1 root  wheel    626 Apr  4 06:19 maze_5.78
+-rw-r--r--  1 root  wheel  12149 Apr  4 06:19 maze_mac
+-rw-r--r--  1 root  wheel    441 Apr  4 06:19 maze.c
+-rw-r--r--  1 root  wheel    441 Apr  4 06:19 mazeansi.c
+-rw-r--r--  1 root  wheel    594 Apr  4 06:19 mazeclean.c
+-rw-r--r--  1 root  wheel   1562 Apr  4 06:19 poster
+-rw-r--r--  1 root  wheel   1862 Apr  4 06:19 README.txt
+
+/jm/defaults/usr/local/share/vim/vim81/macros/urm:
+total 28
+-rw-r--r--  1 root  wheel  1092 Apr  4 06:19 examples
+-rw-r--r--  1 root  wheel  1580 Apr  4 06:19 README.txt
+-rw-r--r--  1 root  wheel   630 Apr  4 06:19 urm
+-rw-r--r--  1 root  wheel    96 Apr  4 06:19 urm.vim
+
+/jm/defaults/usr/local/share/vim/vim81/pack:
+total 1
+drwxr-xr-x  3 root  wheel  3 Apr 16 02:01 dist
+
+/jm/defaults/usr/local/share/vim/vim81/pack/dist:
+total 17
+drwxr-xr-x  10 root  wheel  10 Apr 16 02:01 opt
+
+/jm/defaults/usr/local/share/vim/vim81/pack/dist/opt:
+total 8
+drwxr-xr-x  3 root  wheel  3 Apr 16 02:01 cfilter
+drwxr-xr-x  4 root  wheel  4 Apr 16 02:01 dvorak
+drwxr-xr-x  3 root  wheel  3 Apr 16 02:01 editexisting
+drwxr-xr-x  3 root  wheel  3 Apr 16 02:01 justify
+drwxr-xr-x  5 root  wheel  5 Apr 16 02:01 matchit
+drwxr-xr-x  3 root  wheel  3 Apr 16 02:01 shellmenu
+drwxr-xr-x  3 root  wheel  3 Apr 16 02:01 swapmouse
+drwxr-xr-x  3 root  wheel  3 Apr 16 02:01 termdebug
+
+/jm/defaults/usr/local/share/vim/vim81/pack/dist/opt/cfilter:
+total 1
+drwxr-xr-x  2 root  wheel  3 Apr 16 02:01 plugin
+
+/jm/defaults/usr/local/share/vim/vim81/pack/dist/opt/cfilter/plugin:
+total 9
+-rw-r--r--  1 root  wheel  1929 Apr  4 06:19 cfilter.vim
+
+/jm/defaults/usr/local/share/vim/vim81/pack/dist/opt/dvorak:
+total 2
+drwxr-xr-x  2 root  wheel  4 Apr 16 02:01 dvorak
+drwxr-xr-x  2 root  wheel  3 Apr 16 02:01 plugin
+
+/jm/defaults/usr/local/share/vim/vim81/pack/dist/opt/dvorak/dvorak:
+total 18
+-rw-r--r--  1 root  wheel   677 Apr  4 06:19 disable.vim
+-rw-r--r--  1 root  wheel  1106 Apr  4 06:19 enable.vim
+
+/jm/defaults/usr/local/share/vim/vim81/pack/dist/opt/dvorak/plugin:
+total 9
+-rw-r--r--  1 root  wheel  513 Apr  4 06:19 dvorak.vim
+
+/jm/defaults/usr/local/share/vim/vim81/pack/dist/opt/editexisting:
+total 1
+drwxr-xr-x  2 root  wheel  3 Apr 16 02:01 plugin
+
+/jm/defaults/usr/local/share/vim/vim81/pack/dist/opt/editexisting/plugin:
+total 9
+-rw-r--r--  1 root  wheel  3550 Apr  4 06:19 editexisting.vim
+
+/jm/defaults/usr/local/share/vim/vim81/pack/dist/opt/justify:
+total 1
+drwxr-xr-x  2 root  wheel  3 Apr 16 02:01 plugin
+
+/jm/defaults/usr/local/share/vim/vim81/pack/dist/opt/justify/plugin:
+total 17
+-rw-r--r--  1 root  wheel  9160 Apr  4 06:19 justify.vim
+
+/jm/defaults/usr/local/share/vim/vim81/pack/dist/opt/matchit:
+total 3
+drwxr-xr-x  2 root  wheel  3 Apr 16 02:01 autoload
+drwxr-xr-x  2 root  wheel  4 Apr 16 02:01 doc
+drwxr-xr-x  2 root  wheel  3 Apr 16 02:01 plugin
+
+/jm/defaults/usr/local/share/vim/vim81/pack/dist/opt/matchit/autoload:
+total 33
+-rw-r--r--  1 root  wheel  28326 Apr  4 06:19 matchit.vim
+
+/jm/defaults/usr/local/share/vim/vim81/pack/dist/opt/matchit/doc:
+total 34
+-rw-r--r--  1 root  wheel  18480 Apr  4 06:19 matchit.txt
+-rw-r--r--  1 root  wheel   1961 Apr  4 06:19 tags
+
+/jm/defaults/usr/local/share/vim/vim81/pack/dist/opt/matchit/plugin:
+total 9
+-rw-r--r--  1 root  wheel  4378 Apr  4 06:19 matchit.vim
+
+/jm/defaults/usr/local/share/vim/vim81/pack/dist/opt/shellmenu:
+total 1
+drwxr-xr-x  2 root  wheel  3 Apr 16 02:01 plugin
+
+/jm/defaults/usr/local/share/vim/vim81/pack/dist/opt/shellmenu/plugin:
+total 9
+-rw-r--r--  1 root  wheel  3922 Apr  4 06:19 shellmenu.vim
+
+/jm/defaults/usr/local/share/vim/vim81/pack/dist/opt/swapmouse:
+total 1
+drwxr-xr-x  2 root  wheel  3 Apr 16 02:01 plugin
+
+/jm/defaults/usr/local/share/vim/vim81/pack/dist/opt/swapmouse/plugin:
+total 9
+-rw-r--r--  1 root  wheel  856 Apr  4 06:19 swapmouse.vim
+
+/jm/defaults/usr/local/share/vim/vim81/pack/dist/opt/termdebug:
+total 1
+drwxr-xr-x  2 root  wheel  3 Apr 16 02:01 plugin
+
+/jm/defaults/usr/local/share/vim/vim81/pack/dist/opt/termdebug/plugin:
+total 33
+-rw-r--r--  1 root  wheel  29987 Apr  4 06:19 termdebug.vim
+
+/jm/defaults/usr/local/share/vim/vim81/plugin:
+total 149
+-rw-r--r--  1 root  wheel   1393 Apr  4 06:19 getscriptPlugin.vim
+-rw-r--r--  1 root  wheel   2499 Apr  4 06:19 gzip.vim
+-rw-r--r--  1 root  wheel  10269 Apr  4 06:19 logiPat.vim
+-rw-r--r--  1 root  wheel    676 Apr  4 06:19 manpager.vim
+-rw-r--r--  1 root  wheel   7085 Apr  4 06:19 matchparen.vim
+-rw-r--r--  1 root  wheel  10440 Apr  4 06:19 netrwPlugin.vim
+-rw-r--r--  1 root  wheel    976 Apr  4 06:19 README.txt
+-rw-r--r--  1 root  wheel   1414 Apr  4 06:19 rrhelper.vim
+-rw-r--r--  1 root  wheel    499 Apr  4 06:19 spellfile.vim
+-rw-r--r--  1 root  wheel   2271 Apr  4 06:19 tarPlugin.vim
+-rw-r--r--  1 root  wheel  10466 Apr  4 06:19 tohtml.vim
+-rw-r--r--  1 root  wheel   2898 Apr  4 06:19 vimballPlugin.vim
+-rw-r--r--  1 root  wheel   2510 Apr  4 06:19 zipPlugin.vim
+
+/jm/defaults/usr/local/share/vim/vim81/print:
+total 297
+-rw-r--r--  1 root  wheel   720 Apr  4 06:19 ascii.ps
+-rw-r--r--  1 root  wheel  1085 Apr  4 06:19 cidfont.ps
+-rw-r--r--  1 root  wheel   765 Apr  4 06:19 cns_roman.ps
+-rw-r--r--  1 root  wheel  2215 Apr  4 06:19 cp1250.ps
+-rw-r--r--  1 root  wheel  2382 Apr  4 06:19 cp1251.ps
+-rw-r--r--  1 root  wheel  2223 Apr  4 06:19 cp1252.ps
+-rw-r--r--  1 root  wheel  2169 Apr  4 06:19 cp1253.ps
+-rw-r--r--  1 root  wheel  2241 Apr  4 06:19 cp1254.ps
+-rw-r--r--  1 root  wheel  2137 Apr  4 06:19 cp1255.ps
+-rw-r--r--  1 root  wheel  2200 Apr  4 06:19 cp1257.ps
+-rw-r--r--  1 root  wheel  2191 Apr  4 06:19 dec-mcs.ps
+-rw-r--r--  1 root  wheel  2125 Apr  4 06:19 ebcdic-uk.ps
+-rw-r--r--  1 root  wheel   769 Apr  4 06:19 gb_roman.ps
+-rw-r--r--  1 root  wheel  2171 Apr  4 06:19 hp-roman8.ps
+-rw-r--r--  1 root  wheel  2128 Apr  4 06:19 iso-8859-10.ps
+-rw-r--r--  1 root  wheel  2130 Apr  4 06:19 iso-8859-11.ps
+-rw-r--r--  1 root  wheel  2186 Apr  4 06:19 iso-8859-13.ps
+-rw-r--r--  1 root  wheel  2189 Apr  4 06:19 iso-8859-14.ps
+-rw-r--r--  1 root  wheel  2176 Apr  4 06:19 iso-8859-15.ps
+-rw-r--r--  1 root  wheel  2156 Apr  4 06:19 iso-8859-2.ps
+-rw-r--r--  1 root  wheel  2231 Apr  4 06:19 iso-8859-3.ps
+-rw-r--r--  1 root  wheel  2132 Apr  4 06:19 iso-8859-4.ps
+-rw-r--r--  1 root  wheel  2315 Apr  4 06:19 iso-8859-5.ps
+-rw-r--r--  1 root  wheel  2141 Apr  4 06:19 iso-8859-7.ps
+-rw-r--r--  1 root  wheel  2111 Apr  4 06:19 iso-8859-8.ps
+-rw-r--r--  1 root  wheel  2218 Apr  4 06:19 iso-8859-9.ps
+-rw-r--r--  1 root  wheel   767 Apr  4 06:19 jis_roman.ps
+-rw-r--r--  1 root  wheel  2318 Apr  4 06:19 koi8-r.ps
+-rw-r--r--  1 root  wheel  2326 Apr  4 06:19 koi8-u.ps
+-rw-r--r--  1 root  wheel   765 Apr  4 06:19 ks_roman.ps
+-rw-r--r--  1 root  wheel  2192 Apr  4 06:19 latin1.ps
+-rw-r--r--  1 root  wheel  2220 Apr  4 06:19 mac-roman.ps
+-rw-r--r--  1 root  wheel  1976 Apr  4 06:19 prolog.ps
+
+/jm/defaults/usr/local/share/vim/vim81/spell:
+total 6108
+-rw-r--r--  1 root  wheel     463 Apr  4 06:19 check_locales.vim
+-rw-r--r--  1 root  wheel     934 Apr  4 06:19 cleanadd.vim
+-rw-r--r--  1 root  wheel  619043 Apr  4 06:19 en.ascii.spl
+-rw-r--r--  1 root  wheel  597210 Apr  4 06:19 en.ascii.sug
+-rw-r--r--  1 root  wheel  621179 Apr  4 06:19 en.latin1.spl
+-rw-r--r--  1 root  wheel  597971 Apr  4 06:19 en.latin1.sug
+-rw-r--r--  1 root  wheel  621617 Apr  4 06:19 en.utf-8.spl
+-rw-r--r--  1 root  wheel  597971 Apr  4 06:19 en.utf-8.sug
+-rw-r--r--  1 root  wheel     736 Apr  4 06:19 fixdup.vim
+-rw-r--r--  1 root  wheel     240 Apr  4 06:19 he.vim
+-rw-r--r--  1 root  wheel     118 Apr  4 06:19 spell.vim
+-rw-r--r--  1 root  wheel     241 Apr  4 06:19 yi.vim
+
+/jm/defaults/usr/local/share/vim/vim81/syntax:
+total 7722
+-rw-r--r--  1 root  wheel   71476 Apr  4 06:19 2html.vim
+-rw-r--r--  1 root  wheel   28688 Apr  4 06:19 8th.vim
+-rw-r--r--  1 root  wheel    2426 Apr  4 06:19 a2ps.vim
+-rw-r--r--  1 root  wheel    6394 Apr  4 06:19 a65.vim
+-rw-r--r--  1 root  wheel    5697 Apr  4 06:19 aap.vim
+-rw-r--r--  1 root  wheel    9154 Apr  4 06:19 abap.vim
+-rw-r--r--  1 root  wheel    1094 Apr  4 06:19 abaqus.vim
+-rw-r--r--  1 root  wheel    1842 Apr  4 06:19 abc.vim
+-rw-r--r--  1 root  wheel    5114 Apr  4 06:19 abel.vim
+-rw-r--r--  1 root  wheel    4871 Apr  4 06:19 acedb.vim
+-rw-r--r--  1 root  wheel   13050 Apr  4 06:19 ada.vim
+-rw-r--r--  1 root  wheel    4368 Apr  4 06:19 aflex.vim
+-rw-r--r--  1 root  wheel    2771 Apr  4 06:19 ahdl.vim
+-rw-r--r--  1 root  wheel    1546 Apr  4 06:19 alsaconf.vim
+-rw-r--r--  1 root  wheel    2967 Apr  4 06:19 amiga.vim
+-rw-r--r--  1 root  wheel   24137 Apr  4 06:19 aml.vim
+-rw-r--r--  1 root  wheel    4108 Apr  4 06:19 ampl.vim
+-rw-r--r--  1 root  wheel    5816 Apr  4 06:19 ant.vim
+-rw-r--r--  1 root  wheel    1793 Apr  4 06:19 antlr.vim
+-rw-r--r--  1 root  wheel   15181 Apr  4 06:19 apache.vim
+-rw-r--r--  1 root  wheel    1417 Apr  4 06:19 apachestyle.vim
+-rw-r--r--  1 root  wheel   22228 Apr  4 06:19 aptconf.vim
+-rw-r--r--  1 root  wheel    1149 Apr  4 06:19 arch.vim
+-rw-r--r--  1 root  wheel    2031 Apr  4 06:19 arduino.vim
+-rw-r--r--  1 root  wheel    1297 Apr  4 06:19 art.vim
+-rw-r--r--  1 root  wheel   10998 Apr  4 06:19 asciidoc.vim
+-rw-r--r--  1 root  wheel    4338 Apr  4 06:19 asm.vim
+-rw-r--r--  1 root  wheel   14280 Apr  4 06:19 asm68k.vim
+-rw-r--r--  1 root  wheel    1994 Apr  4 06:19 asmh8300.vim
+-rw-r--r--  1 root  wheel    2578 Apr  4 06:19 asn.vim
+-rw-r--r--  1 root  wheel     811 Apr  4 06:19 aspperl.vim
+-rw-r--r--  1 root  wheel    9099 Apr  4 06:19 aspvbs.vim
+-rw-r--r--  1 root  wheel    5524 Apr  4 06:19 asterisk.vim
+-rw-r--r--  1 root  wheel    2332 Apr  4 06:19 asteriskvm.vim
+-rw-r--r--  1 root  wheel    2602 Apr  4 06:19 atlas.vim
+-rw-r--r--  1 root  wheel    3730 Apr  4 06:19 autodoc.vim
+-rw-r--r--  1 root  wheel   11861 Apr  4 06:19 autohotkey.vim
+-rw-r--r--  1 root  wheel   48014 Apr  4 06:19 autoit.vim
+-rw-r--r--  1 root  wheel    3938 Apr  4 06:19 automake.vim
+-rw-r--r--  1 root  wheel    1900 Apr  4 06:19 ave.vim
+-rw-r--r--  1 root  wheel    2683 Apr  4 06:19 avra.vim
+-rw-r--r--  1 root  wheel    7839 Apr  4 06:19 awk.vim
+-rw-r--r--  1 root  wheel    2585 Apr  4 06:19 ayacc.vim
+-rw-r--r--  1 root  wheel    4902 Apr  4 06:19 b.vim
+-rw-r--r--  1 root  wheel   73595 Apr  4 06:19 baan.vim
+-rw-r--r--  1 root  wheel    8128 Apr  4 06:19 basic.vim
+-rw-r--r--  1 root  wheel    1791 Apr  4 06:19 bc.vim
+-rw-r--r--  1 root  wheel    3841 Apr  4 06:19 bdf.vim
+-rw-r--r--  1 root  wheel    6004 Apr  4 06:19 bib.vim
+-rw-r--r--  1 root  wheel    4826 Apr  4 06:19 bindzone.vim
+-rw-r--r--  1 root  wheel     794 Apr  4 06:19 blank.vim
+-rw-r--r--  1 root  wheel    2825 Apr  4 06:19 bst.vim
+-rw-r--r--  1 root  wheel    9285 Apr  4 06:19 btm.vim
+-rw-r--r--  1 root  wheel     374 Apr  4 06:19 bzl.vim
+-rw-r--r--  1 root  wheel    1560 Apr  4 06:19 bzr.vim
+-rw-r--r--  1 root  wheel   26459 Apr  4 06:19 c.vim
+-rw-r--r--  1 root  wheel    6805 Apr  4 06:19 cabal.vim
+-rw-r--r--  1 root  wheel    5042 Apr  4 06:19 calendar.vim
+-rw-r--r--  1 root  wheel     921 Apr  4 06:19 catalog.vim
+-rw-r--r--  1 root  wheel    3092 Apr  4 06:19 cdl.vim
+-rw-r--r--  1 root  wheel    3647 Apr  4 06:19 cdrdaoconf.vim
+-rw-r--r--  1 root  wheel   22756 Apr  4 06:19 cdrtoc.vim
+-rw-r--r--  1 root  wheel   18644 Apr  4 06:19 cf.vim
+-rw-r--r--  1 root  wheel    1351 Apr  4 06:19 cfg.vim
+-rw-r--r--  1 root  wheel     922 Apr  4 06:19 ch.vim
+-rw-r--r--  1 root  wheel    2887 Apr  4 06:19 chaiscript.vim
+-rw-r--r--  1 root  wheel     901 Apr  4 06:19 change.vim
+-rw-r--r--  1 root  wheel    2097 Apr  4 06:19 changelog.vim
+-rw-r--r--  1 root  wheel     333 Apr  4 06:19 chaskell.vim
+-rw-r--r--  1 root  wheel    1752 Apr  4 06:19 cheetah.vim
+-rw-r--r--  1 root  wheel    2618 Apr  4 06:19 chicken.vim
+-rw-r--r--  1 root  wheel    8024 Apr  4 06:19 chill.vim
+-rw-r--r--  1 root  wheel    2521 Apr  4 06:19 chordpro.vim
+-rw-r--r--  1 root  wheel    3905 Apr  4 06:19 cl.vim
+-rw-r--r--  1 root  wheel    3151 Apr  4 06:19 clean.vim
+-rw-r--r--  1 root  wheel    5576 Apr  4 06:19 clipper.vim
+-rw-r--r--  1 root  wheel   41933 Apr  4 06:19 clojure.vim
+-rw-r--r--  1 root  wheel   42148 Apr  4 06:19 cmake.vim
+-rw-r--r--  1 root  wheel    6271 Apr  4 06:19 cmod.vim
+-rw-r--r--  1 root  wheel   12921 Apr  4 06:19 cmusrc.vim
+-rw-r--r--  1 root  wheel   13592 Apr  4 06:19 cobol.vim
+-rw-r--r--  1 root  wheel    1300 Apr  4 06:19 coco.vim
+-rw-r--r--  1 root  wheel    3201 Apr  4 06:19 colortest.vim
+-rw-r--r--  1 root  wheel    8036 Apr  4 06:19 conaryrecipe.vim
+-rw-r--r--  1 root  wheel     799 Apr  4 06:19 conf.vim
+-rw-r--r--  1 root  wheel    2074 Apr  4 06:19 config.vim
+-rw-r--r--  1 root  wheel    6199 Apr  4 06:19 context.vim
+-rw-r--r--  1 root  wheel    2869 Apr  4 06:19 cpp.vim
+-rw-r--r--  1 root  wheel    1197 Apr  4 06:19 crm.vim
+-rw-r--r--  1 root  wheel    2215 Apr  4 06:19 crontab.vim
+-rw-r--r--  1 root  wheel    9908 Apr  4 06:19 cs.vim
+-rw-r--r--  1 root  wheel    8449 Apr  4 06:19 csc.vim
+-rw-r--r--  1 root  wheel   23755 Apr  4 06:19 csdl.vim
+-rw-r--r--  1 root  wheel    6459 Apr  4 06:19 csh.vim
+-rw-r--r--  1 root  wheel    7152 Apr  4 06:19 csp.vim
+-rw-r--r--  1 root  wheel   31941 Apr  4 06:19 css.vim
+-rw-r--r--  1 root  wheel    6406 Apr  4 06:19 cterm.vim
+-rw-r--r--  1 root  wheel     688 Apr  4 06:19 ctrlh.vim
+-rw-r--r--  1 root  wheel   31887 Apr  4 06:19 cucumber.vim
+-rw-r--r--  1 root  wheel    2691 Apr  4 06:19 cuda.vim
+-rw-r--r--  1 root  wheel    3873 Apr  4 06:19 cupl.vim
+-rw-r--r--  1 root  wheel    1916 Apr  4 06:19 cuplsim.vim
+-rw-r--r--  1 root  wheel     929 Apr  4 06:19 cvs.vim
+-rw-r--r--  1 root  wheel    1254 Apr  4 06:19 cvsrc.vim
+-rw-r--r--  1 root  wheel    2892 Apr  4 06:19 cweb.vim
+-rw-r--r--  1 root  wheel    2548 Apr  4 06:19 cynlib.vim
+-rw-r--r--  1 root  wheel    1263 Apr  4 06:19 cynpp.vim
+-rw-r--r--  1 root  wheel   28631 Apr  4 06:19 d.vim
+-rw-r--r--  1 root  wheel    3807 Apr  4 06:19 datascript.vim
+-rw-r--r--  1 root  wheel    1803 Apr  4 06:19 dcd.vim
+-rw-r--r--  1 root  wheel    6343 Apr  4 06:19 dcl.vim
+-rw-r--r--  1 root  wheel    2616 Apr  4 06:19 debchangelog.vim
+-rw-r--r--  1 root  wheel    8515 Apr  4 06:19 debcontrol.vim
+-rw-r--r--  1 root  wheel    1099 Apr  4 06:19 debcopyright.vim
+-rw-r--r--  1 root  wheel    2107 Apr  4 06:19 debsources.vim
+-rw-r--r--  1 root  wheel    1097 Apr  4 06:19 def.vim
+-rw-r--r--  1 root  wheel    7365 Apr  4 06:19 denyhosts.vim
+-rw-r--r--  1 root  wheel    3077 Apr  4 06:19 desc.vim
+-rw-r--r--  1 root  wheel    4144 Apr  4 06:19 desktop.vim
+-rw-r--r--  1 root  wheel    3118 Apr  4 06:19 dictconf.vim
+-rw-r--r--  1 root  wheel    6465 Apr  4 06:19 dictdconf.vim
+-rw-r--r--  1 root  wheel   17282 Apr  4 06:19 diff.vim
+-rw-r--r--  1 root  wheel    6946 Apr  4 06:19 dircolors.vim
+-rw-r--r--  1 root  wheel    1787 Apr  4 06:19 dirpager.vim
+-rw-r--r--  1 root  wheel    4736 Apr  4 06:19 diva.vim
+-rw-r--r--  1 root  wheel    3934 Apr  4 06:19 django.vim
+-rw-r--r--  1 root  wheel     132 Apr  4 06:19 dns.vim
+-rw-r--r--  1 root  wheel   10067 Apr  4 06:19 dnsmasq.vim
+-rw-r--r--  1 root  wheel   10321 Apr  4 06:19 docbk.vim
+-rw-r--r--  1 root  wheel     193 Apr  4 06:19 docbksgml.vim
+-rw-r--r--  1 root  wheel     191 Apr  4 06:19 docbkxml.vim
+-rw-r--r--  1 root  wheel     673 Apr  4 06:19 dockerfile.vim
+-rw-r--r--  1 root  wheel    6260 Apr  4 06:19 dosbatch.vim
+-rw-r--r--  1 root  wheel    1266 Apr  4 06:19 dosini.vim
+-rw-r--r--  1 root  wheel    3018 Apr  4 06:19 dot.vim
+-rw-r--r--  1 root  wheel   38642 Apr  4 06:19 doxygen.vim
+-rw-r--r--  1 root  wheel    2668 Apr  4 06:19 dracula.vim
+-rw-r--r--  1 root  wheel    1312 Apr  4 06:19 dsl.vim
+-rw-r--r--  1 root  wheel    4934 Apr  4 06:19 dtd.vim
+-rw-r--r--  1 root  wheel   16613 Apr  4 06:19 dtml.vim
+-rw-r--r--  1 root  wheel    6442 Apr  4 06:19 dtrace.vim
+-rw-r--r--  1 root  wheel    1210 Apr  4 06:19 dts.vim
+-rw-r--r--  1 root  wheel    3414 Apr  4 06:19 dylan.vim
+-rw-r--r--  1 root  wheel    1078 Apr  4 06:19 dylanintr.vim
+-rw-r--r--  1 root  wheel     664 Apr  4 06:19 dylanlid.vim
+-rw-r--r--  1 root  wheel    1229 Apr  4 06:19 ecd.vim
+-rw-r--r--  1 root  wheel    1278 Apr  4 06:19 edif.vim
+-rw-r--r--  1 root  wheel    6926 Apr  4 06:19 eiffel.vim
+-rw-r--r--  1 root  wheel    2348 Apr  4 06:19 elf.vim
+-rw-r--r--  1 root  wheel   10494 Apr  4 06:19 elinks.vim
+-rw-r--r--  1 root  wheel    2892 Apr  4 06:19 elmfilt.vim
+-rw-r--r--  1 root  wheel   10911 Apr  4 06:19 erlang.vim
+-rw-r--r--  1 root  wheel    3299 Apr  4 06:19 eruby.vim
+-rw-r--r--  1 root  wheel     938 Apr  4 06:19 esmtprc.vim
+-rw-r--r--  1 root  wheel    2094 Apr  4 06:19 esqlc.vim
+-rw-r--r--  1 root  wheel    3053 Apr  4 06:19 esterel.vim
+-rw-r--r--  1 root  wheel   19172 Apr  4 06:19 eterm.vim
+-rw-r--r--  1 root  wheel    6103 Apr  4 06:19 euphoria3.vim
+-rw-r--r--  1 root  wheel   14537 Apr  4 06:19 euphoria4.vim
+-rw-r--r--  1 root  wheel    5004 Apr  4 06:19 eviews.vim
+-rw-r--r--  1 root  wheel   18085 Apr  4 06:19 exim.vim
+-rw-r--r--  1 root  wheel    3734 Apr  4 06:19 expect.vim
+-rw-r--r--  1 root  wheel    1747 Apr  4 06:19 exports.vim
+-rw-r--r--  1 root  wheel   12013 Apr  4 06:19 falcon.vim
+-rw-r--r--  1 root  wheel    5445 Apr  4 06:19 fan.vim
+-rw-r--r--  1 root  wheel    8757 Apr  4 06:19 fasm.vim
+-rw-r--r--  1 root  wheel    5648 Apr  4 06:19 fdcc.vim
+-rw-r--r--  1 root  wheel    3308 Apr  4 06:19 fetchmail.vim
+-rw-r--r--  1 root  wheel    7274 Apr  4 06:19 fgl.vim
+-rw-r--r--  1 root  wheel    5435 Apr  4 06:19 flexwiki.vim
+-rw-r--r--  1 root  wheel    3525 Apr  4 06:19 focexec.vim
+-rw-r--r--  1 root  wheel    6385 Apr  4 06:19 form.vim
+-rw-r--r--  1 root  wheel   10669 Apr  4 06:19 forth.vim
+-rw-r--r--  1 root  wheel   32566 Apr  4 06:19 fortran.vim
+-rw-r--r--  1 root  wheel   32856 Apr  4 06:19 foxpro.vim
+-rw-r--r--  1 root  wheel   11679 Apr  4 06:19 framescript.vim
+-rw-r--r--  1 root  wheel   10512 Apr  4 06:19 freebasic.vim
+-rw-r--r--  1 root  wheel   15858 Apr  4 06:19 fstab.vim
+-rw-r--r--  1 root  wheel   25026 Apr  4 06:19 fvwm.vim
+-rw-r--r--  1 root  wheel     711 Apr  4 06:19 fvwm2m4.vim
+-rw-r--r--  1 root  wheel    4366 Apr  4 06:19 gdb.vim
+-rw-r--r--  1 root  wheel    3299 Apr  4 06:19 gdmo.vim
+-rw-r--r--  1 root  wheel    2275 Apr  4 06:19 gedcom.vim
+-rw-r--r--  1 root  wheel    4156 Apr  4 06:19 git.vim
+-rw-r--r--  1 root  wheel    4867 Apr  4 06:19 gitcommit.vim
+-rw-r--r--  1 root  wheel    1616 Apr  4 06:19 gitconfig.vim
+-rw-r--r--  1 root  wheel    4454 Apr  4 06:19 gitolite.vim
+-rw-r--r--  1 root  wheel    1852 Apr  4 06:19 gitrebase.vim
+-rw-r--r--  1 root  wheel     580 Apr  4 06:19 gitsendemail.vim
+-rw-r--r--  1 root  wheel    4116 Apr  4 06:19 gkrellmrc.vim
+-rw-r--r--  1 root  wheel    3462 Apr  4 06:19 gnash.vim
+-rw-r--r--  1 root  wheel   23663 Apr  4 06:19 gnuplot.vim
+-rw-r--r--  1 root  wheel    7904 Apr  4 06:19 go.vim
+-rw-r--r--  1 root  wheel     352 Apr  4 06:19 godoc.vim
+-rw-r--r--  1 root  wheel    2965 Apr  4 06:19 gp.vim
+-rw-r--r--  1 root  wheel    5591 Apr  4 06:19 gpg.vim
+-rw-r--r--  1 root  wheel    2117 Apr  4 06:19 gprof.vim
+-rw-r--r--  1 root  wheel    1742 Apr  4 06:19 grads.vim
+-rw-r--r--  1 root  wheel    3730 Apr  4 06:19 gretl.vim
+-rw-r--r--  1 root  wheel     292 Apr  4 06:19 groff.vim
+-rw-r--r--  1 root  wheel   22290 Apr  4 06:19 groovy.vim
+-rw-r--r--  1 root  wheel    1719 Apr  4 06:19 group.vim
+-rw-r--r--  1 root  wheel    3882 Apr  4 06:19 grub.vim
+-rw-r--r--  1 root  wheel    2031 Apr  4 06:19 gsp.vim
+-rw-r--r--  1 root  wheel    9318 Apr  4 06:19 gtkrc.vim
+-rw-r--r--  1 root  wheel    7067 Apr  4 06:19 haml.vim
+-rw-r--r--  1 root  wheel   13840 Apr  4 06:19 hamster.vim
+-rw-r--r--  1 root  wheel    8907 Apr  4 06:19 haskell.vim
+-rw-r--r--  1 root  wheel    4994 Apr  4 06:19 haste.vim
+-rw-r--r--  1 root  wheel    1422 Apr  4 06:19 hastepreproc.vim
+-rw-r--r--  1 root  wheel    3158 Apr  4 06:19 hb.vim
+-rw-r--r--  1 root  wheel    8348 Apr  4 06:19 help.vim
+-rw-r--r--  1 root  wheel    5720 Apr  4 06:19 hercules.vim
+-rw-r--r--  1 root  wheel    4011 Apr  4 06:19 hex.vim
+-rw-r--r--  1 root  wheel    1114 Apr  4 06:19 hgcommit.vim
+-rw-r--r--  1 root  wheel    3294 Apr  4 06:19 hitest.vim
+-rw-r--r--  1 root  wheel   10672 Apr  4 06:19 hog.vim
+-rw-r--r--  1 root  wheel    3870 Apr  4 06:19 hostconf.vim
+-rw-r--r--  1 root  wheel     549 Apr  4 06:19 hostsaccess.vim
+-rw-r--r--  1 root  wheel   18757 Apr  4 06:19 html.vim
+-rw-r--r--  1 root  wheel     488 Apr  4 06:19 htmlcheetah.vim
+-rw-r--r--  1 root  wheel    1011 Apr  4 06:19 htmldjango.vim
+-rw-r--r--  1 root  wheel     670 Apr  4 06:19 htmlm4.vim
+-rw-r--r--  1 root  wheel    8313 Apr  4 06:19 htmlos.vim
+-rw-r--r--  1 root  wheel   10547 Apr  4 06:19 ia64.vim
+-rw-r--r--  1 root  wheel    7036 Apr  4 06:19 ibasic.vim
+-rw-r--r--  1 root  wheel     824 Apr  4 06:19 icemenu.vim
+-rw-r--r--  1 root  wheel    6976 Apr  4 06:19 icon.vim
+-rw-r--r--  1 root  wheel   19901 Apr  4 06:19 idl.vim
+-rw-r--r--  1 root  wheel   13462 Apr  4 06:19 idlang.vim
+-rw-r--r--  1 root  wheel    7171 Apr  4 06:19 indent.vim
+-rw-r--r--  1 root  wheel   19483 Apr  4 06:19 inform.vim
+-rw-r--r--  1 root  wheel   19224 Apr  4 06:19 initex.vim
+-rw-r--r--  1 root  wheel    3398 Apr  4 06:19 initng.vim
+-rw-r--r--  1 root  wheel    2619 Apr  4 06:19 inittab.vim
+-rw-r--r--  1 root  wheel    1622 Apr  4 06:19 ipfilter.vim
+-rw-r--r--  1 root  wheel   27057 Apr  4 06:19 ishd.vim
+-rw-r--r--  1 root  wheel    4988 Apr  4 06:19 iss.vim
+-rw-r--r--  1 root  wheel    2000 Apr  4 06:19 ist.vim
+-rw-r--r--  1 root  wheel    9375 Apr  4 06:19 j.vim
+-rw-r--r--  1 root  wheel    8963 Apr  4 06:19 jal.vim
+-rw-r--r--  1 root  wheel   26711 Apr  4 06:19 jam.vim
+-rw-r--r--  1 root  wheel     611 Apr  4 06:19 jargon.vim
+-rw-r--r--  1 root  wheel   18581 Apr  4 06:19 java.vim
+-rw-r--r--  1 root  wheel    2256 Apr  4 06:19 javacc.vim
+-rw-r--r--  1 root  wheel    5601 Apr  4 06:19 javascript.vim
+-rw-r--r--  1 root  wheel    6230 Apr  4 06:19 jess.vim
+-rw-r--r--  1 root  wheel    1212 Apr  4 06:19 jgraph.vim
+-rw-r--r--  1 root  wheel    4107 Apr  4 06:19 jovial.vim
+-rw-r--r--  1 root  wheel    5496 Apr  4 06:19 jproperties.vim
+-rw-r--r--  1 root  wheel    6018 Apr  4 06:19 json.vim
+-rw-r--r--  1 root  wheel    2678 Apr  4 06:19 jsp.vim
+-rw-r--r--  1 root  wheel   36304 Apr  4 06:19 kconfig.vim
+-rw-r--r--  1 root  wheel     986 Apr  4 06:19 kivy.vim
+-rw-r--r--  1 root  wheel    6329 Apr  4 06:19 kix.vim
+-rw-r--r--  1 root  wheel    1985 Apr  4 06:19 kscript.vim
+-rw-r--r--  1 root  wheel    2454 Apr  4 06:19 kwt.vim
+-rw-r--r--  1 root  wheel    4075 Apr  4 06:19 lace.vim
+-rw-r--r--  1 root  wheel    3511 Apr  4 06:19 latte.vim
+-rw-r--r--  1 root  wheel    2902 Apr  4 06:19 ld.vim
+-rw-r--r--  1 root  wheel   13302 Apr  4 06:19 ldapconf.vim
+-rw-r--r--  1 root  wheel    1014 Apr  4 06:19 ldif.vim
+-rw-r--r--  1 root  wheel    4230 Apr  4 06:19 less.vim
+-rw-r--r--  1 root  wheel    6728 Apr  4 06:19 lex.vim
+-rw-r--r--  1 root  wheel    7471 Apr  4 06:19 lftp.vim
+-rw-r--r--  1 root  wheel    4435 Apr  4 06:19 lhaskell.vim
+-rw-r--r--  1 root  wheel     636 Apr  4 06:19 libao.vim
+-rw-r--r--  1 root  wheel    6640 Apr  4 06:19 lifelines.vim
+-rw-r--r--  1 root  wheel   10427 Apr  4 06:19 lilo.vim
+-rw-r--r--  1 root  wheel    1317 Apr  4 06:19 limits.vim
+-rw-r--r--  1 root  wheel    6184 Apr  4 06:19 liquid.vim
+-rw-r--r--  1 root  wheel   35810 Apr  4 06:19 lisp.vim
+-rw-r--r--  1 root  wheel    4845 Apr  4 06:19 lite.vim
+-rw-r--r--  1 root  wheel    6676 Apr  4 06:19 litestep.vim
+-rw-r--r--  1 root  wheel    4197 Apr  4 06:19 loginaccess.vim
+-rw-r--r--  1 root  wheel    7537 Apr  4 06:19 logindefs.vim
+-rw-r--r--  1 root  wheel   16849 Apr  4 06:19 logtalk.vim
+-rw-r--r--  1 root  wheel    2361 Apr  4 06:19 lotos.vim
+-rw-r--r--  1 root  wheel    4325 Apr  4 06:19 lout.vim
+-rw-r--r--  1 root  wheel   23138 Apr  4 06:19 lpc.vim
+-rw-r--r--  1 root  wheel    3979 Apr  4 06:19 lprolog.vim
+-rw-r--r--  1 root  wheel   12099 Apr  4 06:19 lscript.vim
+-rw-r--r--  1 root  wheel   15800 Apr  4 06:19 lsl.vim
+-rw-r--r--  1 root  wheel    4870 Apr  4 06:19 lss.vim
+-rw-r--r--  1 root  wheel   14052 Apr  4 06:19 lua.vim
+-rw-r--r--  1 root  wheel    6579 Apr  4 06:19 lynx.vim
+-rw-r--r--  1 root  wheel    2693 Apr  4 06:19 m4.vim
+-rw-r--r--  1 root  wheel    6069 Apr  4 06:19 mail.vim
+-rw-r--r--  1 root  wheel    2767 Apr  4 06:19 mailaliases.vim
+-rw-r--r--  1 root  wheel    1135 Apr  4 06:19 mailcap.vim
+-rw-r--r--  1 root  wheel    6281 Apr  4 06:19 make.vim
+-rw-r--r--  1 root  wheel    1726 Apr  4 06:19 mallard.vim
+-rw-r--r--  1 root  wheel    1590 Apr  4 06:19 man.vim
+-rw-r--r--  1 root  wheel    4344 Apr  4 06:19 manconf.vim
+-rw-r--r--  1 root  wheel     909 Apr  4 06:19 manual.vim
+-rw-r--r--  1 root  wheel   28529 Apr  4 06:19 maple.vim
+-rw-r--r--  1 root  wheel    8052 Apr  4 06:19 markdown.vim
+-rw-r--r--  1 root  wheel   17225 Apr  4 06:19 masm.vim
+-rw-r--r--  1 root  wheel    3818 Apr  4 06:19 mason.vim
+-rw-r--r--  1 root  wheel    1022 Apr  4 06:19 master.vim
+-rw-r--r--  1 root  wheel    4133 Apr  4 06:19 matlab.vim
+-rw-r--r--  1 root  wheel   18802 Apr  4 06:19 maxima.vim
+-rw-r--r--  1 root  wheel    3406 Apr  4 06:19 mel.vim
+-rw-r--r--  1 root  wheel    2653 Apr  4 06:19 messages.vim
+-rw-r--r--  1 root  wheel   15423 Apr  4 06:19 mf.vim
+-rw-r--r--  1 root  wheel    3724 Apr  4 06:19 mgl.vim
+-rw-r--r--  1 root  wheel    2000 Apr  4 06:19 mgp.vim
+-rw-r--r--  1 root  wheel    2696 Apr  4 06:19 mib.vim
+-rw-r--r--  1 root  wheel    2942 Apr  4 06:19 mix.vim
+-rw-r--r--  1 root  wheel   11799 Apr  4 06:19 mma.vim
+-rw-r--r--  1 root  wheel    4968 Apr  4 06:19 mmix.vim
+-rw-r--r--  1 root  wheel    1486 Apr  4 06:19 mmp.vim
+-rw-r--r--  1 root  wheel    1419 Apr  4 06:19 modconf.vim
+-rw-r--r--  1 root  wheel    1469 Apr  4 06:19 model.vim
+-rw-r--r--  1 root  wheel    3623 Apr  4 06:19 modsim3.vim
+-rw-r--r--  1 root  wheel    3225 Apr  4 06:19 modula2.vim
+-rw-r--r--  1 root  wheel    2012 Apr  4 06:19 modula3.vim
+-rw-r--r--  1 root  wheel   10219 Apr  4 06:19 monk.vim
+-rw-r--r--  1 root  wheel    9234 Apr  4 06:19 moo.vim
+-rw-r--r--  1 root  wheel   44530 Apr  4 06:19 mp.vim
+-rw-r--r--  1 root  wheel    7487 Apr  4 06:19 mplayerconf.vim
+-rw-r--r--  1 root  wheel    9603 Apr  4 06:19 mrxvtrc.vim
+-rw-r--r--  1 root  wheel    3464 Apr  4 06:19 msidl.vim
+-rw-r--r--  1 root  wheel    6318 Apr  4 06:19 msmessages.vim
+-rw-r--r--  1 root  wheel    2390 Apr  4 06:19 msql.vim
+-rw-r--r--  1 root  wheel   15476 Apr  4 06:19 mupad.vim
+-rw-r--r--  1 root  wheel    4619 Apr  4 06:19 murphi.vim
+-rw-r--r--  1 root  wheel   13187 Apr  4 06:19 mush.vim
+-rw-r--r--  1 root  wheel   65812 Apr  4 06:19 muttrc.vim
+-rw-r--r--  1 root  wheel   17609 Apr  4 06:19 mysql.vim
+-rw-r--r--  1 root  wheel   12899 Apr  4 06:19 n1ql.vim
+-rw-r--r--  1 root  wheel    9991 Apr  4 06:19 named.vim
+-rw-r--r--  1 root  wheel   10620 Apr  4 06:19 nanorc.vim
+-rw-r--r--  1 root  wheel   26285 Apr  4 06:19 nasm.vim
+-rw-r--r--  1 root  wheel    8504 Apr  4 06:19 nastran.vim
+-rw-r--r--  1 root  wheel    6977 Apr  4 06:19 natural.vim
+-rw-r--r--  1 root  wheel   13416 Apr  4 06:19 ncf.vim
+-rw-r--r--  1 root  wheel   79227 Apr  4 06:19 neomuttrc.vim
+-rw-r--r--  1 root  wheel    1934 Apr  4 06:19 netrc.vim
+-rw-r--r--  1 root  wheel    7219 Apr  4 06:19 netrw.vim
+-rw-r--r--  1 root  wheel    2889 Apr  4 06:19 ninja.vim
+-rw-r--r--  1 root  wheel     755 Apr  4 06:19 nosyntax.vim
+-rw-r--r--  1 root  wheel   14068 Apr  4 06:19 nqc.vim
+-rw-r--r--  1 root  wheel    7775 Apr  4 06:19 nroff.vim
+-rw-r--r--  1 root  wheel   34057 Apr  4 06:19 nsis.vim
+-rw-r--r--  1 root  wheel    2786 Apr  4 06:19 obj.vim
+-rw-r--r--  1 root  wheel   41720 Apr  4 06:19 objc.vim
+-rw-r--r--  1 root  wheel     600 Apr  4 06:19 objcpp.vim
+-rw-r--r--  1 root  wheel   13541 Apr  4 06:19 ocaml.vim
+-rw-r--r--  1 root  wheel    4316 Apr  4 06:19 occam.vim
+-rw-r--r--  1 root  wheel    6377 Apr  4 06:19 omnimark.vim
+-rw-r--r--  1 root  wheel   13979 Apr  4 06:19 openroad.vim
+-rw-r--r--  1 root  wheel    4128 Apr  4 06:19 opl.vim
+-rw-r--r--  1 root  wheel   27141 Apr  4 06:19 ora.vim
+-rw-r--r--  1 root  wheel    5546 Apr  4 06:19 pamconf.vim
+-rw-r--r--  1 root  wheel    3789 Apr  4 06:19 papp.vim
+-rw-r--r--  1 root  wheel   15008 Apr  4 06:19 pascal.vim
+-rw-r--r--  1 root  wheel    2443 Apr  4 06:19 passwd.vim
+-rw-r--r--  1 root  wheel    1496 Apr  4 06:19 pcap.vim
+-rw-r--r--  1 root  wheel    4093 Apr  4 06:19 pccts.vim
+-rw-r--r--  1 root  wheel    3539 Apr  4 06:19 pdf.vim
+-rw-r--r--  1 root  wheel   38470 Apr  4 06:19 perl.vim
+-rw-r--r--  1 root  wheel   74127 Apr  4 06:19 perl6.vim
+-rw-r--r--  1 root  wheel   10371 Apr  4 06:19 pf.vim
+-rw-r--r--  1 root  wheel   92737 Apr  4 06:19 pfmain.vim
+-rw-r--r--  1 root  wheel   80444 Apr  4 06:19 php.vim
+-rw-r--r--  1 root  wheel     151 Apr  4 06:19 phtml.vim
+-rw-r--r--  1 root  wheel    3333 Apr  4 06:19 pic.vim
+-rw-r--r--  1 root  wheel   21807 Apr  4 06:19 pike.vim
+-rw-r--r--  1 root  wheel    5311 Apr  4 06:19 pilrc.vim
+-rw-r--r--  1 root  wheel   15411 Apr  4 06:19 pine.vim
+-rw-r--r--  1 root  wheel    5296 Apr  4 06:19 pinfo.vim
+-rw-r--r--  1 root  wheel   10301 Apr  4 06:19 plaintex.vim
+-rw-r--r--  1 root  wheel   13222 Apr  4 06:19 pli.vim
+-rw-r--r--  1 root  wheel    5361 Apr  4 06:19 plm.vim
+-rw-r--r--  1 root  wheel    1267 Apr  4 06:19 plp.vim
+-rw-r--r--  1 root  wheel   12918 Apr  4 06:19 plsql.vim
+-rw-r--r--  1 root  wheel    6393 Apr  4 06:19 po.vim
+-rw-r--r--  1 root  wheel    7283 Apr  4 06:19 pod.vim
+-rw-r--r--  1 root  wheel   46133 Apr  4 06:19 postscr.vim
+-rw-r--r--  1 root  wheel    9057 Apr  4 06:19 pov.vim
+-rw-r--r--  1 root  wheel    3488 Apr  4 06:19 povini.vim
+-rw-r--r--  1 root  wheel     868 Apr  4 06:19 ppd.vim
+-rw-r--r--  1 root  wheel    2780 Apr  4 06:19 ppwiz.vim
+-rw-r--r--  1 root  wheel    2383 Apr  4 06:19 prescribe.vim
+-rw-r--r--  1 root  wheel    3579 Apr  4 06:19 privoxy.vim
+-rw-r--r--  1 root  wheel    2019 Apr  4 06:19 procmail.vim
+-rw-r--r--  1 root  wheel   31748 Apr  4 06:19 progress.vim
+-rw-r--r--  1 root  wheel    4360 Apr  4 06:19 prolog.vim
+-rw-r--r--  1 root  wheel    1728 Apr  4 06:19 promela.vim
+-rw-r--r--  1 root  wheel    2933 Apr  4 06:19 proto.vim
+-rw-r--r--  1 root  wheel    1429 Apr  4 06:19 protocols.vim
+-rw-r--r--  1 root  wheel    4290 Apr  4 06:19 psf.vim
+-rw-r--r--  1 root  wheel    4128 Apr  4 06:19 ptcap.vim
+-rw-r--r--  1 root  wheel    3357 Apr  4 06:19 purifylog.vim
+-rw-r--r--  1 root  wheel    1663 Apr  4 06:19 pyrex.vim
+-rw-r--r--  1 root  wheel   14280 Apr  4 06:19 python.vim
+-rw-r--r--  1 root  wheel     596 Apr  4 06:19 qf.vim
+-rw-r--r--  1 root  wheel    8554 Apr  4 06:19 quake.vim
+-rw-r--r--  1 root  wheel   14730 Apr  4 06:19 r.vim
+-rw-r--r--  1 root  wheel    5619 Apr  4 06:19 racc.vim
+-rw-r--r--  1 root  wheel    7155 Apr  4 06:19 radiance.vim
+-rw-r--r--  1 root  wheel    4450 Apr  4 06:19 raml.vim
+-rw-r--r--  1 root  wheel   17221 Apr  4 06:19 ratpoison.vim
+-rw-r--r--  1 root  wheel   10217 Apr  4 06:19 rc.vim
+-rw-r--r--  1 root  wheel    2133 Apr  4 06:19 rcs.vim
+-rw-r--r--  1 root  wheel     557 Apr  4 06:19 rcslog.vim
+-rw-r--r--  1 root  wheel   17487 Apr  4 06:19 readline.vim
+-rw-r--r--  1 root  wheel    1403 Apr  4 06:19 README.txt
+-rw-r--r--  1 root  wheel    7167 Apr  4 06:19 rebol.vim
+-rw-r--r--  1 root  wheel   87942 Apr  4 06:19 redif.vim
+-rw-r--r--  1 root  wheel    3355 Apr  4 06:19 registry.vim
+-rw-r--r--  1 root  wheel    2713 Apr  4 06:19 remind.vim
+-rw-r--r--  1 root  wheel    3019 Apr  4 06:19 resolv.vim
+-rw-r--r--  1 root  wheel    7581 Apr  4 06:19 reva.vim
+-rw-r--r--  1 root  wheel   15331 Apr  4 06:19 rexx.vim
+-rw-r--r--  1 root  wheel   12134 Apr  4 06:19 rhelp.vim
+-rw-r--r--  1 root  wheel    2192 Apr  4 06:19 rib.vim
+-rw-r--r--  1 root  wheel    5378 Apr  4 06:19 rmd.vim
+-rw-r--r--  1 root  wheel    2263 Apr  4 06:19 rnc.vim
+-rw-r--r--  1 root  wheel     817 Apr  4 06:19 rng.vim
+-rw-r--r--  1 root  wheel    1909 Apr  4 06:19 rnoweb.vim
+-rw-r--r--  1 root  wheel    1529 Apr  4 06:19 robots.vim
+-rw-r--r--  1 root  wheel    1666 Apr  4 06:19 rpcgen.vim
+-rw-r--r--  1 root  wheel   25699 Apr  4 06:19 rpl.vim
+-rw-r--r--  1 root  wheel    1306 Apr  4 06:19 rrst.vim
+-rw-r--r--  1 root  wheel   11364 Apr  4 06:19 rst.vim
+-rw-r--r--  1 root  wheel    2330 Apr  4 06:19 rtf.vim
+-rw-r--r--  1 root  wheel   41351 Apr  4 06:19 ruby.vim
+-rw-r--r--  1 root  wheel   16612 Apr  4 06:19 rust.vim
+-rw-r--r--  1 root  wheel    6131 Apr  4 06:19 samba.vim
+-rw-r--r--  1 root  wheel   34087 Apr  4 06:19 sas.vim
+-rw-r--r--  1 root  wheel    6323 Apr  4 06:19 sass.vim
+-rw-r--r--  1 root  wheel    3490 Apr  4 06:19 sather.vim
+-rw-r--r--  1 root  wheel     880 Apr  4 06:19 sbt.vim
+-rw-r--r--  1 root  wheel   11307 Apr  4 06:19 scala.vim
+-rw-r--r--  1 root  wheel   19330 Apr  4 06:19 scheme.vim
+-rw-r--r--  1 root  wheel    3210 Apr  4 06:19 scilab.vim
+-rw-r--r--  1 root  wheel    9104 Apr  4 06:19 screen.vim
+-rw-r--r--  1 root  wheel     409 Apr  4 06:19 scss.vim
+-rw-r--r--  1 root  wheel    2223 Apr  4 06:19 sd.vim
+-rw-r--r--  1 root  wheel    1391 Apr  4 06:19 sdc.vim
+-rw-r--r--  1 root  wheel    6563 Apr  4 06:19 sdl.vim
+-rw-r--r--  1 root  wheel    5033 Apr  4 06:19 sed.vim
+-rw-r--r--  1 root  wheel     905 Apr  4 06:19 sendpr.vim
+-rw-r--r--  1 root  wheel    1513 Apr  4 06:19 sensors.vim
+-rw-r--r--  1 root  wheel    1823 Apr  4 06:19 services.vim
+-rw-r--r--  1 root  wheel    5229 Apr  4 06:19 setserial.vim
+-rw-r--r--  1 root  wheel    8866 Apr  4 06:19 sgml.vim
+-rw-r--r--  1 root  wheel    2041 Apr  4 06:19 sgmldecl.vim
+-rw-r--r--  1 root  wheel    1851 Apr  4 06:19 sgmllnx.vim
+-rw-r--r--  1 root  wheel   42599 Apr  4 06:19 sh.vim
+-rw-r--r--  1 root  wheel   18475 Apr  4 06:19 sicad.vim
+-rw-r--r--  1 root  wheel    1671 Apr  4 06:19 sieve.vim
+-rw-r--r--  1 root  wheel    3371 Apr  4 06:19 simula.vim
+-rw-r--r--  1 root  wheel    3666 Apr  4 06:19 sinda.vim
+-rw-r--r--  1 root  wheel    1274 Apr  4 06:19 sindacmp.vim
+-rw-r--r--  1 root  wheel    1961 Apr  4 06:19 sindaout.vim
+-rw-r--r--  1 root  wheel   22180 Apr  4 06:19 sisu.vim
+-rw-r--r--  1 root  wheel   25769 Apr  4 06:19 skill.vim
+-rw-r--r--  1 root  wheel    4084 Apr  4 06:19 sl.vim
+-rw-r--r--  1 root  wheel    3302 Apr  4 06:19 slang.vim
+-rw-r--r--  1 root  wheel    2928 Apr  4 06:19 slice.vim
+-rw-r--r--  1 root  wheel   11791 Apr  4 06:19 slpconf.vim
+-rw-r--r--  1 root  wheel    5346 Apr  4 06:19 slpreg.vim
+-rw-r--r--  1 root  wheel    1181 Apr  4 06:19 slpspi.vim
+-rw-r--r--  1 root  wheel   12811 Apr  4 06:19 slrnrc.vim
+-rw-r--r--  1 root  wheel    3098 Apr  4 06:19 slrnsc.vim
+-rw-r--r--  1 root  wheel    2850 Apr  4 06:19 sm.vim
+-rw-r--r--  1 root  wheel    2883 Apr  4 06:19 smarty.vim
+-rw-r--r--  1 root  wheel   12043 Apr  4 06:19 smcl.vim
+-rw-r--r--  1 root  wheel    5616 Apr  4 06:19 smil.vim
+-rw-r--r--  1 root  wheel     793 Apr  4 06:19 smith.vim
+-rw-r--r--  1 root  wheel    9328 Apr  4 06:19 sml.vim
+-rw-r--r--  1 root  wheel    2482 Apr  4 06:19 snnsnet.vim
+-rw-r--r--  1 root  wheel    2228 Apr  4 06:19 snnspat.vim
+-rw-r--r--  1 root  wheel    1933 Apr  4 06:19 snnsres.vim
+-rw-r--r--  1 root  wheel    5334 Apr  4 06:19 snobol4.vim
+-rw-r--r--  1 root  wheel   12574 Apr  4 06:19 spec.vim
+-rw-r--r--  1 root  wheel    7345 Apr  4 06:19 specman.vim
+-rw-r--r--  1 root  wheel    2243 Apr  4 06:19 spice.vim
+-rw-r--r--  1 root  wheel   15786 Apr  4 06:19 splint.vim
+-rw-r--r--  1 root  wheel   13926 Apr  4 06:19 spup.vim
+-rw-r--r--  1 root  wheel    4455 Apr  4 06:19 spyce.vim
+-rw-r--r--  1 root  wheel    1120 Apr  4 06:19 sql.vim
+-rw-r--r--  1 root  wheel   41929 Apr  4 06:19 sqlanywhere.vim
+-rw-r--r--  1 root  wheel    6734 Apr  4 06:19 sqlforms.vim
+-rw-r--r--  1 root  wheel   11027 Apr  4 06:19 sqlhana.vim
+-rw-r--r--  1 root  wheel    5901 Apr  4 06:19 sqlinformix.vim
+-rw-r--r--  1 root  wheel    2970 Apr  4 06:19 sqlj.vim
+-rw-r--r--  1 root  wheel    7649 Apr  4 06:19 sqloracle.vim
+-rw-r--r--  1 root  wheel   13012 Apr  4 06:19 sqr.vim
+-rw-r--r--  1 root  wheel    6931 Apr  4 06:19 squid.vim
+-rw-r--r--  1 root  wheel    3815 Apr  4 06:19 srec.vim
+-rw-r--r--  1 root  wheel   10579 Apr  4 06:19 sshconfig.vim
+-rw-r--r--  1 root  wheel   11135 Apr  4 06:19 sshdconfig.vim
+-rw-r--r--  1 root  wheel    2752 Apr  4 06:19 st.vim
+-rw-r--r--  1 root  wheel   27056 Apr  4 06:19 stata.vim
+-rw-r--r--  1 root  wheel    5427 Apr  4 06:19 stp.vim
+-rw-r--r--  1 root  wheel    1970 Apr  4 06:19 strace.vim
+-rw-r--r--  1 root  wheel   24450 Apr  4 06:19 sudoers.vim
+-rw-r--r--  1 root  wheel     436 Apr  4 06:19 svg.vim
+-rw-r--r--  1 root  wheel    1852 Apr  4 06:19 svn.vim
+-rw-r--r--  1 root  wheel    4093 Apr  4 06:19 syncolor.vim
+-rw-r--r--  1 root  wheel    1984 Apr  4 06:19 synload.vim
+-rw-r--r--  1 root  wheel    1228 Apr  4 06:19 syntax.vim
+-rw-r--r--  1 root  wheel    1153 Apr  4 06:19 sysctl.vim
+-rw-r--r--  1 root  wheel     184 Apr  4 06:19 systemd.vim
+-rw-r--r--  1 root  wheel    3539 Apr  4 06:19 systemverilog.vim
+-rw-r--r--  1 root  wheel    6862 Apr  4 06:19 tads.vim
+-rw-r--r--  1 root  wheel    1155 Apr  4 06:19 tags.vim
+-rw-r--r--  1 root  wheel    2920 Apr  4 06:19 tak.vim
+-rw-r--r--  1 root  wheel    1593 Apr  4 06:19 takcmp.vim
+-rw-r--r--  1 root  wheel    2000 Apr  4 06:19 takout.vim
+-rw-r--r--  1 root  wheel    4362 Apr  4 06:19 tap.vim
+-rw-r--r--  1 root  wheel     373 Apr  4 06:19 tar.vim
+-rw-r--r--  1 root  wheel    1207 Apr  4 06:19 taskdata.vim
+-rw-r--r--  1 root  wheel    1130 Apr  4 06:19 taskedit.vim
+-rw-r--r--  1 root  wheel    5691 Apr  4 06:19 tasm.vim
+-rw-r--r--  1 root  wheel   17286 Apr  4 06:19 tcl.vim
+-rw-r--r--  1 root  wheel   13269 Apr  4 06:19 tcsh.vim
+-rw-r--r--  1 root  wheel    4980 Apr  4 06:19 teraterm.vim
+-rw-r--r--  1 root  wheel    4803 Apr  4 06:19 terminfo.vim
+-rw-r--r--  1 root  wheel   63066 Apr  4 06:19 tex.vim
+-rw-r--r--  1 root  wheel   25568 Apr  4 06:19 texinfo.vim
+-rw-r--r--  1 root  wheel    2281 Apr  4 06:19 texmf.vim
+-rw-r--r--  1 root  wheel    6904 Apr  4 06:19 tf.vim
+-rw-r--r--  1 root  wheel    5927 Apr  4 06:19 tidy.vim
+-rw-r--r--  1 root  wheel    1538 Apr  4 06:19 tilde.vim
+-rw-r--r--  1 root  wheel    1658 Apr  4 06:19 tli.vim
+-rw-r--r--  1 root  wheel    6449 Apr  4 06:19 tmux.vim
+-rw-r--r--  1 root  wheel    3413 Apr  4 06:19 tpp.vim
+-rw-r--r--  1 root  wheel    5033 Apr  4 06:19 trasys.vim
+-rw-r--r--  1 root  wheel    3668 Apr  4 06:19 treetop.vim
+-rw-r--r--  1 root  wheel    1546 Apr  4 06:19 trustees.vim
+-rw-r--r--  1 root  wheel    8325 Apr  4 06:19 tsalt.vim
+-rw-r--r--  1 root  wheel    5120 Apr  4 06:19 tsscl.vim
+-rw-r--r--  1 root  wheel    2787 Apr  4 06:19 tssgm.vim
+-rw-r--r--  1 root  wheel    1785 Apr  4 06:19 tssop.vim
+-rw-r--r--  1 root  wheel    7923 Apr  4 06:19 tt2.vim
+-rw-r--r--  1 root  wheel     516 Apr  4 06:19 tt2html.vim
+-rw-r--r--  1 root  wheel     522 Apr  4 06:19 tt2js.vim
+-rw-r--r--  1 root  wheel    6634 Apr  4 06:19 uc.vim
+-rw-r--r--  1 root  wheel    1227 Apr  4 06:19 udevconf.vim
+-rw-r--r--  1 root  wheel    2409 Apr  4 06:19 udevperm.vim
+-rw-r--r--  1 root  wheel    6960 Apr  4 06:19 udevrules.vim
+-rw-r--r--  1 root  wheel    2821 Apr  4 06:19 uil.vim
+-rw-r--r--  1 root  wheel    1220 Apr  4 06:19 updatedb.vim
+-rw-r--r--  1 root  wheel    3151 Apr  4 06:19 upstart.vim
+-rw-r--r--  1 root  wheel   14048 Apr  4 06:19 upstreamdat.vim
+-rw-r--r--  1 root  wheel     971 Apr  4 06:19 upstreaminstalllog.vim
+-rw-r--r--  1 root  wheel    2620 Apr  4 06:19 upstreamlog.vim
+-rw-r--r--  1 root  wheel   14197 Apr  4 06:19 upstreamrpt.vim
+-rw-r--r--  1 root  wheel    3118 Apr  4 06:19 usserverlog.vim
+-rw-r--r--  1 root  wheel    2702 Apr  4 06:19 usw2kagtlog.vim
+-rw-r--r--  1 root  wheel    3250 Apr  4 06:19 valgrind.vim
+-rw-r--r--  1 root  wheel   20299 Apr  4 06:19 vb.vim
+-rw-r--r--  1 root  wheel   19552 Apr  4 06:19 vera.vim
+-rw-r--r--  1 root  wheel    5055 Apr  4 06:19 verilog.vim
+-rw-r--r--  1 root  wheel    6083 Apr  4 06:19 verilogams.vim
+-rw-r--r--  1 root  wheel    1214 Apr  4 06:19 vgrindefs.vim
+-rw-r--r--  1 root  wheel    9711 Apr  4 06:19 vhdl.vim
+-rw-r--r--  1 root  wheel   69825 Apr  4 06:19 vim.vim
+-rw-r--r--  1 root  wheel    1241 Apr  4 06:19 viminfo.vim
+-rw-r--r--  1 root  wheel   11613 Apr  4 06:19 virata.vim
+-rw-r--r--  1 root  wheel    8512 Apr  4 06:19 vmasm.vim
+-rw-r--r--  1 root  wheel    6975 Apr  4 06:19 voscm.vim
+-rw-r--r--  1 root  wheel   12788 Apr  4 06:19 vrml.vim
+-rw-r--r--  1 root  wheel    3492 Apr  4 06:19 vroom.vim
+-rw-r--r--  1 root  wheel    1004 Apr  4 06:19 vsejcl.vim
+-rw-r--r--  1 root  wheel    3926 Apr  4 06:19 wast.vim
+-rw-r--r--  1 root  wheel     716 Apr  4 06:19 wdiff.vim
+-rw-r--r--  1 root  wheel    1114 Apr  4 06:19 web.vim
+-rw-r--r--  1 root  wheel    3130 Apr  4 06:19 webmacro.vim
+-rw-r--r--  1 root  wheel    3961 Apr  4 06:19 wget.vim
+-rw-r--r--  1 root  wheel     357 Apr  4 06:19 whitespace.vim
+-rw-r--r--  1 root  wheel   12152 Apr  4 06:19 winbatch.vim
+-rw-r--r--  1 root  wheel    5731 Apr  4 06:19 wml.vim
+-rw-r--r--  1 root  wheel    1242 Apr  4 06:19 wsh.vim
+-rw-r--r--  1 root  wheel    5400 Apr  4 06:19 wsml.vim
+-rw-r--r--  1 root  wheel    1093 Apr  4 06:19 wvdial.vim
+-rw-r--r--  1 root  wheel     568 Apr  4 06:19 xbl.vim
+-rw-r--r--  1 root  wheel    5887 Apr  4 06:19 xdefaults.vim
+-rw-r--r--  1 root  wheel   14725 Apr  4 06:19 xf86conf.vim
+-rw-r--r--  1 root  wheel     186 Apr  4 06:19 xhtml.vim
+-rw-r--r--  1 root  wheel   14208 Apr  4 06:19 xinetd.vim
+-rw-r--r--  1 root  wheel    3320 Apr  4 06:19 xkb.vim
+-rw-r--r--  1 root  wheel   10829 Apr  4 06:19 xmath.vim
+-rw-r--r--  1 root  wheel    8609 Apr  4 06:19 xml.vim
+-rw-r--r--  1 root  wheel   46511 Apr  4 06:19 xmodmap.vim
+-rw-r--r--  1 root  wheel    4403 Apr  4 06:19 xpm.vim
+-rw-r--r--  1 root  wheel    4697 Apr  4 06:19 xpm2.vim
+-rw-r--r--  1 root  wheel    7191 Apr  4 06:19 xquery.vim
+-rw-r--r--  1 root  wheel  246745 Apr  4 06:19 xs.vim
+-rw-r--r--  1 root  wheel    2125 Apr  4 06:19 xsd.vim
+-rw-r--r--  1 root  wheel    2166 Apr  4 06:19 xslt.vim
+-rw-r--r--  1 root  wheel     766 Apr  4 06:19 xxd.vim
+-rw-r--r--  1 root  wheel    5513 Apr  4 06:19 yacc.vim
+-rw-r--r--  1 root  wheel   12864 Apr  4 06:19 yaml.vim
+-rw-r--r--  1 root  wheel    2894 Apr  4 06:19 z8a.vim
+-rw-r--r--  1 root  wheel    6446 Apr  4 06:19 zimbu.vim
+-rw-r--r--  1 root  wheel   23608 Apr  4 06:19 zsh.vim
+
+/jm/defaults/usr/local/share/vim/vim81/tools:
+total 230
+-rw-r--r--  1 root  wheel    504 Apr  4 06:19 blink.c
+-rw-r--r--  1 root  wheel   3231 Apr  4 06:19 ccfilter_README.txt
+-rw-r--r--  1 root  wheel   2227 Apr  4 06:19 ccfilter.1
+-rw-r--r--  1 root  wheel   8620 Apr  4 06:19 ccfilter.c
+-rw-r--r--  1 root  wheel   3088 Apr  4 06:19 demoserver.py
+-rwxr-xr-x  1 root  wheel    978 Apr  4 06:19 efm_filter.pl
+-rw-r--r--  1 root  wheel   1116 Apr  4 06:19 efm_filter.txt
+-rwxr-xr-x  1 root  wheel   3743 Apr  4 06:19 efm_perl.pl
+-rwxr-xr-x  1 root  wheel    484 Apr  4 06:19 mve.awk
+-rw-r--r--  1 root  wheel    579 Apr  4 06:19 mve.txt
+-rwxr-xr-x  1 root  wheel   8425 Apr  4 06:19 pltags.pl
+-rw-r--r--  1 root  wheel   1160 Apr  4 06:19 README.txt
+-rwxr-xr-x  1 root  wheel    137 Apr  4 06:19 ref
+-rw-r--r--  1 root  wheel   2036 Apr  4 06:19 shtags.1
+-rwxr-xr-x  1 root  wheel   3345 Apr  4 06:19 shtags.pl
+-rw-r--r--  1 root  wheel  10895 Apr  4 06:19 unicode.vim
+-rw-r--r--  1 root  wheel    798 Apr  4 06:19 vim_vs_net.cmd
+-rwxr-xr-x  1 root  wheel    315 Apr  4 06:19 vim132
+-rwxr-xr-x  1 root  wheel    188 Apr  4 06:19 vimm
+-rwxr-xr-x  1 root  wheel   1462 Apr  4 06:19 vimspell.sh
+-rw-r--r--  1 root  wheel    819 Apr  4 06:19 vimspell.txt
+-rw-r--r--  1 root  wheel  13682 Apr  4 06:19 xcmdsrv_client.c
+
+/jm/defaults/usr/local/share/vim/vim81/tutor:
+total 2615
+-rw-r--r--  1 root  wheel   1079 Apr  4 06:19 README.el.cp737.txt
+-rw-r--r--  1 root  wheel   1079 Apr  4 06:19 README.el.txt
+-rw-r--r--  1 root  wheel   1538 Apr  4 06:19 README.txt
+-rw-r--r--  1 root  wheel  33257 Apr  4 06:19 tutor
+-rw-r--r--  1 root  wheel  40896 Apr  4 06:19 tutor.bar
+-rw-r--r--  1 root  wheel  41845 Apr  4 06:19 tutor.bar.utf-8
+-rw-r--r--  1 root  wheel  60622 Apr  4 06:19 tutor.bg.utf-8
+-rw-r--r--  1 root  wheel  28437 Apr  4 06:19 tutor.ca
+-rw-r--r--  1 root  wheel  28917 Apr  4 06:19 tutor.ca.utf-8
+-rw-r--r--  1 root  wheel  25677 Apr  4 06:19 tutor.cs
+-rw-r--r--  1 root  wheel  25677 Apr  4 06:19 tutor.cs.cp1250
+-rw-r--r--  1 root  wheel  27998 Apr  4 06:19 tutor.cs.utf-8
+-rw-r--r--  1 root  wheel  34683 Apr  4 06:19 tutor.da
+-rw-r--r--  1 root  wheel  35402 Apr  4 06:19 tutor.da.utf-8
+-rw-r--r--  1 root  wheel  38836 Apr  4 06:19 tutor.de
+-rw-r--r--  1 root  wheel  39254 Apr  4 06:19 tutor.de.utf-8
+-rw-r--r--  1 root  wheel  30221 Apr  4 06:19 tutor.el
+-rw-r--r--  1 root  wheel  30221 Apr  4 06:19 tutor.el.cp737
+-rw-r--r--  1 root  wheel  47157 Apr  4 06:19 tutor.el.utf-8
+-rw-r--r--  1 root  wheel  35135 Apr  4 06:19 tutor.eo
+-rw-r--r--  1 root  wheel  35607 Apr  4 06:19 tutor.eo.utf-8
+-rw-r--r--  1 root  wheel  27597 Apr  4 06:19 tutor.es
+-rw-r--r--  1 root  wheel  28042 Apr  4 06:19 tutor.es.utf-8
+-rw-r--r--  1 root  wheel  38505 Apr  4 06:19 tutor.fr
+-rw-r--r--  1 root  wheel  39314 Apr  4 06:19 tutor.fr.utf-8
+-rw-r--r--  1 root  wheel  33909 Apr  4 06:19 tutor.hr
+-rw-r--r--  1 root  wheel  33909 Apr  4 06:19 tutor.hr.cp1250
+-rw-r--r--  1 root  wheel  34428 Apr  4 06:19 tutor.hr.utf-8
+-rw-r--r--  1 root  wheel  27194 Apr  4 06:19 tutor.hu
+-rw-r--r--  1 root  wheel  27194 Apr  4 06:19 tutor.hu.cp1250
+-rw-r--r--  1 root  wheel  28954 Apr  4 06:19 tutor.hu.utf-8
+-rw-r--r--  1 root  wheel  36329 Apr  4 06:19 tutor.it
+-rw-r--r--  1 root  wheel  36461 Apr  4 06:19 tutor.it.utf-8
+-rw-r--r--  1 root  wheel  33382 Apr  4 06:19 tutor.ja.euc
+-rw-r--r--  1 root  wheel  33382 Apr  4 06:19 tutor.ja.sjis
+-rw-r--r--  1 root  wheel  44131 Apr  4 06:19 tutor.ja.utf-8
+-rw-r--r--  1 root  wheel  27214 Apr  4 06:19 tutor.ko.euc
+-rw-r--r--  1 root  wheel  33755 Apr  4 06:19 tutor.ko.utf-8
+-rw-r--r--  1 root  wheel  39015 Apr  4 06:19 tutor.lv.utf-8
+-rw-r--r--  1 root  wheel  34628 Apr  4 06:19 tutor.nb
+-rw-r--r--  1 root  wheel  35425 Apr  4 06:19 tutor.nb.utf-8
+-rw-r--r--  1 root  wheel  37323 Apr  4 06:19 tutor.nl
+-rw-r--r--  1 root  wheel  37336 Apr  4 06:19 tutor.nl.utf-8
+-rw-r--r--  1 root  wheel  34628 Apr  4 06:19 tutor.no
+-rw-r--r--  1 root  wheel  35425 Apr  4 06:19 tutor.no.utf-8
+-rw-r--r--  1 root  wheel  34149 Apr  4 06:19 tutor.pl
+-rw-r--r--  1 root  wheel  34149 Apr  4 06:19 tutor.pl.cp1250
+-rw-r--r--  1 root  wheel  35451 Apr  4 06:19 tutor.pl.utf-8
+-rw-r--r--  1 root  wheel  36269 Apr  4 06:19 tutor.pt
+-rw-r--r--  1 root  wheel  36989 Apr  4 06:19 tutor.pt.utf-8
+-rw-r--r--  1 root  wheel  36044 Apr  4 06:19 tutor.ru
+-rw-r--r--  1 root  wheel  36044 Apr  4 06:19 tutor.ru.cp1251
+-rw-r--r--  1 root  wheel  57428 Apr  4 06:19 tutor.ru.utf-8
+-rw-r--r--  1 root  wheel  33313 Apr  4 06:19 tutor.sk
+-rw-r--r--  1 root  wheel  33310 Apr  4 06:19 tutor.sk.cp1250
+-rw-r--r--  1 root  wheel  35525 Apr  4 06:19 tutor.sk.utf-8
+-rw-r--r--  1 root  wheel  33060 Apr  4 06:19 tutor.sr.cp1250
+-rw-r--r--  1 root  wheel  33557 Apr  4 06:19 tutor.sr.utf-8
+-rw-r--r--  1 root  wheel  27798 Apr  4 06:19 tutor.sv
+-rw-r--r--  1 root  wheel  28700 Apr  4 06:19 tutor.sv.utf-8
+-rw-r--r--  1 root  wheel  28185 Apr  4 06:19 tutor.tr.iso9
+-rw-r--r--  1 root  wheel  30225 Apr  4 06:19 tutor.tr.utf-8
+-rw-r--r--  1 root  wheel  53562 Apr  4 06:19 tutor.uk.utf-8
+-rw-r--r--  1 root  wheel  33257 Apr  4 06:19 tutor.utf-8
+-rw-r--r--  1 root  wheel  32339 Apr  4 06:19 tutor.vi.utf-8
+-rw-r--r--  1 root  wheel   5461 Apr  4 06:19 tutor.vim
+-rw-r--r--  1 root  wheel  38811 Apr  4 06:19 tutor.zh_cn.utf-8
+-rw-r--r--  1 root  wheel  31408 Apr  4 06:19 tutor.zh_tw.utf-8
+-rw-r--r--  1 root  wheel  24364 Apr  4 06:19 tutor.zh.big5
+-rw-r--r--  1 root  wheel  30043 Apr  4 06:19 tutor.zh.euc
+-rw-r--r--  1 root  wheel  31408 Apr  4 06:19 tutor.zh.utf-8
+
+/jm/defaults/usr/local/share/zsh:
+total 1
+drwxr-xr-x  2 root  wheel  3 Apr 16 02:00 site-functions
+
+/jm/defaults/usr/local/share/zsh/site-functions:
+total 25
+-rw-r--r--  1 root  wheel  31391 Feb  7 04:06 _pkg
+
+/jm/defaults/usr/sbin:
+total 0
+
+/jm/defaults/usr/share:
+total 0
+
+/jm/defaults/usr/src:
+total 0
+
+/jm/defaults/var:
+total 86
+drwxr-xr-x   2 root     wheel     2 Apr 16 01:59 account
+drwxr-xr-x   4 root     wheel     4 Apr 16 01:59 at
+drwxr-x---   4 root     audit     4 Apr 16 01:59 audit
+drwxrwx---   2 root     authpf    2 Apr 16 01:59 authpf
+drwxr-x---   2 root     wheel     2 Apr 16 01:59 backups
+drwxr-xr-x   3 root     wheel     3 Apr 16 02:01 cache
+drwxr-x---   2 root     wheel     3 Apr 16 01:57 crash
+drwxr-x---   3 root     wheel     3 Apr 16 01:59 cron
+drwxr-xr-x  11 root     wheel    13 Apr 16 01:59 db
+dr-xr-xr-x   2 root     wheel     2 Apr 16 01:59 empty
+drwxrwxr-x   2 root     games     2 Apr 16 01:59 games
+drwx------   2 root     wheel     2 Apr 16 01:59 heimdal
+drwxr-xr-x   2 root     wheel    15 Apr 16 01:59 log
+drwxrwxr-x   2 root     mail      2 Apr 16 01:59 mail
+drwxr-xr-x   2 daemon   wheel     3 Apr 16 01:59 msgs
+drwxr-xr-x   2 root     wheel     2 Apr 16 01:59 preserve
+drwxr-xr-x   5 root     wheel    11 Apr 16 02:54 run
+drwxrwxr-x   2 root     daemon    2 Apr 16 01:59 rwho
+drwxr-xr-x   9 root     wheel     9 Apr 16 01:59 spool
+drwxrwxrwt   3 root     wheel     3 Apr 16 01:59 tmp
+drwxr-xr-x   3 unbound  unbound   3 Apr 16 01:59 unbound
+drwxr-xr-x   2 root     wheel     2 Apr 16 01:59 yp
+
+/jm/defaults/var/account:
+total 0
+
+/jm/defaults/var/at:
+total 2
+drwxr-xr-x  2 daemon  wheel  2 Apr 16 01:59 jobs
+drwxr-xr-x  2 daemon  wheel  2 Apr 16 01:59 spool
+
+/jm/defaults/var/at/jobs:
+total 0
+
+/jm/defaults/var/at/spool:
+total 0
+
+/jm/defaults/var/audit:
+total 2
+drwxrwx---  2 auditdistd  audit  2 Apr 16 01:59 dist
+drwx------  2 auditdistd  wheel  2 Apr 16 01:59 remote
+
+/jm/defaults/var/audit/dist:
+total 0
+
+/jm/defaults/var/audit/remote:
+total 0
+
+/jm/defaults/var/authpf:
+total 0
+
+/jm/defaults/var/backups:
+total 0
+
+/jm/defaults/var/cache:
+total 1
+drwxr-xr-x  2 root  wheel  4 Apr 16 02:01 pkg
+
+/jm/defaults/var/cache/pkg:
+total 11466
+-rw-r--r--  1 root  wheel  5858088 Apr  4 06:20 vim-console-8.1.1099-b6cdcd4f25.txz
+lrwxr-xr-x  1 root  wheel       35 Apr 16 02:01 vim-console-8.1.1099.txz -> vim-console-8.1.1099-b6cdcd4f25.txz
+
+/jm/defaults/var/crash:
+total 1
+-rw-r--r--  1 root  wheel  5 Apr 16 01:57 minfree
+
+/jm/defaults/var/cron:
+total 1
+drwx------  2 root  wheel  2 Apr 16 01:59 tabs
+
+/jm/defaults/var/cron/tabs:
+total 0
+
+/jm/defaults/var/db:
+total 635
+drwx------  2 operator  operator        2 Apr 16 01:59 entropy
+drwx------  2 root      wheel           2 Apr 16 01:59 freebsd-update
+drwx------  2 root      wheel           2 Apr 16 01:59 hyperv
+drwx------  2 root      wheel           2 Apr 16 01:59 ipf
+-rw-r--r--  1 nobody    wheel           0 Apr 16 01:57 locate.database
+drwxr-xr-x  2 ntpd      ntpd            2 Apr 16 01:59 ntp
+drwxr-xr-x  2 root      wheel           5 Apr 16 02:53 pkg
+drwxr-xr-x  2 root      wheel           2 Apr 16 01:59 ports
+drwxr-xr-x  2 root      wheel           2 Apr 16 01:59 portsnap
+-rw-r--r--  1 root      wheel     2097920 Apr 16 01:58 services.db
+drwxr-xr-x  3 root      wheel           3 Apr 16 01:59 zfsd
+
+/jm/defaults/var/db/entropy:
+total 0
+
+/jm/defaults/var/db/freebsd-update:
+total 0
+
+/jm/defaults/var/db/hyperv:
+total 0
+
+/jm/defaults/var/db/ipf:
+total 0
+
+/jm/defaults/var/db/ntp:
+total 0
+
+/jm/defaults/var/db/pkg:
+total 67171
+-rw-r--r--  1 root  wheel       246 Apr 16 02:00 FreeBSD.meta
+-rw-r--r--  1 root  wheel    675840 Apr 16 02:53 local.sqlite
+-rw-r--r--  1 root  wheel  53305344 Apr 14 22:25 repo-FreeBSD.sqlite
+
+/jm/defaults/var/db/ports:
+total 0
+
+/jm/defaults/var/db/portsnap:
+total 0
+
+/jm/defaults/var/db/zfsd:
+total 1
+drwxr-xr-x  2 root  wheel  2 Apr 16 01:59 cases
+
+/jm/defaults/var/db/zfsd/cases:
+total 0
+
+/jm/defaults/var/empty:
+total 0
+
+/jm/defaults/var/games:
+total 0
+
+/jm/defaults/var/heimdal:
+total 0
+
+/jm/defaults/var/log:
+total 45
+-rw-------  1 root  wheel      65 Apr 16 01:59 auth.log
+-rw-------  1 root  wheel     960 Apr 16 02:53 cron
+-rw-------  1 root  wheel      65 Apr 16 01:59 debug.log
+-rw-r--r--  1 root  wheel      65 Apr 16 01:59 devd.log
+-rw-r--r--  1 root  wheel      65 Apr 16 01:59 lpd-errs
+-rw-r-----  1 root  wheel    3850 Apr 16 02:53 maillog
+-rw-r--r--  1 root  wheel    1490 Apr 16 02:54 messages
+-rw-r-----  1 root  network    65 Apr 16 01:59 ppp.log
+-rw-------  1 root  wheel      65 Apr 16 01:59 security
+-rw-r-----  1 root  wheel       0 Apr 16 01:59 sendmail.st
+-rw-r--r--  1 root  wheel       0 Apr 16 01:59 utx.lastlogin
+-rw-r--r--  1 root  wheel     154 Apr 16 02:53 utx.log
+-rw-------  1 root  wheel      65 Apr 16 01:59 xferlog
+
+/jm/defaults/var/mail:
+total 0
+
+/jm/defaults/var/msgs:
+total 1
+-rw-r--r--  1 root  wheel  2 Apr 16 01:59 bounds
+
+/jm/defaults/var/preserve:
+total 0
+
+/jm/defaults/var/run:
+total 9
+-rw-r--r--  1 root  wheel      0 Apr 16 02:53 clean_var
+-rw-------  1 root  wheel      4 Apr 16 02:53 cron.pid
+drwxr-xr-x  2 root  wheel      2 Apr 16 01:59 dhclient
+-r--r--r--  1 root  wheel    173 Apr 16 02:53 ld-elf.so.hints
+-r--r--r--  1 root  wheel    129 Apr 16 02:53 ld-elf32.so.hints
+drwxrwx---  2 root  network    2 Apr 16 01:59 ppp
+-rw-r--r--  1 root  wheel      0 Apr 16 02:53 syslogd.sockets
+-rw-r--r--  1 root  wheel    197 Apr 16 02:53 utx.active
+drwxr-xr-x  2 root  wheel      2 Apr 16 01:59 wpa_supplicant
+
+/jm/defaults/var/run/dhclient:
+total 0
+
+/jm/defaults/var/run/ppp:
+total 0
+
+/jm/defaults/var/run/wpa_supplicant:
+total 0
+
+/jm/defaults/var/rwho:
+total 0
+
+/jm/defaults/var/spool:
+total 7
+drwxrwx---  2 smmsp  smmsp   2 Apr 16 02:54 clientmqueue
+drwxrwx---  2 root   mail    2 Apr 16 01:59 dma
+drwxrwxr-x  2 uucp   dialer  3 Apr 16 02:53 lock
+drwxr-xr-x  2 root   daemon  2 Apr 16 01:59 lpd
+drwxr-xr-x  2 root   daemon  2 Apr 16 01:59 mqueue
+drwx------  2 root   daemon  2 Apr 16 01:59 opielocks
+drwxr-xr-x  3 root   daemon  3 Apr 16 01:59 output
+
+/jm/defaults/var/spool/clientmqueue:
+total 0
+
+/jm/defaults/var/spool/dma:
+total 0
+
+/jm/defaults/var/spool/lock:
+total 1
+-rw-r--r--  1 root  dialer  0 Apr 16 02:53 clean_var
+
+/jm/defaults/var/spool/lpd:
+total 0
+
+/jm/defaults/var/spool/mqueue:
+total 0
+
+/jm/defaults/var/spool/opielocks:
+total 0
+
+/jm/defaults/var/spool/output:
+total 1
+drwxr-xr-x  2 root  daemon  2 Apr 16 01:59 lpd
+
+/jm/defaults/var/spool/output/lpd:
+total 0
+
+/jm/defaults/var/tmp:
+total 1
+drwxrwxrwt  2 root  wheel  2 Apr 16 01:59 vi.recover
+
+/jm/defaults/var/tmp/vi.recover:
+total 0
+
+/jm/defaults/var/unbound:
+total 1
+drwxr-xr-x  2 unbound  unbound  2 Apr 16 01:59 conf.d
+
+/jm/defaults/var/unbound/conf.d:
+total 0
+
+/jm/defaults/var/yp:
+total 0

@@ -1,0 +1,12 @@
+JM - jail manager for FreeBSD/ZFS written in python
+
+Installation:
+ * Modify PYTHON_SITE in defaults.sh
+ * Run "sudo sh install.sh"
+ * Run "jm activate ZFSPOOL MOUNTPOINT"
+ * Sync appropriate content to MOUNTPOINT/defaults - example in defaults.MANIFEST
+
+Removing:
+ * Run "sudo sh uninstall.sh"
+
+
