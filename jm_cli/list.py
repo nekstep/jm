@@ -112,7 +112,7 @@ def run(in_args):
 
         """Print out jail information"""
         print("%s %-15s %-15s %4s %4s %s" % (
-            (' ', '*')[jail.jid_exists()],
+            (' ', '*', '!')[jail.status()],
             name,
             jail.get_config('addr'),
             jail.getid_jid(),
